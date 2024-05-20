@@ -1,0 +1,32 @@
+---
+format:
+  revealjs:
+    touch: true
+    controls: true
+    center-title-slide: false
+    transition: fade
+    transition-speed: fast
+    scrollable: true
+    slide-number: false
+    incremental: true
+    multiplex: true
+    chalkboard: true
+    theme: [default, custom.scss]
+bibliography: references.bib
+---
+
+## Lecture 1: Overview and History {background-image="aspergillus.png"}
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<left>**Russell E. Lewis** <br> Associate Professor of Medicine, Infectious Diseases <br> Department of Molecular Medicine <br> University of Padua <br>
+russelledward.lewis@unipd.it
+
+<br> {{< fa brands github size=1x >}} [https://github.com/Russlewisbo](https://github.com/Russlewisbo/ESCMID_2022_talk)
+
+![](University_of_Padua_seal.svg){.absolute top="550" left="800" width="150" height="100"}
