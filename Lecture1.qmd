@@ -15,18 +15,14 @@ format:
 bibliography: references.bib
 ---
 
-## Lecture 1: Overview and History {background-image="aspergillus.png"}
+## Lecture 1: Overview of Antibiotic Therapy {background-image="aspergillus.png"}
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+<br> <br> <br> <br>
 
-<left>**Russell E. Lewis** <br> Associate Professor of Medicine, Infectious Diseases <br> Department of Molecular Medicine <br> University of Padua <br>
-russelledward.lewis@unipd.it
+**Russell E. Lewis** <br> Associate Professor of Infectious Diseases <br> Department of Molecular Medicine <br> University of Padua
 
-<br> {{< fa brands github size=1x >}} [https://github.com/Russlewisbo](https://github.com/Russlewisbo/ESCMID_2022_talk)
+<br> {{< fa solid envelope size=1x >}} [russelledward.lewis\@unipd.it](russelledward.lewis@unipd.it) <br> {{< fa brands github size=1x >}} [https://github.com/Russlewisbo](https://github.com/Russlewisbo/ESCMID_2022_talk)
 
-![](University_of_Padua_seal.svg){.absolute top="550" left="800" width="150" height="100"}
+![](University_of_Padua_seal.svg){.absolute top="550" left="0" width="150" height="100"}
+
+![](images/antibiotic1.png){.absolute top="200" left="700" width="350" height="300"}
