@@ -15,7 +15,7 @@ format:
 bibliography: references.bib
 ---
 
-## Lecture 1: Overview of Antibiotic Therapy {background-image="aspergillus.png"}
+## Lecture 1: Overview of Antibiotic Therapy {background-video="/images/bacteria.mp4" background-video-loop="true" background-video-muted="true"}
 
 <br> <br> <br> <br>
 
@@ -25,56 +25,6 @@ bibliography: references.bib
 
 ![](University_of_Padua_seal.svg){.absolute top="550" left="150" width="150" height="100"}
 
-![](images/antibiotic1.png){.absolute top="200" left="700" width="350" height="300"}
-
-## Agenda
-
--   Topic 1
-
--   Topic 2
-
--   Topic 3
-
-## Pharmacokinetics (PK) vs. Pharmacodynamics (PD) {.smaller}
-
-<br>
-
-<center>
-
-```{dot}
-digraph G {
-
-
-patient -> PK;
-drug -> PK;
-intrinsic -> PD;
-acquired -> PD;
-inoculum -> PD;
-PK -> PKPD;
-PD -> PKPD;
-PKPD -> microbiological
-microbiological -> clinical
-
-  clinical [shape=box];
-  microbiological [shape=box];
-}
-```
-
-</center>
-<br>
-
-<div>
-
-Adapted from: [@theuretzbacher2012]
-
-</div>
-
-::: notes
-On the left side we have factors that are determined by patient characteristics that will affect the absorption, metabolism, distribution and elimination of drug from the body. These include things like body weight, sex, organ function, severity of illness, inflammation etc. the characteristics of the drug itself will also affect drug distribution, the pathways of elimination etc.f
-:::
-
-
-
-## Bibliography
+## References
 
 <br>
