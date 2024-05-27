@@ -30,7 +30,27 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
-  </style>
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+      margin-bottom: 0em;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }  </style>
   <link rel="stylesheet" href="Lecture1_files/libs/revealjs/dist/theme/quarto.css">
   <link href="Lecture1_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="Lecture1_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
@@ -337,12 +357,285 @@
 <p><br> <i class="fa-solid fa-envelope fa-1x" aria-label="envelope"></i> russelledward.lewis@unipd.it <br> <i class="fa-brands fa-github fa-1x" aria-label="github"></i> <a href="https://github.com/Russlewisbo/ESCMID_2022_talk">https://github.com/Russlewisbo</a></p>
 <p><img data-src="University_of_Padua_seal.svg" class="absolute" style="top: 550px; left: 150px; width: 150px; height: 100px; "></p>
 </section>
-<section id="references" class="slide level2">
+<section id="pharmacokinetics-and-pharmacodynamics" class="slide level2">
+<h2>Pharmacokinetics and Pharmacodynamics</h2>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<svg width="960" height="480" viewbox="0.00 0.00 633.69 332.00" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" style="; max-width: none; max-height: none; display: block; margin: auto auto auto auto">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 328)">
+<title>G</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-328 629.69,-328 629.69,4 -4,4"></polygon>
+<!-- patient -->
+<g id="node1" class="node">
+<title>patient</title>
+<text text-anchor="middle" x="48.24" y="-301.8" font-family="Lato,Arial,sans-serif" font-size="14.00">Patient factors</text>
+</g>
+<!-- PK -->
+<g id="node2" class="node">
+<title>PK</title>
+<ellipse fill="none" stroke="black" cx="157.24" cy="-234" rx="100.75" ry="18"></ellipse>
+<text text-anchor="middle" x="157.24" y="-229.8" font-family="Lato,Arial,sans-serif" font-size="14.00">Pharmacokinetics (PK)</text>
+</g>
+<!-- patient&#45;&gt;PK -->
+<g id="edge1" class="edge">
+<title>patient-&gt;PK</title>
+<path fill="none" stroke="black" d="M74.9,-287.88C89.34,-278.61 107.33,-267.05 122.82,-257.1"></path>
+<polygon fill="black" stroke="black" points="125.07,-259.81 131.6,-251.47 121.29,-253.92 125.07,-259.81"></polygon>
+</g>
+<!-- PKPD -->
+<g id="node8" class="node">
+<title>PKPD</title>
+<ellipse fill="none" stroke="black" cx="270.24" cy="-162" rx="38.32" ry="18"></ellipse>
+<text text-anchor="middle" x="270.24" y="-157.8" font-family="Lato,Arial,sans-serif" font-size="14.00">PK/PD</text>
+</g>
+<!-- PK&#45;&gt;PKPD -->
+<g id="edge6" class="edge">
+<title>PK-&gt;PKPD</title>
+<path fill="none" stroke="black" d="M183.73,-216.59C200.39,-206.26 221.97,-192.9 239.4,-182.1"></path>
+<polygon fill="black" stroke="black" points="241.43,-184.96 248.09,-176.72 237.75,-179.01 241.43,-184.96"></polygon>
+</g>
+<!-- drug -->
+<g id="node3" class="node">
+<title>drug</title>
+<text text-anchor="middle" x="157.24" y="-301.8" font-family="Lato,Arial,sans-serif" font-size="14.00">Drug factors</text>
+</g>
+<!-- drug&#45;&gt;PK -->
+<g id="edge2" class="edge">
+<title>drug-&gt;PK</title>
+<path fill="none" stroke="black" d="M157.24,-287.7C157.24,-279.98 157.24,-270.71 157.24,-262.11"></path>
+<polygon fill="black" stroke="black" points="160.74,-262.1 157.24,-252.1 153.74,-262.1 160.74,-262.1"></polygon>
+</g>
+<!-- intrinsic -->
+<g id="node4" class="node">
+<title>intrinsic</title>
+<text text-anchor="middle" x="279.24" y="-301.8" font-family="Lato,Arial,sans-serif" font-size="14.00">Intrinsic resistance</text>
+</g>
+<!-- PD -->
+<g id="node5" class="node">
+<title>PD</title>
+<ellipse fill="none" stroke="black" cx="402.24" cy="-234" rx="107.7" ry="18"></ellipse>
+<text text-anchor="middle" x="402.24" y="-229.8" font-family="Lato,Arial,sans-serif" font-size="14.00">Pharmacodynamics (PD)</text>
+</g>
+<!-- intrinsic&#45;&gt;PD -->
+<g id="edge3" class="edge">
+<title>intrinsic-&gt;PD</title>
+<path fill="none" stroke="black" d="M309.33,-287.88C325.92,-278.43 346.69,-266.61 364.37,-256.55"></path>
+<polygon fill="black" stroke="black" points="366.34,-259.45 373.3,-251.47 362.88,-253.37 366.34,-259.45"></polygon>
+</g>
+<!-- PD&#45;&gt;PKPD -->
+<g id="edge7" class="edge">
+<title>PD-&gt;PKPD</title>
+<path fill="none" stroke="black" d="M371.29,-216.59C351.07,-205.86 324.66,-191.86 303.92,-180.86"></path>
+<polygon fill="black" stroke="black" points="305.3,-177.63 294.82,-176.04 302.02,-183.82 305.3,-177.63"></polygon>
+</g>
+<!-- acquired -->
+<g id="node6" class="node">
+<title>acquired</title>
+<text text-anchor="middle" x="421.24" y="-301.8" font-family="Lato,Arial,sans-serif" font-size="14.00">Acquired resistance</text>
+</g>
+<!-- acquired&#45;&gt;PD -->
+<g id="edge4" class="edge">
+<title>acquired-&gt;PD</title>
+<path fill="none" stroke="black" d="M416.54,-287.7C414.42,-279.9 411.87,-270.51 409.52,-261.83"></path>
+<polygon fill="black" stroke="black" points="412.88,-260.84 406.88,-252.1 406.12,-262.67 412.88,-260.84"></polygon>
+</g>
+<!-- inoculum -->
+<g id="node7" class="node">
+<title>inoculum</title>
+<text text-anchor="middle" x="564.24" y="-301.8" font-family="Lato,Arial,sans-serif" font-size="14.00">Infection inoculum</text>
+</g>
+<!-- inoculum&#45;&gt;PD -->
+<g id="edge5" class="edge">
+<title>inoculum-&gt;PD</title>
+<path fill="none" stroke="black" d="M524.61,-287.88C501.62,-277.94 472.55,-265.38 448.52,-255"></path>
+<polygon fill="black" stroke="black" points="449.8,-251.74 439.24,-250.99 447.03,-258.17 449.8,-251.74"></polygon>
+</g>
+<!-- microbiological -->
+<g id="node9" class="node">
+<title>microbiological</title>
+<polygon fill="none" stroke="black" points="349.14,-108 191.33,-108 191.33,-72 349.14,-72 349.14,-108"></polygon>
+<text text-anchor="middle" x="270.24" y="-85.8" font-family="Lato,Arial,sans-serif" font-size="14.00">Microbiological outcome</text>
+</g>
+<!-- PKPD&#45;&gt;microbiological -->
+<g id="edge8" class="edge">
+<title>PKPD-&gt;microbiological</title>
+<path fill="none" stroke="black" d="M270.24,-143.7C270.24,-135.98 270.24,-126.71 270.24,-118.11"></path>
+<polygon fill="black" stroke="black" points="273.74,-118.1 270.24,-108.1 266.74,-118.1 273.74,-118.1"></polygon>
+</g>
+<!-- clinical -->
+<g id="node10" class="node">
+<title>clinical</title>
+<polygon fill="none" stroke="black" points="326.27,-36 214.21,-36 214.21,0 326.27,0 326.27,-36"></polygon>
+<text text-anchor="middle" x="270.24" y="-13.8" font-family="Lato,Arial,sans-serif" font-size="14.00">Clinical outcome</text>
+</g>
+<!-- microbiological&#45;&gt;clinical -->
+<g id="edge9" class="edge">
+<title>microbiological-&gt;clinical</title>
+<path fill="none" stroke="black" d="M270.24,-71.7C270.24,-63.98 270.24,-54.71 270.24,-46.11"></path>
+<polygon fill="black" stroke="black" points="273.74,-46.1 270.24,-36.1 266.74,-46.1 273.74,-46.1"></polygon>
+</g>
+</g>
+</svg>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+
+<aside><div>
+<p><span class="citation" data-cites="theuretzbacher2012">(<a href="#/references" role="doc-biblioref" onclick="">Theuretzbacher, 2012</a>)</span></p>
+</div></aside></section>
+<section id="why-should-i-care" class="slide level2">
+<h2>Why should I care?</h2>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<svg width="960" height="480" viewbox="0.00 0.00 633.69 332.00" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" style="; max-width: none; max-height: none; display: block; margin: auto auto auto auto">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 328)">
+<title>G</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-328 629.69,-328 629.69,4 -4,4"></polygon>
+<!-- patient -->
+<g id="node1" class="node">
+<title>patient</title>
+<text text-anchor="middle" x="48.24" y="-301.8" font-family="Lato,Arial,sans-serif" font-size="14.00">Patient factors</text>
+</g>
+<!-- PK -->
+<g id="node2" class="node">
+<title>PK</title>
+<ellipse fill="none" stroke="black" cx="157.24" cy="-234" rx="100.75" ry="18"></ellipse>
+<text text-anchor="middle" x="157.24" y="-229.8" font-family="Lato,Arial,sans-serif" font-size="14.00">Pharmacokinetics (PK)</text>
+</g>
+<!-- patient&#45;&gt;PK -->
+<g id="edge1" class="edge">
+<title>patient-&gt;PK</title>
+<path fill="none" stroke="black" d="M74.9,-287.88C89.34,-278.61 107.33,-267.05 122.82,-257.1"></path>
+<polygon fill="black" stroke="black" points="125.07,-259.81 131.6,-251.47 121.29,-253.92 125.07,-259.81"></polygon>
+</g>
+<!-- PKPD -->
+<g id="node8" class="node">
+<title>PKPD</title>
+<ellipse fill="yellow" stroke="black" cx="270.24" cy="-162" rx="38.32" ry="18"></ellipse>
+<text text-anchor="middle" x="270.24" y="-157.8" font-family="Lato,Arial,sans-serif" font-size="14.00">PK/PD</text>
+</g>
+<!-- PK&#45;&gt;PKPD -->
+<g id="edge6" class="edge">
+<title>PK-&gt;PKPD</title>
+<path fill="none" stroke="black" d="M183.73,-216.59C200.39,-206.26 221.97,-192.9 239.4,-182.1"></path>
+<polygon fill="black" stroke="black" points="241.43,-184.96 248.09,-176.72 237.75,-179.01 241.43,-184.96"></polygon>
+</g>
+<!-- drug -->
+<g id="node3" class="node">
+<title>drug</title>
+<text text-anchor="middle" x="157.24" y="-301.8" font-family="Lato,Arial,sans-serif" font-size="14.00">Drug factors</text>
+</g>
+<!-- drug&#45;&gt;PK -->
+<g id="edge2" class="edge">
+<title>drug-&gt;PK</title>
+<path fill="none" stroke="black" d="M157.24,-287.7C157.24,-279.98 157.24,-270.71 157.24,-262.11"></path>
+<polygon fill="black" stroke="black" points="160.74,-262.1 157.24,-252.1 153.74,-262.1 160.74,-262.1"></polygon>
+</g>
+<!-- intrinsic -->
+<g id="node4" class="node">
+<title>intrinsic</title>
+<text text-anchor="middle" x="279.24" y="-301.8" font-family="Lato,Arial,sans-serif" font-size="14.00">Intrinsic resistance</text>
+</g>
+<!-- PD -->
+<g id="node5" class="node">
+<title>PD</title>
+<ellipse fill="none" stroke="black" cx="402.24" cy="-234" rx="107.7" ry="18"></ellipse>
+<text text-anchor="middle" x="402.24" y="-229.8" font-family="Lato,Arial,sans-serif" font-size="14.00">Pharmacodynamics (PD)</text>
+</g>
+<!-- intrinsic&#45;&gt;PD -->
+<g id="edge3" class="edge">
+<title>intrinsic-&gt;PD</title>
+<path fill="none" stroke="black" d="M309.33,-287.88C325.92,-278.43 346.69,-266.61 364.37,-256.55"></path>
+<polygon fill="black" stroke="black" points="366.34,-259.45 373.3,-251.47 362.88,-253.37 366.34,-259.45"></polygon>
+</g>
+<!-- PD&#45;&gt;PKPD -->
+<g id="edge7" class="edge">
+<title>PD-&gt;PKPD</title>
+<path fill="none" stroke="black" d="M371.29,-216.59C351.07,-205.86 324.66,-191.86 303.92,-180.86"></path>
+<polygon fill="black" stroke="black" points="305.3,-177.63 294.82,-176.04 302.02,-183.82 305.3,-177.63"></polygon>
+</g>
+<!-- acquired -->
+<g id="node6" class="node">
+<title>acquired</title>
+<text text-anchor="middle" x="421.24" y="-301.8" font-family="Lato,Arial,sans-serif" font-size="14.00">Acquired resistance</text>
+</g>
+<!-- acquired&#45;&gt;PD -->
+<g id="edge4" class="edge">
+<title>acquired-&gt;PD</title>
+<path fill="none" stroke="black" d="M416.54,-287.7C414.42,-279.9 411.87,-270.51 409.52,-261.83"></path>
+<polygon fill="black" stroke="black" points="412.88,-260.84 406.88,-252.1 406.12,-262.67 412.88,-260.84"></polygon>
+</g>
+<!-- inoculum -->
+<g id="node7" class="node">
+<title>inoculum</title>
+<text text-anchor="middle" x="564.24" y="-301.8" font-family="Lato,Arial,sans-serif" font-size="14.00">Infection inoculum</text>
+</g>
+<!-- inoculum&#45;&gt;PD -->
+<g id="edge5" class="edge">
+<title>inoculum-&gt;PD</title>
+<path fill="none" stroke="black" d="M524.61,-287.88C501.62,-277.94 472.55,-265.38 448.52,-255"></path>
+<polygon fill="black" stroke="black" points="449.8,-251.74 439.24,-250.99 447.03,-258.17 449.8,-251.74"></polygon>
+</g>
+<!-- microbiological -->
+<g id="node9" class="node">
+<title>microbiological</title>
+<polygon fill="none" stroke="black" points="349.14,-108 191.33,-108 191.33,-72 349.14,-72 349.14,-108"></polygon>
+<text text-anchor="middle" x="270.24" y="-85.8" font-family="Lato,Arial,sans-serif" font-size="14.00">Microbiological outcome</text>
+</g>
+<!-- PKPD&#45;&gt;microbiological -->
+<g id="edge8" class="edge">
+<title>PKPD-&gt;microbiological</title>
+<path fill="none" stroke="black" d="M270.24,-143.7C270.24,-135.98 270.24,-126.71 270.24,-118.11"></path>
+<polygon fill="black" stroke="black" points="273.74,-118.1 270.24,-108.1 266.74,-118.1 273.74,-118.1"></polygon>
+</g>
+<!-- clinical -->
+<g id="node10" class="node">
+<title>clinical</title>
+<polygon fill="none" stroke="black" points="326.27,-36 214.21,-36 214.21,0 326.27,0 326.27,-36"></polygon>
+<text text-anchor="middle" x="270.24" y="-13.8" font-family="Lato,Arial,sans-serif" font-size="14.00">Clinical outcome</text>
+</g>
+<!-- microbiological&#45;&gt;clinical -->
+<g id="edge9" class="edge">
+<title>microbiological-&gt;clinical</title>
+<path fill="none" stroke="black" d="M270.24,-71.7C270.24,-63.98 270.24,-54.71 270.24,-46.11"></path>
+<polygon fill="black" stroke="black" points="273.74,-46.1 270.24,-36.1 266.74,-46.1 273.74,-46.1"></polygon>
+</g>
+</g>
+</svg>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<center>
+<em>Doses can be adjusted to improved the probability of microbiological outcomes!</em>
+</center>
+
+<aside><div>
+<p><span class="citation" data-cites="theuretzbacher2012">(<a href="#/references" role="doc-biblioref" onclick="">Theuretzbacher, 2012</a>)</span></p>
+</div></aside></section>
+<section id="pharmacology-of-antimicrobials" class="slide level2">
+<h2>Pharmacology of Antimicrobials</h2>
+</section>
+<section id="references" class="slide level2 smaller scrollable">
 <h2>References</h2>
 <p><br></p>
 <div class="quarto-auto-generated-content">
 <div class="footer footer-default">
 
+</div>
+</div>
+<div id="refs" class="references csl-bib-body" data-entry-spacing="0" role="list">
+<div id="ref-theuretzbacher2012" class="csl-entry" role="listitem">
+Theuretzbacher U. Pharmacokinetic and pharmacodynamic issues for antimicrobial therapy in patients with cancer. Clinical Infectious Diseases 2012;54:1785–92. <a href="https://doi.org/10.1093/cid/cis210">https://doi.org/10.1093/cid/cis210</a>.
 </div>
 </div>
 </section>
