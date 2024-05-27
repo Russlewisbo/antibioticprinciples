@@ -116,7 +116,10 @@ digraph G {
     start -> dosing;
     dosing -> tissue;
     dosing -> infection;
-    label = "Pharmacokinetics";
+    label = "Pharmacokinetics (PK)";
+    graph [labelloc=a]
+    
+    
     
   }
   
@@ -127,7 +130,7 @@ digraph G {
     node [style=filled,color=white];
   tissue->PD1
     infection-> PD2;
-    label = "Pharmacodynamics";
+    label = "Pharmacodynamics (PD)";
   }
   
  
@@ -138,6 +141,8 @@ digraph G {
   PD1 [shape=rectangle, label="Pharmacological or  \n toxicological effect"]; 
   PD2 [shape=rectangle, label="Antimicrobal effect \n vs. time"];
 }
+
+
 ```
 
 ::: aside
