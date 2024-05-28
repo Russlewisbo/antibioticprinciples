@@ -26,7 +26,7 @@ csl: diagnostic-microbiology-and-infectious-disease.csl
 
 ![](University_of_Padua_seal.svg){.absolute top="550" left="150" width="150" height="100"}
 
-## Pharmacokinetics and Pharmacodynamics
+## Pharmacokinetics and Pharmacodynamics {.smaller}
 
 ```{dot}
 digraph G {
@@ -62,7 +62,7 @@ microbiological -> clinical;
 [@theuretzbacher2012]
 :::
 
-## Why should I care?
+## Why should I care? {.smaller}
 
 ```{dot}
 digraph G {
@@ -94,13 +94,14 @@ microbiological -> clinical;
 }
 ```
 
+<br>
 <center>*Doses can be adjusted to improved the probability of microbiological outcomes!*</center>
 
 ::: aside
 [@theuretzbacher2012]
 :::
 
-## Pharmacology of Antimicrobials
+## Pharmacology of antimicrobials {.smaller}
 
 ```{dot}
 digraph G {
@@ -135,9 +136,9 @@ digraph G {
   
  
   start [shape=Box, label="Dosing regimen"];
-  dosing [shape=rectangle, style=filled,color=white, label="Conc. vs. \n time in serum"];
+  dosing [shape=rectangle, style=filled,color=white, label="Conc. vs. \n time in serum", xlabel=" \n    \n  \nAbsorption \nDistribution \nMetabolism \nElimination"];
   tissue [shape=rectangle, style=filled,color=white, label="Conc. vs. \n time in tissue"];
-  infection [shape=rectangle, style=filled, color=white, label="Conc. vs. \n time at infection site"];
+  infection [shape=rectangle, style=filled, color=white, label="Conc. vs. \n time at site of \n infection"];
   PD1 [shape=rectangle, label="Pharmacological or  \n toxicological effect"]; 
   PD2 [shape=rectangle, label="Antimicrobal effect \n vs. time"];
 }
@@ -148,6 +149,8 @@ digraph G {
 ::: aside
 [@craig_1998]
 :::
+
+## Absorption-Bioavailibility
 
 ## References
 
