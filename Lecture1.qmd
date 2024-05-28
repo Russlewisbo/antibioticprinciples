@@ -62,7 +62,7 @@ microbiological -> clinical;
 [@theuretzbacher2012]
 :::
 
-## Why should I care? {.smaller}
+## Pharmacokinetics and Pharmacodynamics {.smaller}
 
 ```{dot}
 digraph G {
