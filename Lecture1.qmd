@@ -16,7 +16,7 @@ bibliography: references.bib
 csl: diagnostic-microbiology-and-infectious-disease.csl
 ---
 
-## Lecture 1: Overview of Antibiotic Therapy <br> General principles 
+## Lecture 1: Overview of Antibiotic Therapy: <br> General principles {background-video="/images/bacteria.mp4" background-video-loop="true" background-video-muted="true"}
 
 <br> <br> <br> <br>
 
@@ -202,8 +202,8 @@ digraph G {
 :::
 
 ## Transiting the GI epithelium into the bloodstream
-<br>
-<br>
+
+<br> <br>
 
 | **Method of transit**     | **Substrate**                    |
 |---------------------------|----------------------------------|
@@ -265,7 +265,6 @@ digraph G {
 -   This re-equilibration between ionised & unionised forms continues along the entire length of the gut, with increasing amounts of the drug being gradually absorbed
 
 ## Example: Antifungal posaconazole
-
 
 ## References
 
