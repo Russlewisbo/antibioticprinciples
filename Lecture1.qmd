@@ -8,7 +8,7 @@ format:
     transition-speed: fast
     scrollable: true
     slide-number: false
-    incremental: true
+    incremental: false
     multiplex: true
     chalkboard: true
     theme: [default, custom.scss]
@@ -16,7 +16,7 @@ bibliography: references.bib
 csl: diagnostic-microbiology-and-infectious-disease.csl
 ---
 
-## Lecture 1: Overview of Antibiotic Therapy {background-video="/images/bacteria.mp4" background-video-loop="true" background-video-muted="true"}
+## Lecture 1: Overview of Antibiotic Therapy <br> General principles 
 
 <br> <br> <br> <br>
 
@@ -25,6 +25,17 @@ csl: diagnostic-microbiology-and-infectious-disease.csl
 <br> {{< fa solid envelope size=1x >}} russelledward.lewis\@unipd.it <br> {{< fa brands github size=1x >}} [https://github.com/Russlewisbo](https://github.com/Russlewisbo/ESCMID_2022_talk)
 
 ![](University_of_Padua_seal.svg){.absolute top="550" left="150" width="150" height="100"}
+
+## What will we discuss
+
+<br>
+
+-   Key pharmacokinetic (PK) parameters of antibiotics and *practical considerations*
+-   Pharmacodynamics (PD)
+    -   How is it determined pre-clinically, clinically
+    -   How can knowledge of PD be used to maximize antibiotic activity
+-   How should PK/PD information be used to predict/individualize patient therapy?
+-   Combination therapy
 
 ## Pharmacokinetics and Pharmacodynamics {.smaller}
 
@@ -95,6 +106,7 @@ microbiological -> clinical;
 ```
 
 <br>
+
 <center>*Doses can be adjusted to improved the probability of microbiological outcomes!*</center>
 
 ::: aside
@@ -150,7 +162,110 @@ digraph G {
 [@craig_1998]
 :::
 
-## Absorption-Bioavailibility
+## Definitions: Absorption-Bioavailibility {.smaller}
+
+<br>
+
+-   **Bioavailability = AUCoral / AUCiv**
+    -   The relative amount of drug that reaches the greater systemic circulation (i.e. following absorption & first-pass metabolism)
+    -   It is the proportion of drug that gets into the plasma compared to if you injected the same amount IV
+-   **In order to get to the plasma the drug goes through:**
+    -   Ingestion
+    -   Transit to GI tract
+    -   Absorption in small intestinal mucosa
+    -   First pass metabolism in small intestinal mucosa and liver
+-   **Bioavailability is used to determine:**
+    -   The optimal route to achieve the therapeutic concentration
+    -   The amount of drug that needs to be given orally
+
+## Oral absorption in the GI tract {.smaller}
+
+<br>
+
+<br>
+
+::: columns
+::: {.column width="30%"}
+![](images/GI-Tract.png){width="500"}
+:::
+
+::: {.column width="70%"}
+-   Stomach: Little absorption takes place for most drugs here (thick gastric mucous layer prevents significant drug absorption).
+-   Small intestine: Transit time 4-6h; 6-7 m long x 2.5cm internal diameter.
+-   It has a larger surface area (30-35m^2^) than the stomach (\~1m^2^), due to:
+    -   Jejunal plicae circulare (circular infoldings) - increases surface area 1.6x
+    -   Epithelial villi + microvilli: increases surface area 80-100x.
+-   Additional factors aiding absorption:
+    -   Peristalsis churns the intestinal contents, ensuring regular contact between drugs & epithelium.
+    -   pH is 6-7 (weakly acidic) —\> determines the ratio of drug molecules that exist in the ionized and unionized state.
+:::
+:::
+
+## Transiting the GI epithelium into the bloodstream
+<br>
+<br>
+
+| **Method of transit**     | **Substrate**                    |
+|---------------------------|----------------------------------|
+| **Passive diffusion**     | \<500Da, lipophilic, not ionic   |
+| **Facilitated diffusion** | \<500Da, Lipophobic, ionic drugs |
+| **Active transport**      | Ionised drugs                    |
+| **Pinocytosis**           | Large molecules                  |
+
+## Passive diffusion: How are most drugs absorbed {.smaller}
+
+<br>
+
+<br>
+
+::: columns
+::: {.column width="30%"}
+![](images/GI-Tract.png){width="500"}
+:::
+
+::: {.column width="70%"}
+-   The commonest way for many drugs to cross lipid membranes (Esp. if small \[\<500 Da\] & not strongly ionic)
+
+-   Lipophilic drugs (e.g. steroids) easily pass through lipid bilayers
+
+    -   The pKa/b of the weak acid/base determines their rate of uptake:
+
+        -   pKa = pH at which the acid is 50% ionised (A-) & 50% in the unionised form (AH)
+
+        -   pKb is the same for bases
+
+    -   Ionised drug can’t diffuse through a lipid bilayer
+
+    -   Unionised drug moves out of the gut lumen, (e.g., as an AH form). Afterwards, ionic (A-) drug molecules combine with free H+ to become AH, which can then move across by passive diffusion
+
+    -   This re-equilibration between ionised & unionised forms continues along the entire length of the gut, with increasing amounts of the drug being gradually absorbed.
+:::
+:::
+
+## A note about absorption and pH {.smaller}
+
+<br>
+
+-   Drugs are often ‘weak acids’ or ‘weak bases’, and so their rate of passive uptake is determined by the ratio of ionised:unionised drug in the gut lumen:
+
+    -   Acidic drug (A): Can release a H+ ion, going from HA —\> A- and H+
+
+    -   Basic drug (B): Can accept a H+ ion going from B —\> BH+ (protonated base)
+
+-   The pKa/b of the weak acid/base determines their rate of uptake:
+
+    -   pKa = pH at which the acid is 50% ionised (A-) & 50% in the unionised form (AH)
+
+    -   pKb is the same for bases
+
+-   Ionised drug can’t diffuse through a lipid bilayer
+
+-   Unionised drug moves out of the gut lumen, (e.g. as an AH form). Afterwards, ionic (A-) drug molecules combine with free H+ to become AH, which can then move across by passive diffusion
+
+-   This re-equilibration between ionised & unionised forms continues along the entire length of the gut, with increasing amounts of the drug being gradually absorbed
+
+## Example: Antifungal posaconazole
+
 
 ## References
 
