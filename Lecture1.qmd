@@ -26,16 +26,15 @@ csl: diagnostic-microbiology-and-infectious-disease.csl
 
 ![](University_of_Padua_seal.svg){.absolute top="550" left="150" width="150" height="100"}
 
-## What will we discuss
+## Agenda
 
 <br>
 
--   Key pharmacokinetic (PK) parameters of antibiotics and *practical considerations*
--   Pharmacodynamics (PD)
-    -   How is it determined pre-clinically, clinically
-    -   How can knowledge of PD be used to maximize antibiotic activity
--   How should PK/PD information be used to predict/individualize patient therapy?
--   Combination therapy
+-   Key pharmacokinetic (PK) parameters of antibiotics
+-   Pharmacodynamic (PD) patterns of antibiotics
+    -   How can PD be determined pre-clinically and optimised clinically?
+-   How can PK/PD information individualise patient therapy?
+-   Combination antibiotic therapy
 
 ## Pharmacokinetics and Pharmacodynamics {.smaller}
 
@@ -168,10 +167,10 @@ digraph G {
 
 -   **Bioavailability = AUCoral / AUCiv**
     -   The relative amount of drug that reaches the greater systemic circulation (i.e. following absorption & first-pass metabolism)
-    -   It is the proportion of drug that gets into the plasma compared to if you injected the same amount IV
+    -   It is the proportion of drug that gets into the plasma vs. the same amount injected IV
 -   **In order to get to the plasma the drug goes through:**
     -   Ingestion
-    -   Transit to GI tract
+    -   Transit through the GI tract
     -   Absorption in small intestinal mucosa
     -   First pass metabolism in small intestinal mucosa and liver
 -   **Bioavailability is used to determine:**
@@ -190,12 +189,12 @@ digraph G {
 :::
 
 ::: {.column width="70%"}
--   Stomach: Little absorption takes place for most drugs here (thick gastric mucous layer prevents significant drug absorption).
--   Small intestine: Transit time 4-6h; 6-7 m long x 2.5cm internal diameter.
--   It has a larger surface area (30-35m^2^) than the stomach (\~1m^2^), due to:
-    -   Jejunal plicae circulare (circular infoldings) - increases surface area 1.6x
-    -   Epithelial villi + microvilli: increases surface area 80-100x.
--   Additional factors aiding absorption:
+-   **Stomach:** Little absorption takes place for most drugs here (thick gastric mucous layer prevents significant drug absorption).
+-   **Small intestine:** Transit time 4-6h; 6-7 m long x 2.5cm internal diameter.
+    -   It has a larger surface area (30-35m^2^) than the stomach (\~1m^2^), due to:
+        -   Jejunal plicae circulare (circular infoldings) - increases surface area 1.6x
+        -   Epithelial villi + microvilli: increases surface area 80-100x.
+-   **Additional factors aiding absorption:**
     -   Peristalsis churns the intestinal contents, ensuring regular contact between drugs & epithelium.
     -   pH is 6-7 (weakly acidic) —\> determines the ratio of drug molecules that exist in the ionized and unionized state.
 :::
@@ -212,18 +211,18 @@ digraph G {
 | **Active transport**      | Ionised drugs                    |
 | **Pinocytosis**           | Large molecules                  |
 
-## Passive diffusion: How are most drugs absorbed {.smaller}
+## Passive diffusion: <br>How most antibiotics are absorbed {.smaller}
 
 <br>
 
 <br>
 
 ::: columns
-::: {.column width="30%"}
+::: {.column width="20%"}
 ![](images/GI-Tract.png){width="500"}
 :::
 
-::: {.column width="70%"}
+::: {.column width="80%"}
 -   The commonest way for many drugs to cross lipid membranes (Esp. if small \[\<500 Da\] & not strongly ionic)
 
 -   Lipophilic drugs (e.g. steroids) easily pass through lipid bilayers
@@ -236,9 +235,11 @@ digraph G {
 
     -   Ionised drug can’t diffuse through a lipid bilayer
 
-    -   Unionised drug moves out of the gut lumen, (e.g., as an AH form). Afterwards, ionic (A-) drug molecules combine with free H+ to become AH, which can then move across by passive diffusion
+    -   Unionised drug moves out of the gut lumen, (e.g., as an AH form)
 
-    -   This re-equilibration between ionised & unionised forms continues along the entire length of the gut, with increasing amounts of the drug being gradually absorbed.
+        -   Afterwards, ionic (A-) drug molecules combine with free H+ to become AH, which can then move across by passive diffusion
+
+    -   This re-equilibration between ionised & unionised forms continues along the entire length of the gut, with increasing amounts of the drug being gradually absorbed
 :::
 :::
 
@@ -246,6 +247,12 @@ digraph G {
 
 <br>
 
+::: columns
+::: {.column width="20%"}
+![](images/stickynote.jpeg.jpg)
+:::
+
+::: {.column width="80%"}
 -   Drugs are often ‘weak acids’ or ‘weak bases’, and so their rate of passive uptake is determined by the ratio of ionised:unionised drug in the gut lumen:
 
     -   Acidic drug (A): Can release a H+ ion, going from HA —\> A- and H+
@@ -258,13 +265,281 @@ digraph G {
 
     -   pKb is the same for bases
 
--   Ionised drug can’t diffuse through a lipid bilayer
+-   **Ionised drug can’t diffuse through a lipid bilayer**
 
--   Unionised drug moves out of the gut lumen, (e.g. as an AH form). Afterwards, ionic (A-) drug molecules combine with free H+ to become AH, which can then move across by passive diffusion
+-   Unionised drug moves out of the gut lumen, (e.g., as an AH form). Afterwards, ionic (A-) drug molecules combine with free H+ to become AH, which can then move across by passive diffusion
 
 -   This re-equilibration between ionised & unionised forms continues along the entire length of the gut, with increasing amounts of the drug being gradually absorbed
+:::
+:::
 
-## Example: Antifungal posaconazole
+## Why is this important?
+
+![](images/orlaiv.png){fig-align="center"}
+
+<br>
+
+[@wald-dickler2022]
+
+## Facilitated diffusion
+
+-   This is how lipophobic drugs cross cell membranes.
+
+-   This passively happens across an electrochemical concentration gradient.
+
+-   Facilitated by solute carrier transporters (SLCs), which are present in the GIT, liver & kidney.
+
+-   A note on SLCs:
+
+    -   
+
+    -   SLCs are a group (\>350 types) of transmembrane proteins that facilitate absorption of organic charged molecules up to 500 Daltons.
+
+    -   2 types:
+
+|                                |                             |
+|--------------------------------|-----------------------------|
+| OAT Organic Anion Transporter  | Carry deprotonated acids A- |
+| OCT Organic Cation Transporter | Carry protonated bases BH+  |
+
+## Active transport {.smaller}
+
+<br>
+
+<br>
+
+-   **Primary AT**:
+
+    -   Mostly efflux of drugs from cells/specific body compartments
+
+    -   It is more important in limiting drug uptake
+
+-   **Secondary AT**:
+
+    -   This is how ionised drugs are absorbed
+    -   Carried out by SLCs (both OATs & OCTs) across pre-existing electrochemical gradients.
+    -   Drugs are co-transported e.g. with Na if moving into the intracellular space, or K if moving into the extracellular space
+    -   e.g. H+ and beta-lactam antibiotics
+
+-   **Pinocytosis:** This is used to deliver large molecules across tissue barriers (e.g. blood-brain barrier)
+
+    -   Endocytosis: the cell membrane invaginates to non-specifically capture molecules present at the cell surface, pinching them off into a vesicle
+    -   Exocytosis is the opposite; vesicles are ejected from the cell
+
+## First pass metabolism
+
+<br>
+
+<br>
+
+::: columns
+::: {.column width="50%"}
+![](images/Pharmacokinetics%20Principles.png)
+:::
+
+::: {.column width="50%"}
+-   A small amount occurs in the gut epithelia before entering the portal vein. Most occurs in the liver.
+
+-   As the drug passes through the liver some enters the hepatocytes and is metabolised by the CYP450 enzymes.
+:::
+:::
+
+## Differences in IV ves. oral antibiotics
+
+<br>
+
+<br>
+
+| **Oral**      | **IV**                   |
+|---------------|--------------------------|
+| Acid-stable   | Acid-labile              |
+| Soluble       | Low solubility           |
+| Lipid soluble | Lipophobic (hydrophilic) |
+
+[@macgregor1997]
+
+## Bioavailibility examples {.smaller}
+
+|                         |                         |                         |
+|:-----------------------|:-----------------------|:-----------------------:|
+| **Mechanism of Action** | **Antimicrobial**       | **Bioavailability (%)** |
+| **Cell wall**           |                         |                         |
+|                         | Penicillin V            |           60            |
+|                         | Amoxicillin             |          80-85          |
+|                         | Amoxicillin-Clavulanate |        80-85/64         |
+|                         | Flucloxacillin          |           60            |
+|                         | Pivmecillinam           |           75            |
+|                         | Cephalexin              |           90            |
+|                         | Cefuroxime axetil       |           40            |
+|                         | Cefexime (3g)           |           40            |
+| **Protein synthesis**   |                         |                         |
+|                         | Tetracycline            |          \>90           |
+|                         | Doxycycline             |          80-90          |
+|                         | Chloramphenicol         |           85            |
+|                         | Erythromycin            |          20-25          |
+|                         | Clarithromycin          |           55            |
+|                         | Azithromycin            |           37            |
+|                         | Clindamycin             |           90            |
+|                         | Minocycline             |           95            |
+|                         | Linezolid               |           100           |
+| **DNA Synthesis**       |                         |                         |
+|                         | Ciprofloxacin           |           70            |
+|                         | Levofloxacin            |           100           |
+|                         | Moxifloxacin            |           90            |
+|                         | Trimethoprim            |          \>90           |
+|                         | Sulfamethoxazole        |          \>90           |
+| **Misc.**               |                         |                         |
+|                         | Fosfomycin              |          33-44          |
+|                         | Nitrofurantoin          |          \>95           |
+|                         | Metronidazole           |          \>95           |
+
+## Caveats to bioavailibility
+
+<br>
+
+-   Amoxicillin: Absorption is saturable, and after 750mg no more is likely to be absorbed.
+
+-   Cefalexin: Maximum amount absorbed is \~4g/d
+
+-   Macrolides: Not well-absorbed, but concentrate intracellularly
+
+-   ‘UTI drugs’: Fosfomycin, Trimethoprim, Nitrofurantoin, Pivmecillinam: Don’t get great plasma levels, but concentrate in urine preferentially —\> still useful for UTI
+
+[@huttner2020]
+
+# Effects of food
+
+| **Timing with food**                    | **Antibiotic**                                                                                                                         |
+|------------------|------------------------------------------------------|
+| “Empty Stomach” (1h before or 2h after) | Penicillin, Flucloxacillin, Azithromycin, Fosfomycin                                                                                   |
+| With food                               | Co-amoxiclav (start of meal), Erythromycin (Just before or with), Metronidazole (During or after), Nitrofurantoin                      |
+| No recommendation                       | Amoxicillin, Pivmecillinam, Cefalexin, Tetracyclines, Clarithromycin, Clindamycin, Linezolid, Co-trimoxazole, Trimethoprim, Quinolones |
+
+## Pharmacology of antimicrobials {.smaller}
+
+```{dot}
+digraph G {
+ 	rankdir=LR
+ 	fontname="Lato,Arial,sans-serif"
+	node [fontname="Lato,Arial,sans-serif"]
+	edge [fontname="Lato,Arial,sans-serif"]
+ 
+  subgraph cluster_0 {
+    style=filled;
+    color=lightblue;
+    node [style=filled,color=white];
+    start -> dosing;
+    dosing -> tissue;
+    dosing -> infection;
+    label = "Pharmacokinetics (PK)";
+    graph [labelloc=a]
+    
+    
+    
+  }
+  
+    subgraph cluster_1 {
+    line=black;
+    style=filled;
+    color=lightblue;
+    node [style=filled,color=white];
+  tissue->PD1
+    infection-> PD2;
+    label = "Pharmacodynamics (PD)";
+  }
+  
+ 
+  start [shape=Box, label="Dosing regimen"];
+  dosing [shape=rectangle, style=filled,color=white, label="Conc. vs. \n time in serum", xlabel=" \n    \n  \nAbsorption \nDistribution \nMetabolism \nElimination"];
+  tissue [shape=rectangle, style=filled,color=white, label="Conc. vs. \n time in tissue"];
+  infection [shape=rectangle, style=filled, color=white, label="Conc. vs. \n time at site of \n infection"];
+  PD1 [shape=rectangle, label="Pharmacological or  \n toxicological effect"]; 
+  PD2 [shape=rectangle, label="Antimicrobal effect \n vs. time"];
+}
+
+
+```
+
+## Volume of distribution
+
+<br>
+
+::: columns
+::: {.column width="50%"}
+![](images/beaker.png){fig-align="center" width="300"}
+:::
+
+::: {.column width="50%"}
+-   The volume which appears to hold the drug if it was present in the body at the same concentration found in plasma
+
+    -   It is estimated, not directly measured
+
+```{=html}
+<!-- -->
+```
+-   Reported in liters (L) or liters per kilogram (L/kg)
+
+-   Average plasma volume in adults is approximately 3 L
+:::
+:::
+
+## Low vs. high volume of distribution (Vd)
+
+<br>
+
+::: columns
+::: {.column width="50%"}
+![](images/vd.png)
+:::
+
+::: {.column width="50%"}
+<br>
+
+<br>
+
+Plasma volume= 3L+
+
+Extracellular water 16 L
+
+(\~20L)
+
+\>46 L Vd= sequestered in depot (e.g., fat)
+:::
+:::
+
+## Factors affecting Vd: Vascular
+
+-   Drugs diffuse from capillary beds—\> interstitial —\> intracellular space
+
+-   More vascular (e.g. heart, lung, kidney) = more drug delivered to them than others (e.g. skin, bone, fat)
+
+-   Capillary leakiness:
+
+    -   Some capillary bed epithelial cells are fenestrated by 60-80nm diameter pores (e.g. intestinal, endocrine, pancreatic and kidney).
+
+    -   In others endothelial cells are separated by slit junctions or large intercellular gaps to allow large movements of molecular material (Liver, bone marrow, lymph nodes, spleen).
+
+    -   These ‘leak’ points facilitate access to the interstitial fluid.
+
+## Factors affecting Vd: Body size and chronic diseases
+
+![](images/vd2.png)
+
+## Sepsis alters the Vd of antibiotics
+
+<br>
+
+::: columns
+::: {.column width="70%"}
+![](images/vd3.png){width="1000"}
+:::
+
+::: {.column width="30%"}
+<br>
+
+Release of inflammatory mediators causes damage to the vascular endothelium, resulting in expansion of extravascular space (increased volume of distribution)
+:::
+:::
 
 ## References
 

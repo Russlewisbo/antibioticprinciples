@@ -2,10 +2,10 @@
 
 /*-- scss:defaults --*/
 
-@import url(./fonts/source-sans-pro/source-sans-pro.css);
+@import 'https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap';
 
 // fonts
-$font-family-sans-serif: "Lato", Helvetica, sans-serif !default;
+$font-family-sans-serif: "Atkinson Hyperlegible", sans-serif;
 $font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
   "Liberation Mono", "Courier New", monospace !default;
 $presentation-font-size-root: 28px !default;
@@ -15,7 +15,7 @@ $presentation-line-height: 1.3 !default;
 // main colors
 $body-bg: #fff !default;
 $body-color: #222 !default;
-$heading-color: #0A3C5A !default;
+$heading-color: #00589b !default;
 $text-muted: lighten($body-color, 30%) !default;
 
 // link colors
