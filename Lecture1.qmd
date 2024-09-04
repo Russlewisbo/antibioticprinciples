@@ -326,18 +326,18 @@ digraph G {
     -   Endocytosis: the cell membrane invaginates to non-specifically capture molecules present at the cell surface, pinching them off into a vesicle
     -   Exocytosis is the opposite; vesicles are ejected from the cell
 
-## First pass metabolism
+## First pass metabolism.{.smaller}
 
 <br>
 
 <br>
 
 ::: columns
-::: {.column width="50%"}
+::: {.column width="70%"}
 ![](images/Pharmacokinetics%20Principles.png)
 :::
 
-::: {.column width="50%"}
+::: {.column width="30%"}
 -   A small amount occurs in the gut epithelia before entering the portal vein. Most occurs in the liver.
 
 -   As the drug passes through the liver some enters the hepatocytes and is metabolised by the CYP450 enzymes.
@@ -410,7 +410,7 @@ digraph G {
 # Effects of food
 
 | **Timing with food**                    | **Antibiotic**                                                                                                                         |
-|------------------|------------------------------------------------------|
+|-------------------|-----------------------------------------------------|
 | “Empty Stomach” (1h before or 2h after) | Penicillin, Flucloxacillin, Azithromycin, Fosfomycin                                                                                   |
 | With food                               | Co-amoxiclav (start of meal), Erythromycin (Just before or with), Metronidazole (During or after), Nitrofurantoin                      |
 | No recommendation                       | Amoxicillin, Pivmecillinam, Cefalexin, Tetracyclines, Clarithromycin, Clindamycin, Linezolid, Co-trimoxazole, Trimethoprim, Quinolones |
@@ -474,9 +474,8 @@ digraph G {
 
     -   It is estimated, not directly measured
 
-```{=html}
 <!-- -->
-```
+
 -   Reported in liters (L) or liters per kilogram (L/kg)
 
 -   Average plasma volume in adults is approximately 3 L
