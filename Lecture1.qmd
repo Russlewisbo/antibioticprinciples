@@ -612,6 +612,8 @@ Release of inflammatory mediators causes damage to the vascular endothelium, r
 
 ## Key pharmacokinetic parameter: clearance
 
+<br>
+
 -   Drug elimination from the body
 
     -   Described by volume of blood removed of drug unit per time
@@ -629,6 +631,8 @@ Changes in clearance over time in the same patient: *intra* patient variability
 :::
 
 ## Total body clearance
+
+<br>
 
 -   CL~renal~ + CL~hepatic~ ~+~CL~Other~
 
@@ -648,7 +652,7 @@ Typical meropenem Vd 15-20 L with clearance of 10-13 L/h
 
 <br>
 
--   **Vd and Cl ands physiologically-based**
+-   **Vd and CL are physiologically-based**
 
     -   A change in fluid status or distribution can affect Vd
 
@@ -668,11 +672,49 @@ Typical meropenem Vd 15-20 L with clearance of 10-13 L/h
 
     -   CL is not used to calculate the loading dose (or initial dose) because it is not affected by the volume of distribution
 
-## Key Pharmacokinetic parameter: Elimination rate
+## Key pharmacokinetic parameter: Elimination rate
 
 <br>
 
--   
+<br>
+
+::: columns
+::: {.column width="50%"}
+![](images/clearance.png){fig-align="center"}
+:::
+
+::: {.column width="50%"}
+-   What is *k*~el~?
+
+    -   Rate of drug removed per unit of time
+
+    -   Calculated parameter: Unit of measure: reciprocal time (hr^-1^)
+:::
+:::
+
+$$
+Kel =CL/Vd
+$$
+
+## Key pharmacokinetic parameter: Half life
+
+<br>
+
+-   Time it takes for plasma concentration or amount in body to be reduced by 50%
+
+-   Calculated parameter
+
+    -   Function of clearance and volume of distribution
+
+        -   Unit of measure = time (hours, minutes, days)
+
+$$
+t_{1/2} = 0.693/k_{el}
+$$ $$
+t_{1/2} = 0.693 \times Vd/CL
+$$
+
+## Key pharmacokinetic parameter: Area under the curve (AUC)
 
 ## References
 
