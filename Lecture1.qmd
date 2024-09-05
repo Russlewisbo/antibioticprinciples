@@ -211,19 +211,19 @@ digraph G {
 | **Active transport**      | Ionised drugs                    |
 | **Pinocytosis**           | Large molecules                  |
 
-## Passive diffusion: <br>How most antibiotics are absorbed {.smaller}
+## Passive diffusion: <br>How most antibiotics are absorbed{.smaller}
 
 <br>
 
 <br>
 
 ::: columns
-::: {.column width="20%"}
+::: {.column width="30%"}
 ![](images/diffusion.png)
 :::
 
-::: {.column width="80%"}
--   The commonest way for many drugs to cross lipid membranes (Esp. if small \[\<500 Da\] & not strongly ionic)
+::: {.column width="70%"}
+-   Most common way for drugs to cross lipid membranes (esp. if <500 Da & not strongly ionic)
 
 -   Lipophilic drugs (e.g. steroids) easily pass through lipid bilayers
 
@@ -267,7 +267,8 @@ digraph G {
 
 -   **Ionised drug can’t diffuse through a lipid bilayer**
 
--   Unionised drug moves out of the gut lumen, (e.g., as an AH form). Afterwards, ionic (A-) drug molecules combine with free H+ to become AH, which can then move across by passive diffusion
+-   Unionised drug moves out of the gut lumen, (e.g., as an AH form). 
+-   Afterwards, ionic (A-) drug molecules combine with free H+ to become AH, which can then move across by passive diffusion
 
 -   This re-equilibration between ionised & unionised forms continues along the entire length of the gut, with increasing amounts of the drug being gradually absorbed
 :::
@@ -379,7 +380,7 @@ digraph G {
 ## Bioavailibility examples {.smaller}
 
 |                         |                         |                         |
-|:------------------------|:------------------------|:-----------------------:|
+|:-----------------------|:-----------------------|:----------------------:|
 | **Mechanism of Action** | **Antimicrobial**       | **Bioavailability (%)** |
 | **Cell wall**           |                         |                         |
 |                         | Penicillin V            |           60            |
@@ -431,10 +432,11 @@ digraph G {
 
 <br> <br>
 
-| **Timing with food** | **Antibiotic** |
-|----------------------|----------------|
-
-======= \|-------------------\|-----------------------------------------------------\| \| “Empty Stomach” (1h before or 2h after) \| Penicillin, Flucloxacillin, Azithromycin, Fosfomycin \| \| With food \| Co-amoxiclav (start of meal), Erythromycin (Just before or with), Metronidazole (During or after), Nitrofurantoin \| \| No recommendation \| Amoxicillin, Pivmecillinam, Cefalexin, Tetracyclines, Clarithromycin, Clindamycin, Linezolid, Co-trimoxazole, Trimethoprim, Quinolones \|
+| **Timing with food**                    | **Antibiotic**                                                                                                                         |
+|-----------------------------------------|-------------------------------|
+| “Empty Stomach” (1h before or 2h after) | Penicillin, Flucloxacillin, Azithromycin, Fosfomycin                                                                                   |
+| With food                               | Co-amoxiclav (start of meal), Erythromycin (Just before or with), Metronidazole (During or after), Nitrofurantoin                      |
+| No recommendation                       | Amoxicillin, Pivmecillinam, Cefalexin, Tetracyclines, Clarithromycin, Clindamycin, Linezolid, Co-trimoxazole, Trimethoprim, Quinolones |
 
 ## Pharmacology of antimicrobials {.smaller}
 
@@ -495,15 +497,19 @@ digraph G {
 
     -   It is estimated, not directly measured
 
-<!-- -->
-
 -   Reported in liters (L) or liters per kilogram (L/kg)
 
--   Average plasma volume in adults is approximately 3 L
+Average plasma volume in adults is approximately 3Low vs. high volume of distribution (Vd)
+
+$$
+Vd=Dose/Cp
+$$
 :::
 :::
 
-## Low vs. high volume of distribution (Vd)
+::: aside
+Vd= volume of distribution, Dose=drug dose, Cp= drug concentration in plasma
+:::
 
 <br>
 
@@ -569,8 +575,44 @@ Release of inflammatory mediators causes damage to the vascular endothelium, r
 
 ![](images/vd2.png)
 
+## Anatomically privileged sites-1
+
+<br>
+
+![](images/antomic_priv1.png){fig-align="center"}
+
+## Anatomically privileged sites-2
+
+<br>
+
+![](images/anatomic_privlidge2.png){fig-align="center" width="800"}
+
+## Ventilator-associated pneumonia
+
+<br>
+
+![](images/meropeneme_elf.png){fig-align="center"}
+
+::: aside
+[@lodise2011]
+:::
+
 ## How is the drug metabolised, concentrated or excreted?
 
+![](images/excreted.png){fig-align="center"}
+
+## Which antibiotics are excreted in urine?
+
+![](images/urine.png){fig-align="center"}
+
+::: aside
+[@gilbert2006]
+:::
+
 ## References
+
+<br>
+
+Unless otherwise cited, all figures were created using www.Biorender.com
 
 <br>
