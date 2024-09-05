@@ -211,7 +211,7 @@ digraph G {
 | **Active transport**      | Ionised drugs                    |
 | **Pinocytosis**           | Large molecules                  |
 
-## Passive diffusion: <br>How most antibiotics are absorbed{.smaller}
+## Passive diffusion: <br>How most antibiotics are absorbed {.smaller}
 
 <br>
 
@@ -223,7 +223,7 @@ digraph G {
 :::
 
 ::: {.column width="70%"}
--   Most common way for drugs to cross lipid membranes (esp. if <500 Da & not strongly ionic)
+-   Most common way for drugs to cross lipid membranes (esp. if \<500 Da & not strongly ionic)
 
 -   Lipophilic drugs (e.g. steroids) easily pass through lipid bilayers
 
@@ -267,7 +267,8 @@ digraph G {
 
 -   **Ionised drug can’t diffuse through a lipid bilayer**
 
--   Unionised drug moves out of the gut lumen, (e.g., as an AH form). 
+-   Unionised drug moves out of the gut lumen, (e.g., as an AH form).
+
 -   Afterwards, ionic (A-) drug molecules combine with free H+ to become AH, which can then move across by passive diffusion
 
 -   This re-equilibration between ionised & unionised forms continues along the entire length of the gut, with increasing amounts of the drug being gradually absorbed
@@ -432,11 +433,11 @@ digraph G {
 
 <br> <br>
 
-| **Timing with food**                    | **Antibiotic**                                                                                                                         |
+| **Timing with food**                    | **Antibiotic**                                                                                                                          |
 |-----------------------------------------|-------------------------------|
-| “Empty Stomach” (1h before or 2h after) | Penicillin, Flucloxacillin, Azithromycin, Fosfomycin                                                                                   |
-| With food                               | Co-amoxiclav (start of meal), Erythromycin (Just before or with), Metronidazole (During or after), Nitrofurantoin                      |
-| No recommendation                       | Amoxicillin, Pivmecillinam, Cefalexin, Tetracyclines, Clarithromycin, Clindamycin, Linezolid, Co-trimoxazole, Trimethoprim, Quinolones |
+| “Empty Stomach” (1h before or 2h after) | Penicillin, Flucloxacillin, Azithromycin, Fosfomycin                                                                                    |
+| With food                               | Co-amoxiclav (start of meal), Erythromycin (Just before or with), Metronidazole (During or after), Nitrofurantoin                       |
+| No recommendation                       | Amoxicillin, Pivmecillinam, Cephalexin, Tetracyclines, Clarithromycin, Clindamycin, Linezolid, Co-trimoxazole, Trimethoprim, Quinolones |
 
 ## Pharmacology of antimicrobials {.smaller}
 
@@ -567,13 +568,13 @@ e.g., doxycycline, tigecycline do not achieve peak concentrations in bloodstream
 
 ## Sepsis alters the Vd of antibiotics {.smaller}
 
-![](images/vd3.png){width="800"}
+![](images/vd3.png){fig-align="center" width="800"}
 
 Release of inflammatory mediators causes damage to the vascular endothelium, resulting in expansion of extravascular space (increased volume of distribution)
 
 ## Factors affecting Vd: Body size and chronic diseases
 
-![](images/vd2.png)
+![](images/vd2.png){fig-align="center"}
 
 ## Anatomically privileged sites-1
 
@@ -608,6 +609,70 @@ Release of inflammatory mediators causes damage to the vascular endothelium, r
 ::: aside
 [@gilbert2006]
 :::
+
+## Key pharmacokinetic parameter: clearance
+
+-   Drug elimination from the body
+
+    -   Described by volume of blood removed of drug unit per time
+
+    -   Unit of measure ml/min or L/hr
+
+    -   Clearance is affected by
+
+        -   Patient disease, organ function, genetic, interactions with other drugs
+
+::: aside
+Changes in clearance between different patients: *inter* patient variability
+
+Changes in clearance over time in the same patient: *intra* patient variability
+:::
+
+## Total body clearance
+
+-   CL~renal~ + CL~hepatic~ ~+~CL~Other~
+
+-   Formulas for calculating antibiotic clearance can be found in the literature or some drug references
+
+## Example: Meropenem in septic patients
+
+![](images/meropenem_sepsis.png){fig-align="center"}
+
+::: aside
+Typical meropenem Vd 15-20 L with clearance of 10-13 L/h
+
+[@kothekar2020]
+:::
+
+## Integrating Volume of distribution and clearance
+
+<br>
+
+-   **Vd and Cl ands physiologically-based**
+
+    -   A change in fluid status or distribution can affect Vd
+
+    -   A change in kidney of liver function can affect drug CL
+
+-   **However, these parameters do not directly interaction with each other**
+
+    -   A change in Vd does not change clearance and vice versa
+
+## Why is this distinction important?
+
+<br>
+
+-   Vd is useful fo calculating the loading dose of a drug
+
+-   CL is useful for calculating the maintenance dose of a drug
+
+    -   CL is not used to calculate the loading dose (or initial dose) because it is not affected by the volume of distribution
+
+## Key Pharmacokinetic parameter: Elimination rate
+
+<br>
+
+-   
 
 ## References
 
