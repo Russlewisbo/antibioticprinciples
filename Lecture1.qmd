@@ -189,14 +189,14 @@ digraph G {
 :::
 
 ::: {.column width="70%"}
--   **Stomach:** Little absorption takes place for most drugs here (thick gastric mucous layer prevents significant drug absorption).
--   **Small intestine:** Transit time 4-6h; 6-7 m long x 2.5cm internal diameter.
+-   **Stomach:** Little absorption takes place for most drugs here (thick gastric mucous layer prevents significant drug absorption)
+-   **Small intestine:** Transit time 4-6h; 6-7 m long x 2.5cm internal diameter
     -   It has a larger surface area (30-35m^2^) than the stomach (\~1m^2^), due to:
         -   Jejunal plicae circulare (circular infoldings) - increases surface area 1.6x
-        -   Epithelial villi + microvilli: increases surface area 80-100x.
+        -   Epithelial villi + microvilli: increases surface area 80-100x
 -   **Additional factors aiding absorption:**
-    -   Peristalsis churns the intestinal contents, ensuring regular contact between drugs & epithelium.
-    -   pH is 6-7 (weakly acidic) —\> determines the ratio of drug molecules that exist in the ionized and unionized state.
+    -   Peristalsis churns the intestinal contents, ensuring regular contact between drugs & epithelium
+    -   pH is 6-7 (weakly acidic) —\> determines the ratio of drug molecules that exist in the ionized and unionized state
 :::
 :::
 
@@ -219,7 +219,7 @@ digraph G {
 
 ::: columns
 ::: {.column width="20%"}
-![](images/GI-Tract.png){width="500"}
+![](images/diffusion.png)
 :::
 
 ::: {.column width="80%"}
@@ -253,13 +253,13 @@ digraph G {
 :::
 
 ::: {.column width="80%"}
--   Drugs are often ‘weak acids’ or ‘weak bases’, and so their rate of passive uptake is determined by the ratio of ionised:unionised drug in the gut lumen:
+-   **Drugs are often ‘weak acids’ or ‘weak bases’, and so their rate of passive uptake is determined by the ratio of ionised:unionised drug in the gut lumen:**
 
     -   Acidic drug (A): Can release a H+ ion, going from HA —\> A- and H+
 
     -   Basic drug (B): Can accept a H+ ion going from B —\> BH+ (protonated base)
 
--   The pKa/b of the weak acid/base determines their rate of uptake:
+-   **The pKa/b of the weak acid/base determines their rate of uptake:**
 
     -   pKa = pH at which the acid is 50% ionised (A-) & 50% in the unionised form (AH)
 
@@ -275,15 +275,27 @@ digraph G {
 
 ## Why is this important?
 
+<br>
+
 ![](images/orlaiv.png){fig-align="center"}
 
 <br>
 
+::: aside
 [@wald-dickler2022]
+:::
 
-## Facilitated diffusion
+## Facilitated diffusion {.smaller}
 
--   This is how lipophobic drugs cross cell membranes.
+::: columns
+::: {.column width="50%"}
+<br> <br> ![](images/diffusion.png)
+:::
+
+::: {.column width="50%"}
+<br> <br>
+
+-   This is how lipophobic drugs cross cell membranes
 
 -   This passively happens across an electrochemical concentration gradient.
 
@@ -291,32 +303,32 @@ digraph G {
 
 -   A note on SLCs:
 
-    -   
-
     -   SLCs are a group (\>350 types) of transmembrane proteins that facilitate absorption of organic charged molecules up to 500 Daltons.
-
-    -   2 types:
+    -   2 types: <br>
 
 |                                |                             |
 |--------------------------------|-----------------------------|
-| OAT Organic Anion Transporter  | Carry deprotonated acids A- |
+| AT Organic Anion Transporter   | Carry deprotonated acids A- |
 | OCT Organic Cation Transporter | Carry protonated bases BH+  |
+:::
+:::
 
 ## Active transport {.smaller}
 
-<br>
+::: columns
+::: {.column width="50%"}
+<br> <br> ![](images/diffusion.png)
+:::
 
-<br>
+::: {.column width="50%"}
+<br> <br> - **Primary AT**:
 
--   **Primary AT**:
+-   **Primary AT:** Mostly efflux of drugs from cells/specific body compartments
 
-    -   Mostly efflux of drugs from cells/specific body compartments
+    -   More important in limiting drug uptake
 
-    -   It is more important in limiting drug uptake
+-   **Secondary AT**: This is how ionised drugs are absorbed
 
--   **Secondary AT**:
-
-    -   This is how ionised drugs are absorbed
     -   Carried out by SLCs (both OATs & OCTs) across pre-existing electrochemical gradients.
     -   Drugs are co-transported e.g. with Na if moving into the intracellular space, or K if moving into the extracellular space
     -   e.g. H+ and beta-lactam antibiotics
@@ -325,26 +337,28 @@ digraph G {
 
     -   Endocytosis: the cell membrane invaginates to non-specifically capture molecules present at the cell surface, pinching them off into a vesicle
     -   Exocytosis is the opposite; vesicles are ejected from the cell
+:::
+:::
 
-## First pass metabolism
-
-<br>
+## First pass metabolism {.smaller}
 
 <br>
 
 ::: columns
-::: {.column width="50%"}
+::: {.column width="70%"}
 ![](images/Pharmacokinetics%20Principles.png)
 :::
 
-::: {.column width="50%"}
+::: {.column width="30%"}
+<br> <br>
+
 -   A small amount occurs in the gut epithelia before entering the portal vein. Most occurs in the liver.
 
 -   As the drug passes through the liver some enters the hepatocytes and is metabolised by the CYP450 enzymes.
 :::
 :::
 
-## Differences in IV ves. oral antibiotics
+## Differences in IV vs. oral antibiotics
 
 <br>
 
@@ -356,12 +370,14 @@ digraph G {
 | Soluble       | Low solubility           |
 | Lipid soluble | Lipophobic (hydrophilic) |
 
+::: aside
 [@macgregor1997]
+:::
 
 ## Bioavailibility examples {.smaller}
 
 |                         |                         |                         |
-|:-----------------------|:-----------------------|:-----------------------:|
+|:-----------------------|:-----------------------|:----------------------:|
 | **Mechanism of Action** | **Antimicrobial**       | **Bioavailability (%)** |
 | **Cell wall**           |                         |                         |
 |                         | Penicillin V            |           60            |
@@ -405,12 +421,16 @@ digraph G {
 
 -   ‘UTI drugs’: Fosfomycin, Trimethoprim, Nitrofurantoin, Pivmecillinam: Don’t get great plasma levels, but concentrate in urine preferentially —\> still useful for UTI
 
+::: aside
 [@huttner2020]
+:::
 
-# Effects of food
+## Effects of food {.smaller}
+
+<br> <br>
 
 | **Timing with food**                    | **Antibiotic**                                                                                                                         |
-|------------------|------------------------------------------------------|
+|---------------------------|---------------------------------------------|
 | “Empty Stomach” (1h before or 2h after) | Penicillin, Flucloxacillin, Azithromycin, Fosfomycin                                                                                   |
 | With food                               | Co-amoxiclav (start of meal), Erythromycin (Just before or with), Metronidazole (During or after), Nitrofurantoin                      |
 | No recommendation                       | Amoxicillin, Pivmecillinam, Cefalexin, Tetracyclines, Clarithromycin, Clindamycin, Linezolid, Co-trimoxazole, Trimethoprim, Quinolones |
@@ -474,9 +494,8 @@ digraph G {
 
     -   It is estimated, not directly measured
 
-```{=html}
 <!-- -->
-```
+
 -   Reported in liters (L) or liters per kilogram (L/kg)
 
 -   Average plasma volume in adults is approximately 3 L
@@ -497,23 +516,41 @@ digraph G {
 
 <br>
 
-Plasma volume= 3L+
+Plasma volume= 3L +
 
-Extracellular water 16 L
+Extracellular water 16 L = \~20L (drug Vd approximated total body water)
 
-(\~20L)
-
-\>46 L Vd= sequestered in depot (e.g., fat)
+46 L Vd= sequestered in depot (e.g., fat)
 :::
 :::
 
-## Factors affecting Vd: Vascular
+## Factors affecting Vd: Drug characteristics
 
--   Drugs diffuse from capillary beds—\> interstitial —\> intracellular space
+![](images/hydrophilic.png){fig-align="center"}
 
--   More vascular (e.g. heart, lung, kidney) = more drug delivered to them than others (e.g. skin, bone, fat)
+-   Volume of distribution is affected by the physicochemical properties of the drug
 
--   Capillary leakiness:
+-   Factors that favor low Vd: high water solubility, high protein binding, decreased tissue binding → converse is also true
+
+## Clinical utility of Vd
+
+![](images/vd_clinical.png){fig-align="center" width="800"}
+
+::: aside
+Provides information on how much antibiotic is distributed in tissues vs. plasma → some clinical relevance
+
+e.g., doxycycline, tigecycline do not achieve peak concentrations in bloodstream that surpass the MIC of many pathogens
+:::
+
+## Factors affecting Vd: Vascular {background-image="images/capillary.png" background-opacity="0.2"}
+
+<br> <br>
+
+-   **Drugs diffuse from capillary beds—\> interstitial —\> intracellular space**
+
+-   **More vascular (e.g. heart, lung, kidney) = more drug delivered to them than others (e.g. skin, bone, fat)**
+
+-   **Capillary leakiness:**
 
     -   Some capillary bed epithelial cells are fenestrated by 60-80nm diameter pores (e.g. intestinal, endocrine, pancreatic and kidney).
 
@@ -521,25 +558,17 @@ Extracellular water 16 L
 
     -   These ‘leak’ points facilitate access to the interstitial fluid.
 
+## Sepsis alters the Vd of antibiotics {.smaller}
+
+![](images/vd3.png){width="800"}
+
+Release of inflammatory mediators causes damage to the vascular endothelium, resulting in expansion of extravascular space (increased volume of distribution)
+
 ## Factors affecting Vd: Body size and chronic diseases
 
 ![](images/vd2.png)
 
-## Sepsis alters the Vd of antibiotics
-
-<br>
-
-::: columns
-::: {.column width="70%"}
-![](images/vd3.png){width="1000"}
-:::
-
-::: {.column width="30%"}
-<br>
-
-Release of inflammatory mediators causes damage to the vascular endothelium, resulting in expansion of extravascular space (increased volume of distribution)
-:::
-:::
+## How is the drug metabolised, concentrated or excreted? 
 
 ## References
 
