@@ -340,7 +340,13 @@ digraph G {
 :::
 :::
 
+<<<<<<< HEAD
 ## First pass metabolism {.smaller}
+=======
+## First pass metabolism.{.smaller}
+
+<br>
+>>>>>>> bc46787df1161b67dcfe5101a37992ef3fc8f39f
 
 <br>
 
@@ -350,8 +356,11 @@ digraph G {
 :::
 
 ::: {.column width="30%"}
+<<<<<<< HEAD
 <br> <br>
 
+=======
+>>>>>>> bc46787df1161b67dcfe5101a37992ef3fc8f39f
 -   A small amount occurs in the gut epithelia before entering the portal vein. Most occurs in the liver.
 
 -   As the drug passes through the liver some enters the hepatocytes and is metabolised by the CYP450 enzymes.
@@ -430,7 +439,11 @@ digraph G {
 <br> <br>
 
 | **Timing with food**                    | **Antibiotic**                                                                                                                         |
+<<<<<<< HEAD
 |---------------------------|---------------------------------------------|
+=======
+|-------------------|-----------------------------------------------------|
+>>>>>>> bc46787df1161b67dcfe5101a37992ef3fc8f39f
 | “Empty Stomach” (1h before or 2h after) | Penicillin, Flucloxacillin, Azithromycin, Fosfomycin                                                                                   |
 | With food                               | Co-amoxiclav (start of meal), Erythromycin (Just before or with), Metronidazole (During or after), Nitrofurantoin                      |
 | No recommendation                       | Amoxicillin, Pivmecillinam, Cefalexin, Tetracyclines, Clarithromycin, Clindamycin, Linezolid, Co-trimoxazole, Trimethoprim, Quinolones |
