@@ -381,7 +381,7 @@ digraph G {
 ## Bioavailibility examples {.smaller}
 
 |                         |                         |                         |
-|:-----------------------|:-----------------------|:----------------------:|
+|:------------------------|:------------------------|:-----------------------:|
 | **Mechanism of Action** | **Antimicrobial**       | **Bioavailability (%)** |
 | **Cell wall**           |                         |                         |
 |                         | Penicillin V            |           60            |
@@ -434,7 +434,7 @@ digraph G {
 <br> <br>
 
 | **Timing with food**                    | **Antibiotic**                                                                                                                          |
-|-----------------------------------------|-------------------------------|
+|-----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
 | “Empty Stomach” (1h before or 2h after) | Penicillin, Flucloxacillin, Azithromycin, Fosfomycin                                                                                    |
 | With food                               | Co-amoxiclav (start of meal), Erythromycin (Just before or with), Metronidazole (During or after), Nitrofurantoin                       |
 | No recommendation                       | Amoxicillin, Pivmecillinam, Cephalexin, Tetracyclines, Clarithromycin, Clindamycin, Linezolid, Co-trimoxazole, Trimethoprim, Quinolones |
