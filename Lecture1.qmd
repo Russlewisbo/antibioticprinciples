@@ -843,7 +843,6 @@ digraph G {
 [@craig_1998a]
 :::
 
-
 ## Post antibiotic effect (PAE) {.smaller}
 
 ![](images/PAE.png)
@@ -868,6 +867,13 @@ digraph G {
 AUC = Area under the concentration–time curve; MIC = Minimum Inhibitory Concentration; Cmax = Maximum or peak plasma concentration; Cmin = Minimum or trough plasma concentration
 :::
 
+## Dose fractionization study {.smaller}
+
+![](images/fraction.png)
+
+## Dose fractionization study-interpretation {.smaller}
+
+![](images/fraction_interpret.png)
 
 ## References
 
