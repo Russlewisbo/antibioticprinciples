@@ -739,14 +739,34 @@ $$
 
 -   Can simplistically be interpreted as average dur exposure over a dosing interval:
 
-    -   e.g., An AUC~0-24h~ of 48 mg∙h/L for a dosing regimen administered every 24 hours would represent an average concentration over the 24 hour dosing interval of 2 mg/L (48 mg∙h/L divided by 24 hr=2 mg∙L.
+    -   e.g., An AUC~0-24h~ of 48 mg∙h/L for a dosing regimen administered every 24 hours would represent an average concentration over the 24 hour dosing interval of 2 mg/L (48 mg∙h/L divided by 24 hr=2 mg∙L average over 24 hours.
 :::
+:::
+
+## Pharmacology of antimicrobials
+
+## Laws of antimicrobial pharmacodynamics
+
+<br>
+
+<br>
+
+-   **The shape of the antibiotic concentration versus antimicrobial effect curve is important for dosing**
+
+-   Only free-drug (non-protein bound fraction) is microbiologically active
+
+-    A higher MIC will diminish the effect of a fixed dose
+
+-   Administering a fixed dose of drug to many patients (even on a mg/kg basis) results in wide variability in exposure
+
+::: aside
+[@drusano2004]
 :::
 
 ## References
 
 <br>
 
-Unless otherwise cited, all figures were created using www.Biorender.com
+Unless otherwise cited, all figures were created using www.biorender.com
 
 <br>
