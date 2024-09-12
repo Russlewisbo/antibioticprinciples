@@ -439,7 +439,7 @@ digraph G {
 <br> <br>
 
 | **Timing with food**                    | **Antibiotic**                                                                                                                                                              |
-|-----------------|-------------------------------------------------------|
+|------------------|------------------------------------------------------|
 | “Empty Stomach” (1h before or 2h after) | Penicillin, <br> Flucloxacillin, <br> Azithromycin, <br> Fosfomycin                                                                                                         |
 | With food                               | Amoxicillin-clavulante (start of meal) <br>Erythromycin (Just before or with), <br>Metronidazole (During or after), <br>Nitrofurantoin                                      |
 | No recommendation                       | Amoxicillin, <br>Pivmecillinam, <br>Cephalexin, <br>Tetracyclines, <br>Clarithromycin, <br>Clindamycin, <br>Linezolid, <br>Co-trimoxazole, <br>Trimethoprim, <br>Quinolones |
@@ -729,7 +729,6 @@ $$
 :::
 
 ::: {.column width="50%"}
-
 -   Total drug exposure over time, expressed as mg∙h/L
 
 -   Dependent on the dose administered and rate of elimination
@@ -743,7 +742,6 @@ $$
 :::
 
 ## Pharmacology of antimicrobials
-
 
 ```{dot}
 digraph G {
@@ -788,7 +786,6 @@ digraph G {
 
 ```
 
-
 ## Laws of antimicrobial pharmacodynamics
 
 <br>
@@ -806,6 +803,8 @@ digraph G {
 ::: aside
 [@drusano2004]
 :::
+
+## How does PD analysis differ from susceptibility testing?
 
 ## References
 
