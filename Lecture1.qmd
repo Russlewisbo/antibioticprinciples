@@ -384,7 +384,7 @@ digraph G {
 ## Bioavailibility examples {.smaller}
 
 |                         |                         |                         |
-|:------------------------|:------------------------|:-----------------------:|
+|:-----------------------|:-----------------------|:----------------------:|
 | **Mechanism of Action** | **Antimicrobial**       | **Bioavailability (%)** |
 | **Cell wall**           |                         |                         |
 |                         | Penicillin V            |           60            |
@@ -439,7 +439,7 @@ digraph G {
 <br> <br>
 
 | **Timing with food**                    | **Antibiotic**                                                                                                                                                              |
-|-----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|-----------------|-------------------------------------------------------|
 | “Empty Stomach” (1h before or 2h after) | Penicillin, <br> Flucloxacillin, <br> Azithromycin, <br> Fosfomycin                                                                                                         |
 | With food                               | Amoxicillin-clavulante (start of meal) <br>Erythromycin (Just before or with), <br>Metronidazole (During or after), <br>Nitrofurantoin                                      |
 | No recommendation                       | Amoxicillin, <br>Pivmecillinam, <br>Cephalexin, <br>Tetracyclines, <br>Clarithromycin, <br>Clindamycin, <br>Linezolid, <br>Co-trimoxazole, <br>Trimethoprim, <br>Quinolones |
@@ -577,7 +577,7 @@ e.g., doxycycline, tigecycline do not achieve peak concentrations in bloodstream
 
 Release of inflammatory mediators causes damage to the vascular endothelium, resulting in expansion of extravascular space (increased volume of distribution)
 
-## Factors affecting Vd: Body size and chronic diseases
+## Factors affecting Vd: <br>Body size and chronic diseases {.smaller}
 
 ![](images/vd2.png){fig-align="center"}
 
@@ -639,7 +639,7 @@ Changes in clearance over time in the same patient: *intra* patient variability
 
 <br>
 
--   Cl~renal~ + Cl~hepatic~ ~+~Cl~Other~
+-   CL~renal~ + CL~hepatic~ ~+~CL~Other~
 
 -   Formulas for calculating antibiotic clearance can be found in the literature or some drug references
 
@@ -729,7 +729,6 @@ $$
 :::
 
 ::: {.column width="50%"}
-<br>
 
 -   Total drug exposure over time, expressed as mg∙h/L
 
@@ -744,6 +743,51 @@ $$
 :::
 
 ## Pharmacology of antimicrobials
+
+
+```{dot}
+digraph G {
+ 	rankdir=LR
+ 	fontname="Lato,Arial,sans-serif"
+	node [fontname="Lato,Arial,sans-serif"]
+	edge [fontname="Lato,Arial,sans-serif"]
+ 
+  subgraph cluster_0 {
+    style=filled;
+    color=lightblue;
+    node [style=filled,color=white];
+    start -> dosing;
+    dosing -> tissue;
+    dosing -> infection;
+    label = "Pharmacokinetics (PK)";
+    graph [labelloc=a]
+    
+    
+    
+  }
+  
+    subgraph cluster_1 {
+    line=black;
+    style=filled;
+    color=lightblue;
+    node [style=filled,color=yellow];
+  tissue->PD1
+    infection-> PD2;
+    label = "Pharmacodynamics (PD)";
+  }
+  
+ 
+  start [shape=Box, label="Dosing regimen"];
+  dosing [shape=rectangle, style=filled,color=white, label="Conc. vs. \n time in serum", xlabel=" \n    \n  \nAbsorption \nDistribution \nMetabolism \nElimination"];
+  tissue [shape=rectangle, style=filled,color=white, label="Conc. vs. \n time in tissue"];
+  infection [shape=rectangle, style=filled, color=white, label="Conc. vs. \n time at site of \n infection"];
+  PD1 [shape=rectangle, label="Pharmacological or  \n toxicological effect"]; 
+  PD2 [shape=rectangle, label="Antimicrobal effect \n vs. time"];
+}
+
+
+```
+
 
 ## Laws of antimicrobial pharmacodynamics
 
