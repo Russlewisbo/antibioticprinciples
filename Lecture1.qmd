@@ -804,17 +804,70 @@ digraph G {
 [@drusano2004]
 :::
 
-## How does PD differ from MICs?
+## How does PD differ from MICs? {.smaller}
 
 ::: columns
 ::: {.column width="50%"}
+![](images/MICs.png)
+
+-   Good indicators of potency
+-   Tell us nothing about time course of antibiotic activity
+-   Nothing about dose-response relationship
 :::
 
 ::: {.column width="50%"}
+![](images/PD.png){width="800"}
+
+<br> <br> <br>
+
+-   How does the rate and extent of bacterial killing by an antibiotic change at concentrations near and above the MIC?
+-   The shape of the curve affects drug dosing strategies
 :::
 :::
 
-\## How does PD analysis differ from susceptibility testing?
+## How to define concentration-time-kill effect curves {.smaller}
+
+![](images/tkcurve1.png){fig-align="center"}
+
+## Interpreting time-kill curves {.smaller}
+
+![](images/tkcurve2.png){fig-align="center"}
+
+-   Did the rate and extent of killing increase at higher MIC multiples?
+
+-   What is the multiple of MIC where killing was maximized?
+
+-   Did the antibiotic achieve bacteriostatic (2-log~10~) or bactericidal (3-log~10~) reductions in CFU?
+
+::: aside
+[@craig_1998a]
+:::
+
+
+## Post antibiotic effect (PAE) {.smaller}
+
+![](images/PAE.png)
+
+::: aside
+[@craig_1998a]
+:::
+
+## How do you translate? {.smaller}
+
+![](images/translate.png)
+
+## Integration
+
+![](images/integrate.png)
+
+## Common PK/PD indicis {.smaller}
+
+![](images/pkpdindice.png){fig-align="center" width="900"}
+
+::: aside
+AUC = Area under the concentration–time curve; MIC = Minimum Inhibitory Concentration; Cmax = Maximum or peak plasma concentration; Cmin = Minimum or trough plasma concentration
+:::
+
 
 ## References
 
