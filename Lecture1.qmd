@@ -439,7 +439,7 @@ digraph G {
 <br> <br>
 
 | **Timing with food**                    | **Antibiotic**                                                                                                                                                              |
-|-----------------|-------------------------------------------------------|
+|-----------------------------------------|-------------------------------|
 | “Empty Stomach” (1h before or 2h after) | Penicillin, <br> Flucloxacillin, <br> Azithromycin, <br> Fosfomycin                                                                                                         |
 | With food                               | Amoxicillin-clavulante (start of meal) <br>Erythromycin (Just before or with), <br>Metronidazole (During or after), <br>Nitrofurantoin                                      |
 | No recommendation                       | Amoxicillin, <br>Pivmecillinam, <br>Cephalexin, <br>Tetracyclines, <br>Clarithromycin, <br>Clindamycin, <br>Linezolid, <br>Co-trimoxazole, <br>Trimethoprim, <br>Quinolones |
@@ -480,8 +480,8 @@ digraph G {
  
   start [shape=Box, label="Dosing regimen"];
   dosing [shape=rectangle, style=filled,color=white, label="Conc. vs. \n time in serum", xlabel=" \n    \n  \nAbsorption \nDistribution \nMetabolism \nElimination"];
-  tissue [shape=rectangle, style=filled,color=white, label="Conc. vs. \n time in tissue"];
-  infection [shape=rectangle, style=filled, color=white, label="Conc. vs. \n time at site of \n infection"];
+  tissue [shape=rectangle, style=filled,color=yellow, label="Conc. vs. \n time in tissue"];
+  infection [shape=rectangle, style=filled, color=yellow, label="Conc. vs. \n time at site of \n infection"];
   PD1 [shape=rectangle, label="Pharmacological or  \n toxicological effect"]; 
   PD2 [shape=rectangle, label="Antimicrobal effect \n vs. time"];
 }
@@ -517,7 +517,7 @@ $$
 Vd= volume of distribution, Dose=drug dose, Cp= drug concentration in plasma
 :::
 
-<br>
+## Visualizing the Vd
 
 ::: columns
 ::: {.column width="50%"}
@@ -537,14 +537,6 @@ Extracellular water 16 L = \~20L (drug Vd approximated total body water)
 :::
 :::
 
-## Factors affecting Vd: Drug characteristics {.smaller}
-
-![](images/hydrophilic.png){fig-align="center"}
-
--   Volume of distribution is affected by the physicochemical properties of the drug
-
--   Factors that favor low Vd: high water solubility, high protein binding, decreased tissue binding → converse is also true
-
 ## Clinical utility of Vd
 
 ![](images/vd_clinical.png){fig-align="center" width="800"}
@@ -554,6 +546,14 @@ Provides information on how much antibiotic is distributed in tissues vs. plasma
 
 e.g., doxycycline, tigecycline do not achieve peak concentrations in bloodstream that surpass the MIC of many pathogens
 :::
+
+## Factors affecting Vd: Drug characteristics {.smaller}
+
+![](images/hydrophilic.png){fig-align="center"}
+
+-   Volume of distribution is affected by the physicochemical properties of the drug
+
+-   Factors that favor low Vd: high water solubility, high protein binding, decreased tissue binding → converse is also true
 
 ## Factors affecting Vd: Vascular perfusion {background-image="images/capillary.png" background-opacity="0.2"}
 
@@ -577,23 +577,23 @@ e.g., doxycycline, tigecycline do not achieve peak concentrations in bloodstream
 
 Release of inflammatory mediators causes damage to the vascular endothelium, resulting in expansion of extravascular space (increased volume of distribution)
 
-## Factors affecting Vd: Body size and chronic diseases
+## Factors affecting Vd: <br>Body size and chronic diseases {.smaller}
 
 ![](images/vd2.png){fig-align="center"}
 
-## Anatomically privileged sites-1
+## Anatomically privileged sites-1 {.smaller}
 
 <br>
 
 ![](images/antomic_priv1.png){fig-align="center"}
 
-## Anatomically privileged sites-2
+## Anatomically privileged sites-2 {.smaller}
 
 <br>
 
 ![](images/anatomic_privlidge2.png){fig-align="center" width="800"}
 
-## Ventilator-associated pneumonia
+## Ventilator-associated pneumonia {.smaller}
 
 <br>
 
@@ -619,7 +619,7 @@ Release of inflammatory mediators causes damage to the vascular endothelium, r
 
 <br>
 
--   Drug elimination from the body
+-   **Drug elimination from the body**
 
     -   Described by volume of blood removed of drug unit per time
 
@@ -639,7 +639,7 @@ Changes in clearance over time in the same patient: *intra* patient variability
 
 <br>
 
--   Cl~renal~ + Cl~hepatic~ ~+~Cl~Other~
+-   CL~renal~ + CL~hepatic~ ~+~CL~Other~
 
 -   Formulas for calculating antibiotic clearance can be found in the literature or some drug references
 
@@ -729,8 +729,6 @@ $$
 :::
 
 ::: {.column width="50%"}
-<br>
-
 -   Total drug exposure over time, expressed as mg∙h/L
 
 -   Dependent on the dose administered and rate of elimination
@@ -739,7 +737,7 @@ $$
 
 -   Can simplistically be interpreted as average dur exposure over a dosing interval:
 
-    -   e.g., An AUC~0-24h~ of 48 mg∙h/L for a dosing regimen administered every 24 hours would represent an average concentration over the 24 hour dosing interval of 2 mg/L (48 mg∙h/L divided by 24 hr=2 mg∙L average over 24 hours.
+    -   e.g., an AUC~0-24h~ of 48 mg∙h/L for a dosing regimen administered every 24 hours would represent an average concentration over the 24 hour dosing interval of 2 mg/L (48 mg∙h/L divided by 24 hr=2 mg∙L average over 24 hours.
 :::
 :::
 
@@ -815,6 +813,8 @@ digraph G {
 ::: {.column width="50%"}
 :::
 :::
+
+\## How does PD analysis differ from susceptibility testing?
 
 ## References
 
