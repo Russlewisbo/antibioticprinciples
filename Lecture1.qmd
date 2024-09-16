@@ -13,6 +13,7 @@ format:
     chalkboard: true
     theme: [default, custom.scss]
 bibliography: references.bib
+lightbox: true
 csl: diagnostic-microbiology-and-infectious-disease.csl
 ---
 
@@ -165,7 +166,7 @@ digraph G {
 
 ![](images/pk%20principles.png){fig-align="center"}
 
-## Oral is the new IV
+## Oral is the new IV...
 
 <br>
 
@@ -418,7 +419,9 @@ digraph G {
 
 <br> <br>
 
--   Amoxicillin: Absorption is saturable near 750mg-higher doses are unlikely to be absorbed
+-   Amoxicillin: Absorption is saturable near 750mg
+
+    -   higher doses are unlikely to be absorbed
 
 -   Cephalexin: Maximum amount absorbed is \~4g/d
 
@@ -517,13 +520,9 @@ Vd= volume of distribution, Dose=drug dose, Cp= drug concentration in plasma
 
 ## Visualizing the Vd
 
-::: columns
-::: {.column width="50%"}
-![](images/vd.png){width="600"}
-:::
+::: columns ::: {.column width="50%"} ![](images/vd.png){width="600"} :::
 
-::: {.column width="50%"}
-<br>
+::: {.column width="50%"} <br>
 
 <br>
 
@@ -533,11 +532,11 @@ Extracellular water 16 L = \~20L (drug Vd approximated total body water)
 
 46 L Vd= sequestered in depot (e.g., fat)
 
-## Clinical utility of Vd {.smaller} 
+## Clinical utility of Vd {.smaller}
 
 ![](images/vd_clinical.png){fig-align="center" width="800"}
 
-Provides information on how much antibiotic is distributed in tissues vs. plasma → important for antibiotic selection 
+Provides information on how much antibiotic is distributed in tissues vs. plasma → important for antibiotic selection
 
 e.g., doxycycline, tigecycline do not achieve peak concentrations in bloodstream that surpass the MIC of many pathogens
 
