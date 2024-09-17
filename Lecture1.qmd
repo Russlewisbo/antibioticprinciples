@@ -19,7 +19,6 @@ lightbox: true
 csl: diagnostic-microbiology-and-infectious-disease.csl
 revealjs-plugins:
   - pointer
-
 ---
 
 ## Lecture 1: Overview of Antibiotic Therapy: <br> General principles {background-video="/images/bacteria.mp4" background-video-loop="true" background-video-muted="true"}
@@ -391,7 +390,7 @@ digraph G {
 | **Cell wall**           |                         |                         |
 |                         | Penicillin V            |           60            |
 |                         | Amoxicillin             |          80-85          |
-|                         | Amoxicillin-Clavulanate |        80-85/64         |
+|                         | Amoxicillin-clavulanate |        80-85/64         |
 |                         | Flucloxacillin          |           60            |
 |                         | Pivmecillinam           |           75            |
 |                         | Cephalexin (1g)         |           90            |
@@ -418,6 +417,10 @@ digraph G {
 |                         | Nitrofurantoin          |          \>95           |
 |                         | Metronidazole           |          \>95           |
 
+::: aside
+Source: https://www.medicines.org.uk/
+:::
+
 ## Caveats to bioavailibility
 
 <br> <br>
@@ -443,7 +446,7 @@ digraph G {
 <br> <br>
 
 | **Timing with food**                    | **Antibiotic**                                                                                                                                                              |
-|-------------------|-----------------------------------------------------|
+|------------------|------------------------------------------------------|
 | “Empty Stomach” (1h before or 2h after) | Penicillin, <br> Flucloxacillin, <br> Azithromycin, <br> Fosfomycin                                                                                                         |
 | With food                               | Amoxicillin-clavulante (start of meal) <br>Erythromycin (Just before or with), <br>Metronidazole (During or after), <br>Nitrofurantoin                                      |
 | No recommendation                       | Amoxicillin, <br>Pivmecillinam, <br>Cephalexin, <br>Tetracyclines, <br>Clarithromycin, <br>Clindamycin, <br>Linezolid, <br>Co-trimoxazole, <br>Trimethoprim, <br>Quinolones |
@@ -521,7 +524,7 @@ $$
 Vd= volume of distribution, Dose=drug dose, Cp= drug concentration in plasma
 :::
 
-## Visualizing the Vd
+## Visualizing the Vd {.smaller}
 
 ::: columns
 ::: {.column width="50%"}
@@ -531,13 +534,7 @@ Vd= volume of distribution, Dose=drug dose, Cp= drug concentration in plasma
 :::
 
 ::: {.column width="50%"}
-<br> <br>
-
--   Plasma volume= 3L +
-
--   Extracellular water 16 L = \~20L (drug Vd approximated total body water)
-
--   46 L Vd= sequestered in depot (e.g., fat)
+<br> <br> ![](images/bodycomp.png){width="183"}
 :::
 :::
 
@@ -556,6 +553,56 @@ e.g., doxycycline, tigecycline do not achieve peak concentrations in bloodstream
 -   Volume of distribution is affected by the physicochemical properties of the drug
 
 -   Factors that favour low Vd: high water solubility, high protein binding, decreased tissue binding → converse is also true
+
+## Factors affecting volume of distribution
+
+<br>
+
+-   Ease of crossing phospholipid bilayers
+
+-   Interactions with lipid tissue (lipophilic = more distribution into fat)
+
+-   Interactions with protein
+
+## Examples of how drug factors affect Vd {.smaller}
+
+<br>
+
+**Lipophilic vs. hydrophilic**
+
+-   More lipophilic antibiotics diffuse out of plasma into tissue; they favour distribution to lipid-rich tissues
+
+-   If the drug has a net negative charge, it can still leave capillaries through endothelial fenestratations but further tissue penetration depends on:
+
+    -   Interstitial fluid pH
+
+    -   Drug pKa
+
+    -   Presence of OAT/OCT carriers
+
+**Plasma protein binding**
+
+There are several plasma protein that bind drugs with weak electrical polar bonds allowing
+
+-   Storage/transport of "bound" drug
+
+-   Quick release of the drug to become "free drug"
+
+-   Only free drug distributes out of plasma and has pharmacological effect
+
+## Factors affecting volume of distribution, cont.
+
+<br><br>
+
+-   **Tissue protein binding (e.g., muscle)**
+
+    -   This ‘drains’ the drug from plasma
+
+    -   This will in turn reduce amount of plasma free drug
+
+-   **Tissue binding sites**
+
+    -   Antibiotic example?
 
 ## Factors affecting Vd: Vascular perfusion {background-image="images/capillary.png" background-opacity="0.1"}
 
