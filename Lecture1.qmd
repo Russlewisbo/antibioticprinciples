@@ -14,6 +14,8 @@ format:
     multiplex: true
     chalkboard: true
     theme: [default, custom.scss]
+    filters:
+     - highlight-text
 bibliography: references.bib
 lightbox: true
 csl: diagnostic-microbiology-and-infectious-disease.csl
@@ -1105,7 +1107,7 @@ By 5-6 half-lives most of a drug will be eliminated without repeat dosing.
 :::
 :::
 
-## Pharmacology of antimicrobials
+## Pharmacology of antimicrobial therapy
 
 ```{dot}
 digraph G {
@@ -1198,10 +1200,7 @@ digraph G {
 
 ## Interpreting time-kill curves {.smaller}
 
-![](images/tkcurve2.png){fig-align="center" width="800"}
-
-::: aside
-[@craig_1998a]
+![](images/tkcurve2.png){fig-align="center" width="600"} <br> ::: aside [@craig_1998a]
 
 Common questions addressed:
 
@@ -1209,8 +1208,7 @@ Common questions addressed:
 
 -   What is the multiple of MIC where killing was maximized?
 
--   Did the antibiotic achieve bacteriostatic (2-log~10~) or bactericidal (3-log~10~) reductions in CFU?
-:::
+-   Did the antibiotic achieve bacteriostatic (2-log~10~) or bactericidal (3-log~10~) reductions in CFU? :::
 
 ## 
 
@@ -1230,7 +1228,7 @@ Common questions addressed:
 
 ![](images/integrate.png)
 
-## Common PK/PD indicis {.smaller}
+## Common PK/PD indices {.smaller}
 
 ![](images/pkpdindice.png){fig-align="center" width="900"}
 
@@ -1252,7 +1250,7 @@ AUC = Area under the concentration–time curve; MIC = Minimum Inhibitory Concen
 
 ## Limitations of animal models for PK/PD studies {.smaller}
 
-## In vitro hollow-fibre models {.smaller}
+## In vitro hollow-fiber models {.smaller}
 
 <br>
 
@@ -1279,6 +1277,8 @@ AUC = Area under the concentration–time curve; MIC = Minimum Inhibitory Concen
 ::: aside
 Image: Roger nation, Ph.D., Monash University, Melbourne, Austraila
 :::
+
+## 
 
 ## References
 
