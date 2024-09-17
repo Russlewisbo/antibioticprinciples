@@ -1,8 +1,10 @@
 ---
 format:
   revealjs:
+    spotlight: true
     touch: true
     controls: true
+    pointer: true
     center-title-slide: false
     transition: fade
     transition-speed: fast
@@ -12,11 +14,11 @@ format:
     multiplex: true
     chalkboard: true
     theme: [default, custom.scss]
-revealjs-plugins:
-  - spotlight
 bibliography: references.bib
 lightbox: true
 csl: diagnostic-microbiology-and-infectious-disease.csl
+revealjs-plugins:
+  - pointer
 
 ---
 
