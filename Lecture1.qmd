@@ -573,6 +573,10 @@ Vd= volume of distribution, Dose=drug dose, Cp= drug concentration in plasma
 :::
 :::
 
+:::.aside
+<https://idiots.notion.site/ID-IOTS-Episode-Notes-cf9b043fbb5a41309e15270f6079abf5>
+:::
+
 ## Clinical importance of Vd {.smaller}
 
 ![](images/vd_clinical.png){fig-align="center" width="800"}
