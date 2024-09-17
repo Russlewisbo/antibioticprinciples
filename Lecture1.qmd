@@ -12,11 +12,12 @@ format:
     multiplex: true
     chalkboard: true
     theme: [default, custom.scss]
+revealjs-plugins:
+  - spotlight
 bibliography: references.bib
 lightbox: true
 csl: diagnostic-microbiology-and-infectious-disease.csl
-revealjs-plugins:
-  - spotlight
+
 ---
 
 ## Lecture 1: Overview of Antibiotic Therapy: <br> General principles {background-video="/images/bacteria.mp4" background-video-loop="true" background-video-muted="true"}
