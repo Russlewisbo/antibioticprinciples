@@ -272,7 +272,7 @@ digraph G {
 
 ::: columns
 ::: {.column width="20%"}
-![](images/stickynote.jpeg.jpg)
+![](images/stickynote.jpeg.jpg){width="800"}
 :::
 
 ::: {.column width="80%"}
@@ -573,7 +573,7 @@ Vd= volume of distribution, Dose=drug dose, Cp= drug concentration in plasma
 :::
 :::
 
-:::.aside
+::: aside
 <https://idiots.notion.site/ID-IOTS-Episode-Notes-cf9b043fbb5a41309e15270f6079abf5>
 :::
 
@@ -609,9 +609,9 @@ e.g., doxycycline, tigecycline do not achieve peak concentrations in bloodstream
 
 **Lipophilic vs. hydrophilic**
 
--   More lipophilic antibiotics diffuse out of plasma into tissue; they favour distribution to lipid-rich tissues
+-   More lipophilic antibiotics diffuse faster out of plasma into tissue; they favour distribution to lipid-rich tissues
 
--   If the drug has a net negative charge, it can still leave capillaries through endothelial fenestratations but further tissue penetration depends on:
+-   If the drug has a net negative charge, it can still leave capillaries through endothelial fenestrations but further tissue penetration depends on:
 
     -   Interstitial fluid pH
 
@@ -905,7 +905,7 @@ Changes in clearance over time in the same patient: *intra* patient variability
 
 ## Example: Meropenem in septic patients
 
-![](images/meropenem_sepsis.png){fig-align="center"}
+![](images/meropenem_sepsis.png){fig-align="center" width="600"}
 
 ::: aside
 Typical meropenem Vd 15-20 L with clearance of 10-13 L/h
@@ -1204,7 +1204,9 @@ digraph G {
 
 ## Interpreting time-kill curves {.smaller}
 
-![](images/tkcurve2.png){fig-align="center" width="600"} <br> ::: aside [@craig_1998a]
+![](images/tkcurve2.png){fig-align="center" width="600"}
+
+<br> ::: aside [@craig_1998a]
 
 Common questions addressed:
 
@@ -1218,7 +1220,7 @@ Common questions addressed:
 
 ## Post antibiotic effect (PAE) {.smaller}
 
-![](images/PAE.png)
+![](images/PAE.png){width="800"}
 
 ::: aside
 [@craig_1998a]
@@ -1226,11 +1228,11 @@ Common questions addressed:
 
 ## How do you translate? {.smaller}
 
-![](images/translate.png)
+![](images/translate.png){width="800"}
 
 ## Integration of PK/PD concepts
 
-![](images/integrate.png)
+![](images/integrate.png){width="800"}
 
 ## Common PK/PD indices {.smaller}
 
@@ -1247,6 +1249,22 @@ AUC = Area under the concentration–time curve; MIC = Minimum Inhibitory Concen
 ## Dose fractionization study-interpretation {.smaller}
 
 ![](images/fraction_interpret.png)
+
+## Example of dose fractionization study results
+
+![](images/df1.png){fig-align="center"}
+
+## Ciprofloxacin example
+
+::: columns
+::: {.column width="50%"}
+![](images/df_tk.png){width="600"}
+:::
+
+::: {.column width="50%"}
+![](images/df1.png)
+:::
+:::
 
 ## Pharmacodynamic parameters predictive in animals and humans {.smaller}
 
