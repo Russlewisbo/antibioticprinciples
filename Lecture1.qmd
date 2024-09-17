@@ -13,7 +13,10 @@ format:
     chalkboard: true
     theme: [default, custom.scss]
 bibliography: references.bib
+lightbox: true
 csl: diagnostic-microbiology-and-infectious-disease.csl
+revealjs-plugins:
+  - spotlight
 ---
 
 ## Lecture 1: Overview of Antibiotic Therapy: <br> General principles {background-video="/images/bacteria.mp4" background-video-loop="true" background-video-muted="true"}
@@ -163,7 +166,19 @@ digraph G {
 
 ## Antibiotic pharmacokinetics are described by concentration-time curves in serum {.smaller}
 
-![](images/pk%20principles.png){fig-align="center"}
+![](images/pk%20principles.png){fig-align="center" width="800"}
+
+## Oral is the new IV...
+
+<br>
+
+![](images/orlaiv.png){fig-align="center"}
+
+<br>
+
+::: aside
+[@wald-dickler2022]
+:::
 
 ## Definitions: Absorption-Bioavailibility {.smaller}
 
@@ -181,18 +196,6 @@ digraph G {
     -   The optimal route to achieve the therapeutic concentration
     -   The amount of drug that needs to be given orally
 
-## Oral is the new IV
-
-<br>
-
-![](images/orlaiv.png){fig-align="center"}
-
-<br>
-
-::: aside
-[@wald-dickler2022]
-:::
-
 ## Oral absorption in the GI tract {.smaller}
 
 <br>
@@ -200,11 +203,11 @@ digraph G {
 <br>
 
 ::: columns
-::: {.column width="30%"}
-![](images/GI-Tract.png){width="500"}
+::: {.column width="20%"}
+![](images/GI-Tract.png){width="300"}
 :::
 
-::: {.column width="70%"}
+::: {.column width="80%"}
 -   **Stomach:** Little absorption takes place for most drugs here (thick gastric mucous layer prevents significant drug absorption)
 -   **Small intestine:** Transit time 4-6h; 6-7 m long x 2.5cm internal diameter
     -   It has a larger surface area (30-35m^2^) than the stomach (\~1m^2^), due to:
@@ -329,9 +332,7 @@ digraph G {
 ::: {.column width="50%"}
 <br> <br> - **Primary AT:** Mostly efflux of drugs from cells/specific body compartments
 
-```         
 -   More important in limiting drug uptake
-```
 
 -   **Secondary AT**: This is how ionised drugs are absorbed
 
@@ -369,22 +370,20 @@ digraph G {
 
 <br>
 
-<br>
-
 | **Oral**      | **IV**                   |
 |---------------|--------------------------|
 | Acid-stable   | Acid-labile              |
-| Soluble       | Low solubility           |
+| Soluble       | Lower solubility         |
 | Lipid soluble | Lipophobic (hydrophilic) |
 
 ::: aside
 [@macgregor1997]
 :::
 
-## Bioavailibility examples {.smaller}
+## Bioavailability examples {.smaller}
 
 |                         |                         |                         |
-|:------------------------|:------------------------|:-----------------------:|
+|:-----------------------|:-----------------------|:----------------------:|
 | **Mechanism of Action** | **Antimicrobial**       | **Bioavailability (%)** |
 | **Cell wall**           |                         |                         |
 |                         | Penicillin V            |           60            |
@@ -416,13 +415,15 @@ digraph G {
 |                         | Nitrofurantoin          |          \>95           |
 |                         | Metronidazole           |          \>95           |
 
-## Caveats to bioavailibility {.smaller}
+## Caveats to bioavailibility
 
 <br> <br>
 
--   Amoxicillin: Absorption is saturable near 750mg-higher doses are unlikely to be absorbed
+-   Amoxicillin: Absorption is saturable near 750mg
 
--   Cefalexin: Maximum amount absorbed is \~4g/d
+    -   higher doses are unlikely to be absorbed
+
+-   Cephalexin: Maximum amount absorbed is \~4g/d
 
 -   Macrolides: Not well-absorbed, but concentrate intracellularly
 
@@ -434,12 +435,12 @@ digraph G {
 [@huttner2020]
 :::
 
-## Effects of food {.smaller}
+## Co-administration with food {.smaller}
 
 <br> <br>
 
 | **Timing with food**                    | **Antibiotic**                                                                                                                                                              |
-|-----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|-------------------|-----------------------------------------------------|
 | “Empty Stomach” (1h before or 2h after) | Penicillin, <br> Flucloxacillin, <br> Azithromycin, <br> Fosfomycin                                                                                                         |
 | With food                               | Amoxicillin-clavulante (start of meal) <br>Erythromycin (Just before or with), <br>Metronidazole (During or after), <br>Nitrofurantoin                                      |
 | No recommendation                       | Amoxicillin, <br>Pivmecillinam, <br>Cephalexin, <br>Tetracyclines, <br>Clarithromycin, <br>Clindamycin, <br>Linezolid, <br>Co-trimoxazole, <br>Trimethoprim, <br>Quinolones |
@@ -480,8 +481,8 @@ digraph G {
  
   start [shape=Box, label="Dosing regimen"];
   dosing [shape=rectangle, style=filled,color=white, label="Conc. vs. \n time in serum", xlabel=" \n    \n  \nAbsorption \nDistribution \nMetabolism \nElimination"];
-  tissue [shape=rectangle, style=filled,color=white, label="Conc. vs. \n time in tissue"];
-  infection [shape=rectangle, style=filled, color=white, label="Conc. vs. \n time at site of \n infection"];
+  tissue [shape=rectangle, style=filled,color=yellow, label="Conc. vs. \n time in tissue"];
+  infection [shape=rectangle, style=filled, color=yellow, label="Conc. vs. \n time at site of \n infection"];
   PD1 [shape=rectangle, label="Pharmacological or  \n toxicological effect"]; 
   PD2 [shape=rectangle, label="Antimicrobal effect \n vs. time"];
 }
@@ -494,18 +495,18 @@ digraph G {
 <br>
 
 ::: columns
-::: {.column width="50%"}
+::: {.column width="30%"}
 ![](images/beaker.png){fig-align="center" width="300"}
 :::
 
-::: {.column width="50%"}
+::: {.column width="70%"}
 -   The volume which appears to hold the drug if it was present in the body at the same concentration found in plasma
 
     -   It is estimated, not directly measured
 
 -   Reported in litres (L) or litres per kilogram (L/kg)
 
-Average plasma volume in adults is approximately 3L
+-   Average plasma volume in adults is approximately 3L
 
 $$
 Vd=Dose/Cp
@@ -517,25 +518,33 @@ $$
 Vd= volume of distribution, Dose=drug dose, Cp= drug concentration in plasma
 :::
 
-<br>
+## Visualizing the Vd
 
 ::: columns
 ::: {.column width="50%"}
-![](images/vd.png){width="600"}
+<br> <br>
+
+![](images/vd.png)
 :::
 
 ::: {.column width="50%"}
-<br>
+<br> <br>
 
-<br>
+-   Plasma volume= 3L +
 
-Plasma volume= 3L +
+-   Extracellular water 16 L = \~20L (drug Vd approximated total body water)
 
-Extracellular water 16 L = \~20L (drug Vd approximated total body water)
-
-46 L Vd= sequestered in depot (e.g., fat)
+-   46 L Vd= sequestered in depot (e.g., fat)
 :::
 :::
+
+## Clinical importance of Vd {.smaller}
+
+![](images/vd_clinical.png){fig-align="center" width="800"}
+
+Provides information on how much antibiotic is distributed in tissues vs. plasma → important for antibiotic selection
+
+e.g., doxycycline, tigecycline do not achieve peak concentrations in bloodstream that surpass the MIC of many pathogens
 
 ## Factors affecting Vd: Drug characteristics {.smaller}
 
@@ -543,19 +552,9 @@ Extracellular water 16 L = \~20L (drug Vd approximated total body water)
 
 -   Volume of distribution is affected by the physicochemical properties of the drug
 
--   Factors that favor low Vd: high water solubility, high protein binding, decreased tissue binding → converse is also true
+-   Factors that favour low Vd: high water solubility, high protein binding, decreased tissue binding → converse is also true
 
-## Clinical utility of Vd
-
-![](images/vd_clinical.png){fig-align="center" width="800"}
-
-::: aside
-Provides information on how much antibiotic is distributed in tissues vs. plasma → some clinical relevance
-
-e.g., doxycycline, tigecycline do not achieve peak concentrations in bloodstream that surpass the MIC of many pathogens
-:::
-
-## Factors affecting Vd: Vascular perfusion {background-image="images/capillary.png" background-opacity="0.2"}
+## Factors affecting Vd: Vascular perfusion {background-image="images/capillary.png" background-opacity="0.1"}
 
 <br> <br>
 
@@ -579,21 +578,21 @@ Release of inflammatory mediators causes damage to the vascular endothelium, r
 
 ## Factors affecting Vd: <br>Body size and chronic diseases {.smaller}
 
-![](images/vd2.png){fig-align="center"}
+![](images/vd2.png){fig-align="center" width="800"}
 
-## Anatomically privileged sites-1
+## Anatomically privileged sites-1 {.smaller}
 
 <br>
 
 ![](images/antomic_priv1.png){fig-align="center"}
 
-## Anatomically privileged sites-2
+## Anatomically privileged sites-2 {.smaller}
 
 <br>
 
 ![](images/anatomic_privlidge2.png){fig-align="center" width="800"}
 
-## Ventilator-associated pneumonia
+## Ventilator-associated pneumonia {.smaller}
 
 <br>
 
@@ -603,7 +602,7 @@ Release of inflammatory mediators causes damage to the vascular endothelium, r
 [@lodise2011]
 :::
 
-## How is the drug metabolised, concentrated <br>or excreted?
+## How is the drug metabolised, <br> concentrated, or excreted? {.smaller}
 
 ![](images/excreted.png){fig-align="center"}
 
@@ -619,7 +618,7 @@ Release of inflammatory mediators causes damage to the vascular endothelium, r
 
 <br>
 
--   Drug elimination from the body
+-   **Drug elimination from the body**
 
     -   Described by volume of blood removed of drug unit per time
 
@@ -692,7 +691,6 @@ Typical meropenem Vd 15-20 L with clearance of 10-13 L/h
 -   What is *k*~el~?
 
     -   Rate of drug removed per unit of time
-
     -   Calculated parameter: Unit of measure: reciprocal time (hr^-1^)
 :::
 :::
@@ -737,7 +735,7 @@ $$
 
 -   Can simplistically be interpreted as average dur exposure over a dosing interval:
 
-    -   e.g., An AUC~0-24h~ of 48 mg∙h/L for a dosing regimen administered every 24 hours would represent an average concentration over the 24 hour dosing interval of 2 mg/L (48 mg∙h/L divided by 24 hr=2 mg∙L average over 24 hours.
+    -   e.g., an AUC~0-24h~ of 48 mg∙h/L for a dosing regimen administered every 24 hours would represent an average concentration over the 24 hour dosing interval of 2 mg/L (48 mg∙h/L divided by 24 hr=2 mg∙L average over 24 hours).
 :::
 :::
 
@@ -804,7 +802,80 @@ digraph G {
 [@drusano2004]
 :::
 
-## How does PD analysis differ from susceptibility testing?
+## How does PD differ from MICs? {.smaller}
+
+::: columns ::: {.column width="50%"} ![](images/MICs.png)
+
+-   Good indicators of potency
+-   Tell us nothing about time course of antibiotic activity
+-   Nothing about dose-response relationship :::
+
+::: {.column width="50%"} ![](images/PD.png){width="800"}
+
+<br> <br> <br>
+
+-   How does the rate and extent of bacterial killing by an antibiotic change at concentrations near and above the MIC?
+-   The shape of the curve affects drug dosing strategies
+
+## How to define concentration-time-kill effect curves {.smaller}
+
+![](images/tkcurve1.png){fig-align="center"}
+
+## Interpreting time-kill curves {.smaller}
+
+![](images/tkcurve2.png){fig-align="center"}
+
+-   Did the rate and extent of killing increase at higher MIC multiples?
+
+-   What is the multiple of MIC where killing was maximized?
+
+-   Did the antibiotic achieve bacteriostatic (2-log~10~) or bactericidal (3-log~10~) reductions in CFU?
+
+::: aside
+[@craig_1998a]
+:::
+
+## Post antibiotic effect (PAE) {.smaller}
+
+![](images/PAE.png)
+
+::: aside
+[@craig_1998a]
+:::
+
+## How do you translate? {.smaller}
+
+![](images/translate.png)
+
+## Integration
+
+![](images/integrate.png)
+
+## Common PK/PD indicis {.smaller}
+
+![](images/pkpdindice.png){fig-align="center" width="900"}
+
+::: aside
+AUC = Area under the concentration–time curve; MIC = Minimum Inhibitory Concentration; Cmax = Maximum or peak plasma concentration; Cmin = Minimum or trough plasma concentration
+:::
+
+## Dose fractionization study {.smaller}
+
+![](images/fraction.png)
+
+## Dose fractionization study-interpretation {.smaller}
+
+![](images/fraction_interpret.png)
+
+## Pharmacodynamic parameters predictive in animals and humans
+
+## Advantages of animal models for PK/PD studies
+
+## Limitations of animal models for PK/PD studies
+
+## In vitro hollow-fibre models
+
+## In vitro hollow-fibre models
 
 ## References
 
