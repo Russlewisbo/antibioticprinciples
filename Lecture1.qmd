@@ -481,7 +481,7 @@ Source: https://www.medicines.org.uk/
 +=========================================+=============================================================================================================================================================================+
 | “Empty Stomach” (1h before or 2h after) | Penicillin, <br> Flucloxacillin, <br> Azithromycin, <br> Fosfomycin                                                                                                         |
 +-----------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| With food                               | Amoxicillin-clavulante (start of meal) <br>Erythromycin (Just before or with), <br>Metronidazole (During or after), <br>Nitrofurantoin                                      |
+| With food                               | Amoxicillin-clavulanate (start of meal) <br>Erythromycin (just before or with), <br>Metronidazole (during or after), <br>Nitrofurantoin                                     |
 +-----------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | No recommendation                       | Amoxicillin, <br>Pivmecillinam, <br>Cephalexin, <br>Tetracyclines, <br>Clarithromycin, <br>Clindamycin, <br>Linezolid, <br>Co-trimoxazole, <br>Trimethoprim, <br>Quinolones |
 +-----------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -1119,6 +1119,7 @@ Most of a drug will be eliminated without repeat dosing by 5-6 half-lives
 <br> <br>
 
 -   Well established dosing adjustments for chronic renal insufficiency, based on estimated renal function (Cockcroft-Gault, MDRD etc...)
+-   However, accuracy of these equations are limited in severely ill, high-low body mass, prolonged hospitalization
 
 $$
 CrCl\text{ estimated}=\left(\frac{\left(140-age  \right)\ast \left( Weight, kg \right)}{72\ast SeCr} \right)\ast 0.85 \text{ if female}
@@ -1138,11 +1139,35 @@ $$
 
 -   Decreases in SeCr are delayed with respect to injury resolution
 
--    Renal dose reduction in the first 48 hours of therapy may unnecessarily result in underdosing of antibiotics, especially for safe antibiotics
+-   Renal dose reduction in the first 48 hours of therapy may unnecessarily result in underdosing of antibiotics, especially for safe antibiotics
 
 ::: aside
 [@crass2019]
 :::
+
+## Augmented renal clearance {.smaller}
+
+::: columns
+::: {.column width="30%"}
+![](images/kidney-1.svg){width="200"}
+:::
+
+::: {.column width="70%"}
+<br> <br>
+
+-   Common causes: “hyperdynamic state” with Gram-negative sepsis, vasoactive medications to support blood pressure large-volume fluid resuscitation
+
+-   Most common populations with augmented clearance:
+
+    -   Younger patients (i.e. trauma)
+
+    -   Severe burn patients pregnant patients septic patients without renal dysfunction
+
+-   **Combined with increased Vd, often leads to inadequate antibiotic exposures**
+:::
+:::
+
+<br>
 
 ## Pharmacology of antimicrobial therapy
 
@@ -1189,7 +1214,7 @@ digraph G {
 
 ```
 
-## Laws of antimicrobial pharmacodynamics
+## Laws of antimicrobial pharmacodynamics {background-image="images/pd.jpg" background-opacity="0.1"}
 
 <br>
 
@@ -1365,7 +1390,7 @@ Image: Roger nation, Ph.D., Monash University, Melbourne, Austraila
 ## 
 :::
 
-## Laws of pharmacodynamics
+## Laws of pharmacodynamics{background-image="images/capillary.png" background-opacity="0.1"}
 
 <br>
 
