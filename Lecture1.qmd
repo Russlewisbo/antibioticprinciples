@@ -649,7 +649,7 @@ There are several plasma protein that bind drugs with weak electrical polar bond
 
 -   **Drugs diffuse from capillary beds—\> interstitial —\> intracellular space**
 
--   **More vascular (e.g., heart, lung, kidney) = more drug delivered to them than others (e.g. skin, bone, fat)**
+-   **More vascular tissue (e.g., heart, lung, kidney) have greater drug delivery vs. skin, bone, fat**
 
 -   **Capillary leakiness:**
 
@@ -705,15 +705,17 @@ Release of inflammatory mediators causes damage to the vascular endothelium, r
 
 ## Antibiotic Elimination
 
+<br> <br>
+
 -   Definition: Processes that irreversibly remove a drug from the body
 
--   The ‘Drug out’ part of pharmacokinetics.
+-   The "drug out" part of pharmacokinetics
 
--   Metabolism of the drug determines how the drug is excreted.
+-   Metabolism of the drug determines how the drug is excreted
 
-    -   Not all drugs are metabolised before excretion (’excreted unchanged’).
+    -   Not all drugs are metabolised before excretion (excreted unchanged)
 
--   Elimination starts as soon as drug first enters the liver. It is an ongoing process that does not ‘wait’ until the drug has finished distributing equally throughout the body
+-   Elimination starts as soon as drug first enters the liver; it is an ongoing process that does not ‘wait’ until the drug has finished distributing equally throughout the body
 
 ## Metabolism {.smaller}
 
@@ -747,9 +749,9 @@ Release of inflammatory mediators causes damage to the vascular endothelium, r
 |              |                                                      | -   Methyl (Methylation)                  |
 +--------------+------------------------------------------------------+-------------------------------------------+
 
-## Metabolism {.smaller}
+## Metabolism
 
-<br>
+<br><br>
 
 -   These reactions enhance the drug’s ionic charge, which makes them easier to excrete
 
@@ -757,7 +759,7 @@ Release of inflammatory mediators causes damage to the vascular endothelium, r
 
 -   The main sites of metabolism are liver, kidneys & lung, but these enzymes are present at various levels in most tissues
 
--   Note that not all drugs undergo both phases: e.g. some drugs undergo Phase II directly, depending if they already possess -OH, -NH or COOH groups
+-   Not all drugs undergo both phases: e.g., some drugs undergo Phase II directly, depending if they already possess -OH, -NH or COOH groups
 
 ## Phase I: Cytochrome P450 Enzymes {.smaller}
 
@@ -775,17 +777,21 @@ Release of inflammatory mediators causes damage to the vascular endothelium, r
 
     ![](images/cyp.png){fig-align="center" width="600"}
 
-### Speed vs Generalism {.smaller}
+## CYP Speed vs Generalism
 
 <br> <br>
 
--   CYP enzymes are "generalists": Each isoenzyme has a wide array of drug ‘targets’ ( drugs are metabolised by several different enzymes)
+-   CYP enzymes are "generalists"
+
+    -   Each isoenzyme has a wide array of drug ‘targets’ ( drugs are metabolised by several different enzymes)
 
 -   This "generalisability" comes at the expense of speed; compared to one specialised enzyme that could break down one specific molecule, CYP enzymes are much slower
 
 -   This versatility contributes to the variation in elimination half-lives seen for drugs
 
 ## Factors Affecting CYP enzyme activity
+
+<br> <br>
 
 +--------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | **Factor**         | **Explanation**                                                                                                                                             |
@@ -805,39 +811,36 @@ Release of inflammatory mediators causes damage to the vascular endothelium, r
 
 <br> <br>
 
--   Certain drugs can affect expression of CYPs through:
+-   **Certain drugs can affect expression of CYPs through:**
 
     -   Induction (Increased transcription/translation, or slower degradation)
 
     -   Inhibition (Increased degradation)
 
--   This will lead to increased/decreased metabolism of the CYP enzyme’s substrate drugs, respectively
+    -   This will lead to increased/decreased metabolism of the CYP enzyme’s substrate drugs, respectively
 
-### CYP Enzyme inducers
+-   **CYP Enzyme inducers**
 
--   200 drugs known to be inducers
+    -   200 drugs known to be inducers
 
--   Induction takes 1-2 weeks on average
+    -   Induction takes 1-2 weeks on average
 
-    -   NB: Rifampicin induction starts within 24h, and has full induction (of CYP3A4) at 72h
+        -   NB: Rifampicin induction starts within 24h, and has full induction (of CYP3A4) at 72h
+        -   E.g. PC BRAS drugs: **P**henytoin, **C**arbamazepine, **B**arbiturates, **R**ifampicin, **A**lcohol (Chronic use), **S**ulfonylureas
 
--   E.g. PC BRAS drugs: **P**henytoin, **C**arbamazepine, **B**arbiturates, **R**ifampicin, **A**lcohol (Chronic use), **S**ulfonylureas
+-   **CYP Enzyme inhibitors**
 
-## CYP Enzyme inhibitors
+    -   These tend to increase the plasma level of substrate drugs due to decreased degradation by CYPs
 
-<br> <br>
+    -   Occurs much more quickly (\~1-3 days)
 
--   These tend to increase the plasma level of substrate drugs due to decreased degradation by CYPs
-
--   Occurs much more quickly (\~1-3 days)
-
-NB: Clinically important inhibitors ‘missed’ by this mnemonic include Amiodarone, SSRIs & Grapefruit juice
+    -   NB: Clinically important inhibitors ‘missed’ by this mnemonic include Amiodarone, SSRIs & Grapefruit juice
 
 ## Excretion {.smaller}
 
 <br> <br>
 
--   Drug metabolism has 3 outcomes:
+-   **Drug metabolism has 3 outcomes:**
 
     -   Drug is metabolised to inactive metabolite
 
@@ -845,7 +848,7 @@ NB: Clinically important inhibitors ‘missed’ by this mnemonic include Amioda
 
     -   ‘Prodrug’ is metabolised to active form (e.g. Codeine to Morphine)
 
--   Regardless of what outcome occurs, the drug is ionised, making excretion easier.
+-   Regardless of what outcome occurs, the drug is ionised, making excretion easier
 
 -   Main sites of excretion:
 
@@ -863,19 +866,19 @@ NB: Clinically important inhibitors ‘missed’ by this mnemonic include Amioda
 
 **Occurs in 3 stages**
 
--   Glomerular Filtration
+-   **Glomerular filtration**
 
     -   \~20% Renal blood flow serves the glomerulus
 
     -   Free drug & metabolites passively diffuse across into Bowman’s capsule.
 
--   Proximal Tubular Secretion
+-   **Proximal tubular secretion**
 
     -   \~80% Renal blood flow serves the rest of the nephron
 
     -   OAT and OACTs actively transport polar molecules into urine
 
--   Distal Tubular Reabsorption
+-   **Distal tubular reabsorption**
 
     -   As water is reabsorbed along the tubule, urine drug/metabolite concentration increases
 
@@ -891,7 +894,7 @@ NB: Clinically important inhibitors ‘missed’ by this mnemonic include Amioda
 
     -   For example: If drug A as a clearance of 39 L/h or 650 ml/min, then every minute, the equivalent of 0.65L of the Vd can be "cleansed" of drug A
 
-    -   Unit of measure ml/min or L/hr
+    -   Unit of measure mL/min or L/hr
 
     -   Clearance is affected by
 
@@ -931,9 +934,9 @@ Typical meropenem Vd 15-20 L with clearance of 10-13 L/h
 
 <br>
 
--   **Vd is useful fo calculating the loading dose of a drug**
+-   **Vd is useful fo calculating the [loading dose]{.underline} of a drug**
 
--   **CL is useful for calculating the maintenance dose of a drug**
+-   **CL is useful for calculating the [maintenance dose]{.underline} of a drug**
 
     -   CL is not used to calculate the loading dose (or initial dose) because it is not affected by the volume of distribution
 
@@ -1109,6 +1112,36 @@ Most of a drug will be eliminated without repeat dosing by 5-6 half-lives
 
     -   e.g., an AUC~0-24h~ of 48 mg∙h/L for a dosing regimen administered every 24 hours would represent an average concentration over the 24 hour dosing interval of 2 mg/L (48 mg∙h/L divided by 24 hr=2 mg∙L average over 24 hours).
 :::
+:::
+
+## Renal impairment
+
+<br> <br>
+
+-   Well established dosing adjustments for chronic renal insufficiency, based on estimated renal function (Cockcroft-Gault, MDRD etc...)
+
+$$
+CrCl\text{ estimated}=\left(\frac{\left(140-age  \right)\ast \left( Weight, kg \right)}{72\ast SeCr} \right)\ast 0.85 \text{ if female}
+$$
+
+-   Drug specific guidance for patient on dialysis
+
+## Be careful about prematurely reducing <br> antibiotic doses based on serum creatinine
+
+<br>
+
+-   Antibiotic renal dose adjustments in drug labels are based on patients with [chronic kidney disease]{.underline}
+
+-   Renal impairment is [acute, not chronic, in up to 50% of patients with infection]{.underline} and frequently [resolves within the first 48 hours]{.underline}
+
+-   Creatine-based equations for estimates of CrCl are based on steady-state conditions, and not as accurate in acute kidney injury
+
+-   Decreases in SeCr are delayed with respect to injury resolution
+
+-    Renal dose reduction in the first 48 hours of therapy may unnecessarily result in underdosing of antibiotics, especially for safe antibiotics
+
+::: aside
+[@crass2019]
 :::
 
 ## Pharmacology of antimicrobial therapy
