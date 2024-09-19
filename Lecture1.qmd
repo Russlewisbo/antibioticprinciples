@@ -969,16 +969,16 @@ $$
 
 -   Time it takes for plasma concentration or amount in body to be reduced by 50%
 
--   A calculated parameter
+-   It is a calculated parameter
 
     -   Function of clearance and volume of distribution
 
         -   Unit of measure = time (hours, minutes, days)
 
 $$
-t_{1/2} = 0.693/k_{el}
+t_{½}= \frac{0.693}{k_{el}}
 $$ $$
-t_{1/2} = 0.693 \times Vd/CL
+t_{½}= \frac{0.693\ast Vd}{Cl}
 $$
 
 ## Half-life examples
@@ -1139,13 +1139,13 @@ $$
 
 -   Decreases in SeCr are delayed with respect to injury resolution
 
--   Renal dose reduction in the first 48 hours of therapy may unnecessarily result in underdosing of antibiotics, especially for safe antibiotics
+-   Renal dose reduction in the first 48 hours of therapy may unnecessarily result in underdosing of antibiotics
 
 ::: aside
 [@crass2019]
 :::
 
-## Augmented renal clearance {.smaller}
+## Augmented renal clearance
 
 ::: columns
 ::: {.column width="30%"}
@@ -1390,7 +1390,7 @@ Image: Roger nation, Ph.D., Monash University, Melbourne, Austraila
 ## 
 :::
 
-## Laws of pharmacodynamics{background-image="images/capillary.png" background-opacity="0.1"}
+## Laws of pharmacodynamics {background-image="images/capillary.png" background-opacity="0.1"}
 
 <br>
 
