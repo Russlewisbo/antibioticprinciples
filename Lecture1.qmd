@@ -23,15 +23,15 @@ revealjs-plugins:
   - pointer
 ---
 
-## Lecture 1: Overview of Antibiotic Therapy: <br> General principles {background-video="/images/bacteria.mp4" background-video-loop="true" background-video-muted="true"}
+## Lecture 1: Principles of antibiotic therapy {background-image="images/bacteria.jpg" background-opacity="0.4"}
 
-<br> <br> <br> <br>
+<br> <br> <br>
 
 **Russell E. Lewis** <br> Associate Professor of Infectious Diseases <br> Department of Molecular Medicine <br> University of Padua
 
-<br> {{< fa solid envelope size=1x >}} russelledward.lewis\@unipd.it <br> {{< fa brands github size=1x >}} [https://github.com/Russlewisbo](https://github.com/Russlewisbo/ESCMID_2022_talk)
+![](unipd.png){.absolute top="550" left="150" width="100" height="100"}
 
-![](University_of_Padua_seal.svg){.absolute top="550" left="150" width="150" height="100"}
+<br> {{< fa solid envelope size=1x >}} russelledward.lewis\@unipd.it <br> {{< fa brands github size=1x >}} [https://github.com/Russlewisbo](https://github.com/Russlewisbo/ESCMID_2022_talk)
 
 ## Agenda
 
@@ -171,18 +171,6 @@ digraph G {
 ## Antibiotic pharmacokinetics are described by concentration-time curves in serum {.smaller}
 
 ![](images/pk%20principles.png){fig-align="center" width="800"}
-
-## Oral is the new IV...
-
-<br>
-
-![](images/orlaiv.png){fig-align="center"}
-
-<br>
-
-::: aside
-[@wald-dickler2022]
-:::
 
 ## Definitions: Absorption-Bioavailibility {.smaller}
 
@@ -386,67 +374,38 @@ digraph G {
 
 ## Bioavailability examples {.smaller}
 
-+:------------------------+:------------------------+:-----------------------:+
+|                         |                         |                         |
+|:------------------------|:------------------------|:-----------------------:|
 | **Mechanism of Action** | **Antimicrobial**       | **Bioavailability (%)** |
-+-------------------------+-------------------------+-------------------------+
 | **Cell wall**           |                         |                         |
-+-------------------------+-------------------------+-------------------------+
-|                         | Penicillin V            | 60                      |
-+-------------------------+-------------------------+-------------------------+
-|                         | Amoxicillin             | 80-85                   |
-+-------------------------+-------------------------+-------------------------+
-|                         | Amoxicillin-clavulanate | 80-85/64                |
-+-------------------------+-------------------------+-------------------------+
-|                         | Flucloxacillin          | 60                      |
-+-------------------------+-------------------------+-------------------------+
-|                         | Pivmecillinam           | 75                      |
-+-------------------------+-------------------------+-------------------------+
-|                         | Cephalexin (1g)         | 90                      |
-+-------------------------+-------------------------+-------------------------+
-|                         | Cefuroxime axetil (2g)  | 40                      |
-+-------------------------+-------------------------+-------------------------+
-|                         | Cefexime (3g)           | 40                      |
-+-------------------------+-------------------------+-------------------------+
+|                         | Penicillin V            |           60            |
+|                         | Amoxicillin             |          80-85          |
+|                         | Amoxicillin-clavulanate |        80-85/64         |
+|                         | Flucloxacillin          |           60            |
+|                         | Pivmecillinam           |           75            |
+|                         | Cephalexin (1g)         |           90            |
+|                         | Cefuroxime axetil (2g)  |           40            |
+|                         | Cefexime (3g)           |           40            |
 | **Protein synthesis**   |                         |                         |
-+-------------------------+-------------------------+-------------------------+
-|                         | Tetracycline            | \>90                    |
-+-------------------------+-------------------------+-------------------------+
-|                         | Doxycycline             | 80-90                   |
-+-------------------------+-------------------------+-------------------------+
-|                         | Chloramphenicol         | 85                      |
-+-------------------------+-------------------------+-------------------------+
-|                         | Erythromycin            | 20-25                   |
-+-------------------------+-------------------------+-------------------------+
-|                         | Clarithromycin          | 55                      |
-+-------------------------+-------------------------+-------------------------+
-|                         | Azithromycin            | 37                      |
-+-------------------------+-------------------------+-------------------------+
-|                         | Clindamycin             | 90                      |
-+-------------------------+-------------------------+-------------------------+
-|                         | Minocycline             | 95                      |
-+-------------------------+-------------------------+-------------------------+
-|                         | Linezolid               | 100                     |
-+-------------------------+-------------------------+-------------------------+
+|                         | Tetracycline            |          \>90           |
+|                         | Doxycycline             |          80-90          |
+|                         | Chloramphenicol         |           85            |
+|                         | Erythromycin            |          20-25          |
+|                         | Clarithromycin          |           55            |
+|                         | Azithromycin            |           37            |
+|                         | Clindamycin             |           90            |
+|                         | Minocycline             |           95            |
+|                         | Linezolid               |           100           |
 | **DNA Synthesis**       |                         |                         |
-+-------------------------+-------------------------+-------------------------+
-|                         | Ciprofloxacin           | 70                      |
-+-------------------------+-------------------------+-------------------------+
-|                         | Levofloxacin            | 100                     |
-+-------------------------+-------------------------+-------------------------+
-|                         | Moxifloxacin            | 90                      |
-+-------------------------+-------------------------+-------------------------+
-|                         | Trimethoprim            | \>90                    |
-+-------------------------+-------------------------+-------------------------+
-|                         | Sulfamethoxazole        | \>90                    |
-+-------------------------+-------------------------+-------------------------+
+|                         | Ciprofloxacin           |           70            |
+|                         | Levofloxacin            |           100           |
+|                         | Moxifloxacin            |           90            |
+|                         | Trimethoprim            |          \>90           |
+|                         | Sulfamethoxazole        |          \>90           |
 | **Misc.**               |                         |                         |
-+-------------------------+-------------------------+-------------------------+
-|                         | Fosfomycin              | 33-44                   |
-+-------------------------+-------------------------+-------------------------+
-|                         | Nitrofurantoin          | \>95                    |
-+-------------------------+-------------------------+-------------------------+
-|                         | Metronidazole           | \>95                    |
-+-------------------------+-------------------------+-------------------------+
+|                         | Fosfomycin              |          33-44          |
+|                         | Nitrofurantoin          |          \>95           |
+|                         | Metronidazole           |          \>95           |
 
 ::: aside
 Source: https://www.medicines.org.uk/
@@ -476,15 +435,11 @@ Source: https://www.medicines.org.uk/
 
 <br> <br>
 
-+-----------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | **Timing with food**                    | **Antibiotic**                                                                                                                                                              |
-+=========================================+=============================================================================================================================================================================+
+|-----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | “Empty Stomach” (1h before or 2h after) | Penicillin, <br> Flucloxacillin, <br> Azithromycin, <br> Fosfomycin                                                                                                         |
-+-----------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| With food                               | Amoxicillin-clavulante (start of meal) <br>Erythromycin (Just before or with), <br>Metronidazole (During or after), <br>Nitrofurantoin                                      |
-+-----------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| With food                               | Amoxicillin-clavulanate (start of meal) <br>Erythromycin (just before or with), <br>Metronidazole (during or after), <br>Nitrofurantoin                                     |
 | No recommendation                       | Amoxicillin, <br>Pivmecillinam, <br>Cephalexin, <br>Tetracyclines, <br>Clarithromycin, <br>Clindamycin, <br>Linezolid, <br>Co-trimoxazole, <br>Trimethoprim, <br>Quinolones |
-+-----------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 ## Pharmacology of antimicrobials {.smaller}
 
@@ -649,7 +604,7 @@ There are several plasma protein that bind drugs with weak electrical polar bond
 
 -   **Drugs diffuse from capillary beds—\> interstitial —\> intracellular space**
 
--   **More vascular (e.g., heart, lung, kidney) = more drug delivered to them than others (e.g. skin, bone, fat)**
+-   **More vascular tissue (e.g., heart, lung, kidney) have greater drug delivery vs. skin, bone, fat**
 
 -   **Capillary leakiness:**
 
@@ -667,7 +622,7 @@ Release of inflammatory mediators causes damage to the vascular endothelium, r
 
 ## Factors affecting Vd: <br>Body size and chronic diseases {.smaller}
 
-![](images/vd2.png){fig-align="center" width="800"}
+![](images/vd2.png){fig-align="center" width="600"}
 
 ## Anatomically privileged sites-1 {.smaller}
 
@@ -679,7 +634,7 @@ Release of inflammatory mediators causes damage to the vascular endothelium, r
 
 <br>
 
-![](images/anatomic_privlidge2.png){fig-align="center" width="800"}
+![](images/anatomic_privlidge2.png){fig-align="center" width="600"}
 
 ## Ventilator-associated pneumonia {.smaller}
 
@@ -705,15 +660,17 @@ Release of inflammatory mediators causes damage to the vascular endothelium, r
 
 ## Antibiotic Elimination
 
+<br> <br>
+
 -   Definition: Processes that irreversibly remove a drug from the body
 
--   The ‘Drug out’ part of pharmacokinetics.
+-   The "drug out" part of pharmacokinetics
 
--   Metabolism of the drug determines how the drug is excreted.
+-   Metabolism of the drug determines how the drug is excreted
 
-    -   Not all drugs are metabolised before excretion (’excreted unchanged’).
+    -   Not all drugs are metabolised before excretion (excreted unchanged)
 
--   Elimination starts as soon as drug first enters the liver. It is an ongoing process that does not ‘wait’ until the drug has finished distributing equally throughout the body
+-   Elimination starts as soon as drug first enters the liver; it is an ongoing process that does not ‘wait’ until the drug has finished distributing equally throughout the body
 
 ## Metabolism {.smaller}
 
@@ -747,9 +704,9 @@ Release of inflammatory mediators causes damage to the vascular endothelium, r
 |              |                                                      | -   Methyl (Methylation)                  |
 +--------------+------------------------------------------------------+-------------------------------------------+
 
-## Metabolism {.smaller}
+## Metabolism
 
-<br>
+<br><br>
 
 -   These reactions enhance the drug’s ionic charge, which makes them easier to excrete
 
@@ -757,7 +714,7 @@ Release of inflammatory mediators causes damage to the vascular endothelium, r
 
 -   The main sites of metabolism are liver, kidneys & lung, but these enzymes are present at various levels in most tissues
 
--   Note that not all drugs undergo both phases: e.g. some drugs undergo Phase II directly, depending if they already possess -OH, -NH or COOH groups
+-   Not all drugs undergo both phases: e.g., some drugs undergo Phase II directly, depending if they already possess -OH, -NH or COOH groups
 
 ## Phase I: Cytochrome P450 Enzymes {.smaller}
 
@@ -775,11 +732,15 @@ Release of inflammatory mediators causes damage to the vascular endothelium, r
 
     ![](images/cyp.png){fig-align="center" width="600"}
 
-## Speed vs Generalism 
+# \## Speed vs Generalism
 
-<br> 
+## CYP Speed vs Generalism
 
--   CYP enzymes are "generalists": Each isoenzyme has a wide array of drug ‘targets’ ( drugs are metabolised by several different enzymes)
+<br>
+
+-   CYP enzymes are "generalists"
+
+    -   Each isoenzyme has a wide array of drug ‘targets’ ( drugs are metabolised by several different enzymes)
 
 -   This "generalisability" comes at the expense of speed; compared to one specialised enzyme that could break down one specific molecule, CYP enzymes are much slower
 
@@ -787,57 +748,50 @@ Release of inflammatory mediators causes damage to the vascular endothelium, r
 
 ## Factors Affecting CYP enzyme activity
 
-+--------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
+<br> <br>
+
 | **Factor**         | **Explanation**                                                                                                                                             |
-+====================+=============================================================================================================================================================+
+|--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Age**            | Declines with age                                                                                                                                           |
-+--------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | **Sex**            | Males have larger livers —\> more rapid metabolism of drugs                                                                                                 |
-+--------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | **Genetics**       | CYP isoenzymes exhibit high rates of genetic polymorphism, which can affect the efficiency with which the individual can process the enzyme’s drug targets. |
-+--------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | **Cardiac output** | Less cardiac output —\> less drug delivered to the liver per minute —\> slower rate of metabolism.                                                          |
-+--------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | **Drugs**          | See below                                                                                                                                                   |
-+--------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 ## CYP Enzyme Induction/Inhibition {.smaller}
 
 <br> <br>
 
--   Certain drugs can affect expression of CYPs through:
+-   **Certain drugs can affect expression of CYPs through:**
 
     -   Induction (Increased transcription/translation, or slower degradation)
 
     -   Inhibition (Increased degradation)
 
--   This will lead to increased/decreased metabolism of the CYP enzyme’s substrate drugs, respectively
+    -   This will lead to increased/decreased metabolism of the CYP enzyme’s substrate drugs, respectively
 
-### CYP Enzyme inducers
+-   **CYP Enzyme inducers**
 
--   200 drugs known to be inducers
+    -   200 drugs known to be inducers
 
--   Induction takes 1-2 weeks on average
+    -   Induction takes 1-2 weeks on average
 
-    -   NB: Rifampicin induction starts within 24h, and has full induction (of CYP3A4) at 72h
+        -   NB: Rifampicin induction starts within 24h, and has full induction (of CYP3A4) at 72h
+        -   E.g. PC BRAS drugs: **P**henytoin, **C**arbamazepine, **B**arbiturates, **R**ifampicin, **A**lcohol (Chronic use), **S**ulfonylureas
 
--   E.g. PC BRAS drugs: **P**henytoin, **C**arbamazepine, **B**arbiturates, **R**ifampicin, **A**lcohol (Chronic use), **S**ulfonylureas
+-   **CYP Enzyme inhibitors**
 
-## CYP Enzyme inhibitors
+    -   These tend to increase the plasma level of substrate drugs due to decreased degradation by CYPs
 
-<br> <br>
+    -   Occurs much more quickly (\~1-3 days)
 
--   These tend to increase the plasma level of substrate drugs due to decreased degradation by CYPs
-
--   Occurs much more quickly (\~1-3 days)
-
-NB: Clinically important inhibitors ‘missed’ by this mnemonic include Amiodarone, SSRIs & Grapefruit juice
+    -   NB: Clinically important inhibitors ‘missed’ by this mnemonic include Amiodarone, SSRIs & Grapefruit juice
 
 ## Excretion {.smaller}
 
 <br> <br>
 
--   Drug metabolism has 3 outcomes:
+-   **Drug metabolism has 3 outcomes:**
 
     -   Drug is metabolised to inactive metabolite
 
@@ -845,7 +799,7 @@ NB: Clinically important inhibitors ‘missed’ by this mnemonic include Amioda
 
     -   ‘Prodrug’ is metabolised to active form (e.g. Codeine to Morphine)
 
--   Regardless of what outcome occurs, the drug is ionised, making excretion easier.
+-   Regardless of what outcome occurs, the drug is ionised, making excretion easier
 
 -   Main sites of excretion:
 
@@ -863,19 +817,19 @@ NB: Clinically important inhibitors ‘missed’ by this mnemonic include Amioda
 
 **Occurs in 3 stages**
 
--   Glomerular Filtration
+-   **Glomerular filtration**
 
     -   \~20% Renal blood flow serves the glomerulus
 
     -   Free drug & metabolites passively diffuse across into Bowman’s capsule.
 
--   Proximal Tubular Secretion
+-   **Proximal tubular secretion**
 
     -   \~80% Renal blood flow serves the rest of the nephron
 
     -   OAT and OACTs actively transport polar molecules into urine
 
--   Distal Tubular Reabsorption
+-   **Distal tubular reabsorption**
 
     -   As water is reabsorbed along the tubule, urine drug/metabolite concentration increases
 
@@ -891,7 +845,7 @@ NB: Clinically important inhibitors ‘missed’ by this mnemonic include Amioda
 
     -   For example: If drug A as a clearance of 39 L/h or 650 ml/min, then every minute, the equivalent of 0.65L of the Vd can be "cleansed" of drug A
 
-    -   Unit of measure ml/min or L/hr
+    -   Unit of measure mL/min or L/hr
 
     -   Clearance is affected by
 
@@ -931,9 +885,9 @@ Typical meropenem Vd 15-20 L with clearance of 10-13 L/h
 
 <br>
 
--   **Vd is useful fo calculating the loading dose of a drug**
+-   **Vd is useful fo calculating the [loading dose]{.underline} of a drug**
 
--   **CL is useful for calculating the maintenance dose of a drug**
+-   **CL is useful for calculating the [maintenance dose]{.underline} of a drug**
 
     -   CL is not used to calculate the loading dose (or initial dose) because it is not affected by the volume of distribution
 
@@ -966,16 +920,16 @@ $$
 
 -   Time it takes for plasma concentration or amount in body to be reduced by 50%
 
--   A calculated parameter
+-   It is a calculated parameter
 
     -   Function of clearance and volume of distribution
 
         -   Unit of measure = time (hours, minutes, days)
 
 $$
-t_{1/2} = 0.693/k_{el}
+t_{½}= \frac{0.693}{k_{el}}
 $$ $$
-t_{1/2} = 0.693 \times Vd/CL
+t_{½}= \frac{0.693\ast Vd}{Cl}
 $$
 
 ## Half-life examples
@@ -999,95 +953,54 @@ Most of a drug will be eliminated without repeat dosing by 5-6 half-lives
 
 <br>
 
-+-------------------------+-----------------------------------------------------------------------------------------+----------------------------------------+----------------------------------+------------------------+-------------------+
 | **Antimicrobial**       | **Metabolism**                                                                          | **Excretion**                          | **Vd (L); Bold = from DrugBank** | **Clearance (ml/min)** | **Half life (h)** |
-+=========================+=========================================================================================+========================================+==================================+========================+===================+
+|-------------------------|-----------------------------------------------------------------------------------------|----------------------------------------|----------------------------------|------------------------|-------------------|
 | **Penicillin G**        | 16-30% Penicilloic acid; Small amounts to 6-aminopenicillanic acid & active metabolites | Renal: Most Hepatic: some Faecal: some | 35.4                             | 560                    | 0.4 - 0.9         |
-+-------------------------+-----------------------------------------------------------------------------------------+----------------------------------------+----------------------------------+------------------------+-------------------+
 | **Penicillin V**        | 35-70% Penicilloic acid; Small amounts to 6-aminopenicillanic acid & active metabolites | Renal: 25                              | 35.4                             | N/A                    | 0.5               |
-+-------------------------+-----------------------------------------------------------------------------------------+----------------------------------------+----------------------------------+------------------------+-------------------+
 | **Amoxicillin**         | 7 metabolites (M1-7)                                                                    | Renal: 74                              | 27.7                             | 355                    | 1                 |
-+-------------------------+-----------------------------------------------------------------------------------------+----------------------------------------+----------------------------------+------------------------+-------------------+
 | **Nafcillin**           | None                                                                                    | Hepatic \<30                           | 28                               | N/A                    | 0.5 - 1           |
-+-------------------------+-----------------------------------------------------------------------------------------+----------------------------------------+----------------------------------+------------------------+-------------------+
 | **Flucloxacillin**      |                                                                                         | Hepatic: mostly                        | 13                               |                        | 0.75 - 1          |
-+-------------------------+-----------------------------------------------------------------------------------------+----------------------------------------+----------------------------------+------------------------+-------------------+
 | **Pivmecillinam**       |                                                                                         | Renal: 50% / 6h Hepatic: partially     | 14 - 28                          |                        | 1.2               |
-+-------------------------+-----------------------------------------------------------------------------------------+----------------------------------------+----------------------------------+------------------------+-------------------+
 | **Piperacillin**        |                                                                                         | Renal: Most Hepatic: some              | 14 - 21                          | 32 - 41                | 0.6 - 1.2         |
-+-------------------------+-----------------------------------------------------------------------------------------+----------------------------------------+----------------------------------+------------------------+-------------------+
 | **Tazobactam**          | M1 metabolite                                                                           | Renal: 80% / 20% M1                    | 18.2                             | 48 - 84                | 0.7 - 1.2         |
-+-------------------------+-----------------------------------------------------------------------------------------+----------------------------------------+----------------------------------+------------------------+-------------------+
 | **Cephalexin**          | None                                                                                    | Renal: 99%/24h                         | 5.2 - 5.8                        |                        | 1                 |
-+-------------------------+-----------------------------------------------------------------------------------------+----------------------------------------+----------------------------------+------------------------+-------------------+
 | **Cefazolin**           | None                                                                                    | Renal: 80%/24h                         | 9 - 15                           |                        | 1.9               |
-+-------------------------+-----------------------------------------------------------------------------------------+----------------------------------------+----------------------------------+------------------------+-------------------+
 | **Cefuroxime axetil**   | None; Axetil to Acetic acid + Aldehyde                                                  | Mostly (unchanged)                     | 50                               | 125 - 148              | 1.3               |
-+-------------------------+-----------------------------------------------------------------------------------------+----------------------------------------+----------------------------------+------------------------+-------------------+
 | **Ceftriaxone**         |                                                                                         | Renal: 33 - 67 Hepatic: 33 - 67        | 5.8 - 13.5                       |                        | 5.8-8.7           |
-+-------------------------+-----------------------------------------------------------------------------------------+----------------------------------------+----------------------------------+------------------------+-------------------+
 | **Ceftazidime**         |                                                                                         | \~85%/24h                              | 15 - 20                          | 115                    | 1.5 - 2.8         |
-+-------------------------+-----------------------------------------------------------------------------------------+----------------------------------------+----------------------------------+------------------------+-------------------+
 | **Cefepime**            | \<1%                                                                                    | \~85%                                  | 18                               | 120                    | 2                 |
-+-------------------------+-----------------------------------------------------------------------------------------+----------------------------------------+----------------------------------+------------------------+-------------------+
 | **Ceftolozane**         | Nil                                                                                     | \~100%                                 | 13.5                             | 57 - 110               | 2.8 - 3.1         |
-+-------------------------+-----------------------------------------------------------------------------------------+----------------------------------------+----------------------------------+------------------------+-------------------+
 | **Ceftaroline fosamil** | By plasma phosphatase to active ceftaroline                                             | Renal: Mostly (unchanged) Faecal: \<6% | 20                               |                        | 1.6               |
-+-------------------------+-----------------------------------------------------------------------------------------+----------------------------------------+----------------------------------+------------------------+-------------------+
 | **Ertapenem**           | 50% to inactive metabolite                                                              | Renal: 80% Faecal: 10%                 | 8.4                              | 28                     | 4                 |
-+-------------------------+-----------------------------------------------------------------------------------------+----------------------------------------+----------------------------------+------------------------+-------------------+
 | **Meropenem**           | Negligible                                                                              | 70%                                    | 17.5 - 24.5                      |                        | 1                 |
-+-------------------------+-----------------------------------------------------------------------------------------+----------------------------------------+----------------------------------+------------------------+-------------------+
 | **Aztreonam**           | \~11% to inactive compound                                                              | 100%/12h                               | 12.6                             | 91                     | \~1.7             |
-+-------------------------+-----------------------------------------------------------------------------------------+----------------------------------------+----------------------------------+------------------------+-------------------+
 
 ## Non beta-lactam antibiotics {.smaller}
 
 <br>
 
-+-----------------------+-------------------+----------------------------------------------+---------------------------------------------------+----------------------------------+------------------------+-------------------+
 | **Target**            | **Antimicrobial** | **Metabolism**                               | **Elimination**                                   | **Vd (L); Bold = from DrugBank** | **Clearance (ml/min)** | **Half life (h)** |
-+=======================+===================+==============================================+===================================================+==================================+========================+===================+
+|-----------------------|-------------------|----------------------------------------------|---------------------------------------------------|----------------------------------|------------------------|-------------------|
 | **Cell wall**         | Vancomycin        | Negligible                                   | 75%                                               | 28 - 70                          | 68                     | 6                 |
-+-----------------------+-------------------+----------------------------------------------+---------------------------------------------------+----------------------------------+------------------------+-------------------+
 |                       | Dalbavancin       | \<25% to less active metabolites             | Renal: 33% unchanged; 12% metabolites Faecal: 20% | 14                               | 0.9                    | 346               |
-+-----------------------+-------------------+----------------------------------------------+---------------------------------------------------+----------------------------------+------------------------+-------------------+
 | **Protein Synthesis** | Gentamicin        | Negligible                                   | 70%                                               | 20 - 26                          | as per CrCl (\~100)    | 1.25              |
-+-----------------------+-------------------+----------------------------------------------+---------------------------------------------------+----------------------------------+------------------------+-------------------+
 |                       | Amikacin          | Negligible                                   | 94%                                               | 24                               | as per CrCl (\~100)    | 2                 |
-+-----------------------+-------------------+----------------------------------------------+---------------------------------------------------+----------------------------------+------------------------+-------------------+
 |                       | Doxycycline       |                                              | Renal: 40% Hepatic: significant                   | 52.5                             | 58                     |                   |
-+-----------------------+-------------------+----------------------------------------------+---------------------------------------------------+----------------------------------+------------------------+-------------------+
 |                       | Tigecycline       | 10%                                          |                                                   | 490 - 630                        |                        | 27-43             |
-+-----------------------+-------------------+----------------------------------------------+---------------------------------------------------+----------------------------------+------------------------+-------------------+
 |                       | Clarithromycin    | predominantly by 3A4                         | 30%                                               | 191 - 306                        |                        | 3-4               |
-+-----------------------+-------------------+----------------------------------------------+---------------------------------------------------+----------------------------------+------------------------+-------------------+
 |                       | Azithromycin      |                                              | Renal: 6% Hepatic: significant                    | 2177                             | 630                    | 68                |
-+-----------------------+-------------------+----------------------------------------------+---------------------------------------------------+----------------------------------+------------------------+-------------------+
 |                       | Clindamycin       | to 2 inactive metabolites, by 3A4 and 3A5    | Renal: 10% Faeces: 3.6%                           | 43 - 74                          | 250                    | 3                 |
-+-----------------------+-------------------+----------------------------------------------+---------------------------------------------------+----------------------------------+------------------------+-------------------+
 |                       | Linezolid         | to 2 inactive metabolites, unclear mechanism | Renal: 30% unchanged, 50% metabolites Faeces: 6%  | 40 - 50                          | 100-200                | 5-7               |
-+-----------------------+-------------------+----------------------------------------------+---------------------------------------------------+----------------------------------+------------------------+-------------------+
 | **DNA Synthesis**     | Ciprofloxacin     | \~20% to 4 metabolites                       | Renal: 45% Faeces: 62%                            | 140 - 213                        | 350 - 630              | 4                 |
-+-----------------------+-------------------+----------------------------------------------+---------------------------------------------------+----------------------------------+------------------------+-------------------+
 |                       | Levofloxacin      | \<5% as 2 metabolites                        | Renal: 87% Faeces: 4%                             | 89 - 112                         | 143 - 227              | 6 - 8             |
-+-----------------------+-------------------+----------------------------------------------+---------------------------------------------------+----------------------------------+------------------------+-------------------+
 |                       | Moxifloxacin      | 50%; Phase I conjugation/ sulphation         | Renal: 20% Faeces: 25%                            | 119 - 189                        | 200                    | 11.5 - 15.6       |
-+-----------------------+-------------------+----------------------------------------------+---------------------------------------------------+----------------------------------+------------------------+-------------------+
 |                       | Trimethoprim      | 90% to 2 inactive metabolites; by 2C9/3A4    | Renal: \~55% Hepatic: \~15%                       | 25.2                             | 50 - 90                | 8 - 10            |
-+-----------------------+-------------------+----------------------------------------------+---------------------------------------------------+----------------------------------+------------------------+-------------------+
 |                       | Sulfamethoxazole  | To inactive metabolites; CYP2C9;             | Renal: 85%                                        | 13                               | 20                     | 10                |
-+-----------------------+-------------------+----------------------------------------------+---------------------------------------------------+----------------------------------+------------------------+-------------------+
 | **Other**             | Daptomycin        | Some to inactive metabolites                 | Renal: 80% Faecal: 6%                             | 7                                | \~9.8                  | 7.5 - 9           |
-+-----------------------+-------------------+----------------------------------------------+---------------------------------------------------+----------------------------------+------------------------+-------------------+
 |                       | Colistin          | Tissue metabolism: 20%                       | Renal: 80%                                        | 9 - 12                           |                        | 5                 |
-+-----------------------+-------------------+----------------------------------------------+---------------------------------------------------+----------------------------------+------------------------+-------------------+
 |                       | Fosfomycin        | Nil                                          | Renal: 100%                                       | 21 - 30                          | 283                    | 5.7               |
-+-----------------------+-------------------+----------------------------------------------+---------------------------------------------------+----------------------------------+------------------------+-------------------+
 |                       | Nitrofurantoin    | \~1.3% to Aminofurantoin                     | Renal: 90%                                        | 42                               | 278 - 323              | \~0.76            |
-+-----------------------+-------------------+----------------------------------------------+---------------------------------------------------+----------------------------------+------------------------+-------------------+
 |                       | Metronidazole     | To 5 metabolites; 1 is active also           | Renal: \~70% Faeces: \~10%                        | 36 - 77                          | 10                     | 6 - 10            |
-+-----------------------+-------------------+----------------------------------------------+---------------------------------------------------+----------------------------------+------------------------+-------------------+
 
 ## Key pharmacokinetic parameter: <br>Area under the curve (AUC) {.smaller}
 
@@ -1110,6 +1023,61 @@ Most of a drug will be eliminated without repeat dosing by 5-6 half-lives
     -   e.g., an AUC~0-24h~ of 48 mg∙h/L for a dosing regimen administered every 24 hours would represent an average concentration over the 24 hour dosing interval of 2 mg/L (48 mg∙h/L divided by 24 hr=2 mg∙L average over 24 hours).
 :::
 :::
+
+## Renal impairment
+
+<br> <br>
+
+-   Well established dosing adjustments for chronic renal insufficiency, based on estimated renal function (Cockcroft-Gault, MDRD etc...)
+-   However, accuracy of these equations are limited in severely ill, high-low body mass, prolonged hospitalization
+
+$$
+CrCl\text{ estimated}=\left(\frac{\left(140-age  \right)\ast \left( Weight, kg \right)}{72\ast SeCr} \right)\ast 0.85 \text{ if female}
+$$
+
+-   Drug specific guidance for patient on dialysis
+
+## Be careful about prematurely reducing <br> antibiotic doses based on serum creatinine
+
+<br>
+
+-   Antibiotic renal dose adjustments in drug labels are based on patients with [chronic kidney disease]{.underline}
+
+-   Renal impairment is [acute, not chronic, in up to 50% of patients with infection]{.underline} and frequently [resolves within the first 48 hours]{.underline}
+
+-   Creatine-based equations for estimates of CrCl are based on steady-state conditions, and not as accurate in acute kidney injury
+
+-   Decreases in SeCr are delayed with respect to injury resolution
+
+-   Renal dose reduction in the first 48 hours of therapy may unnecessarily result in underdosing of antibiotics
+
+::: aside
+[@crass2019]
+:::
+
+## Augmented renal clearance
+
+::: columns
+::: {.column width="30%"}
+![](images/kidney-1.svg){width="200"}
+:::
+
+::: {.column width="70%"}
+<br> <br>
+
+-   Common causes: “hyperdynamic state” with Gram-negative sepsis, vasoactive medications to support blood pressure large-volume fluid resuscitation
+
+-   Most common populations with augmented clearance:
+
+    -   Younger patients (i.e. trauma)
+
+    -   Severe burn patients pregnant patients septic patients without renal dysfunction
+
+-   **Combined with increased Vd, often leads to inadequate antibiotic exposures**
+:::
+:::
+
+<br>
 
 ## Pharmacology of antimicrobial therapy
 
@@ -1242,6 +1210,12 @@ Common questions addressed:
 AUC = Area under the concentration–time curve; MIC = Minimum Inhibitory Concentration; Cmax = Maximum or peak plasma concentration; Cmin = Minimum or trough plasma concentration
 :::
 
+## Mutant selection window (MSW) <br> and mutant prevention concentration (MPW
+
+<br>
+
+![](images/MSW.png){fig-align="center" width="800"}
+
 ## Dose fractionization study {.smaller}
 
 ![](images/fraction.png)
@@ -1249,6 +1223,36 @@ AUC = Area under the concentration–time curve; MIC = Minimum Inhibitory Concen
 ## Dose fractionization study-interpretation {.smaller}
 
 ![](images/fraction_interpret.png)
+
+## In vitro hollow-fiber models {.smaller}
+
+<br>
+
+![](images/hfmodel.png){fig-align="center" width="600"}
+
+-   Simulate antibiotic dosing regimens in vivo
+
+-   Bacterial inocula is retained in dialysis cartridge.
+
+    -   Media containing drug is pumped through cartridge.
+
+    -   The pump rate simulates antibiotic half-life
+
+-   Study antibiotic performance over a wide range of inocula (important for resistance studies)
+
+-   No impact of protein binding, immune system, etc
+
+## In vitro hollow-fiber models {.smaller}
+
+<br>
+
+![](images/HFmodel2.png){fig-align="center"}
+
+::: aside
+Image: Roger nation, Ph.D., Monash University, Melbourne, Austraila
+
+## 
+:::
 
 ## Example of dose fractionization study results
 
@@ -1298,41 +1302,56 @@ AUC = Area under the concentration–time curve; MIC = Minimum Inhibitory Concen
 
 ## PK/PD parameters predictive <br> in animals and humans {.smaller}
 
-## Advantages of animal models for PK/PD studies {.smaller}
-
-## Limitations of animal models for PK/PD studies {.smaller}
-
-## In vitro hollow-fiber models {.smaller}
-
 <br>
 
-![](images/hfmodel.png){fig-align="center" width="600"}
-
--   Simulate antibiotic dosing regimens in vivo
-
--   Bacterial inocula is retained in dialysis cartridge.
-
-    -   Media containing drug is pumped through cartridge.
-
-    -   The pump rate simulates antibiotic half-life
-
--   Study antibiotic performance over a wide range of inocula (important for resistance studies)
-
--   No impact of protein binding, immune system, etc
-
-## In vitro hollow-fiber models {.smaller}
-
-<br>
-
-![](images/HFmodel2.png){fig-align="center"}
+| Antibiotic class | Optimal PK/PD index  | PK/PD magnitude for bacterial killing | PK/PD index for clinical efficacy | PK/PD index for resistance suppression |
+|------------------|----------------------|---------------------------------------|-----------------------------------|----------------------------------------|
+| Aminoglycosides  | AUC~0-24~/MIC        | AUC~0-24~/MIC 50-100                  | C~max~/MIC                        | C~max~/MIC ≥ 20                        |
+|                  | C~max~/MIC           | \-                                    | C~max~/MIC \> 8                   | C~max~/MIC ≥ 30                        |
+| Penicllins       | T~\>MIC;~ C~min/MIC~ | ≥ 40-50% T~\>MIC~                     | ≥ 40-50% T~\>MIC~                 | ≥ 40-50% T~\>MIC~                      |
+| Cephalosporins   | T~\>MIC~             | ≥ 40% T~\>MIC~                        | T~\>MIC~                          | ≥ 40% T~\>MIC~                         |
+|                  | *t*MSW               |                                       |                                   | ≤ *t*MSW 45%                           |
+| Carbapenems      | T~\>MIC~             | ≥ 40% T~\>MIC~                        | ≥ 40-50%T~\>MIC~                  | ≥ 40% T~\>MIC~                         |
+| Quinolones       | AUC~0-24~/MIC        | AUC~0-24~/MIC 30-200                  | AUC~0-24~/MIC 35-250              | AUC~0-24~/MIC 100-200                  |
+|                  | C~max~/MIC           | C~max~/MIC ≥ 8                        | C~max~/MIC ≥ 8                    | ≤ *t*MSW 30%                           |
 
 ::: aside
-Image: Roger nation, Ph.D., Monash University, Melbourne, Austraila
+A complete list of references supporting these targets are presented in the review by:
 
-## 
+[@Abdul-Aziz2015]. <br> T~\>MIC~ Time above MIC during dosing interval; C~max~/MIC- peak serum co ncentraton to MIC ration; AUC~0-24~/MIC- 24 hour Areua under the curve to MIC ration; *t*MSW-Time in mutaant selection window
 :::
 
-## Laws of pharmacodynamics
+## PK/PD parameters predictive <br> in animals and humans, cont. {.smaller}
+
+<br>
+
++----------------------+-------------------------+-------------------------------------------+---------------------------------------+--------------------------------------------+
+| **Antibiotic class** | **Optimal PK/PD index** | **PK/PD magnitude for bacterial killing** | **PK/PD index for clinical efficacy** | **PK/PD index for resistance suppression** |
++----------------------+-------------------------+-------------------------------------------+---------------------------------------+--------------------------------------------+
+| Vancomycin           | AUC~0-24~/MIC           | AUC~0-24~/MIC 86-460                      | AUC~0-24~/MIC 400-600                 | AUC~0-24~/MIC 200                          |
++----------------------+-------------------------+-------------------------------------------+---------------------------------------+--------------------------------------------+
+| Linezolid            | AUC~0-24~/MIC           | AUC~0-24~/MIC 50-80                       | \-                                    | \-                                         |
++----------------------+-------------------------+-------------------------------------------+---------------------------------------+--------------------------------------------+
+|                      | T~\>MIC~                | ≥ 40% T~\>MIC~                            | ≥ 85% T~\>MIC~                        | \-                                         |
++----------------------+-------------------------+-------------------------------------------+---------------------------------------+--------------------------------------------+
+| Daptomycin           | AUC~0-24~/MIC           | AUC~0-24~/MIC 388-537                     |                                       | AUC~0-24~/MIC 200                          |
++----------------------+-------------------------+-------------------------------------------+---------------------------------------+--------------------------------------------+
+|                      | C~max~/MIC              | C~max~/MIC 59-94                          | \-                                    |                                            |
++----------------------+-------------------------+-------------------------------------------+---------------------------------------+--------------------------------------------+
+| Fosfomycin           | %T\>MIC m               | %T\>MIC\> 70%;                            | \-                                    | \-                                         |
+|                      |                         |                                           |                                       |                                            |
+|                      |                         | AUC~0-24~/MIC ≥ 24                        |                                       |                                            |
++----------------------+-------------------------+-------------------------------------------+---------------------------------------+--------------------------------------------+
+| Colistin             | AUC~0-24~/MIC           | AUC~0-24~/MIC 50-65                       | \-                                    | \-                                         |
++----------------------+-------------------------+-------------------------------------------+---------------------------------------+--------------------------------------------+
+
+::: aside
+A complete list of references supporting these targets are presented in the review by:
+
+[@Abdul-Aziz2015]. <br> T~\>MIC~ Time above MIC during dosing interval; C~max~/MIC- peak serum co ncentraton to MIC ration; AUC~0-24~/MIC- 24 hour Areua under the curve to MIC ration; *t*MSW-Time in mutaant selection window
+:::
+
+## Laws of antimicrobial pharmacodynamics
 
 <br>
 
@@ -1343,6 +1362,54 @@ Image: Roger nation, Ph.D., Monash University, Melbourne, Austraila
 -   A higher MIC will diminish the effect of a fixed dose
 
 -   Administering a fixed dose of drug to many patients (even on a mg/kg basis) results in wide variability in exposure
+
+::: aside
+[@drusano2004]
+:::
+
+## Only non-protein-bound drug is <br> microbiologically active {.smaller}
+
+![](images/protein.png){fig-align="center" width="400"}
+
+::: aside
+The CD50 (the dose protecting 50% of infected animals) was determined for seven isoxazolyl penicillins (numbers 1–7) and related to the proportion of the drug that was free (non-protein bound). Increasing the proportion of free drug translated into lower doses required to protect 50% of the animals
+
+[@drusano2004]
+:::
+
+## Laws of antimicrobial pharmacodynamics
+
+<br>
+
+-   The shape of the antibiotic concentration versus antimicrobial effect curve is important for dosing
+
+-   Only free-drug (non-protein bound fraction) is microbiologically active
+
+-   **A higher MIC will diminish the effect of a fixed dose**
+
+-   Administering a fixed dose of drug to many patients (even on a mg/kg basis) results in wide variability in exposure
+
+::: aside
+[@drusano2004]
+:::
+
+## Effect of increasing MIC {.smaller}
+
+<br> <br>
+
+![](images/highmic.png){fig-align="center" width="800"}
+
+## Laws of antimicrobial pharmacodynamics
+
+<br>
+
+-   The shape of the antibiotic concentration versus antimicrobial effect curve is important for dosing
+
+-   Only free-drug (non-protein bound fraction) is microbiologically active
+
+-   A higher MIC will diminish the effect of a fixed dose
+
+-   **Administering a fixed dose of drug to many patients (even on a mg/kg basis) results in wide variability in exposure**
 
 ::: aside
 [@drusano2004]
