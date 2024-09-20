@@ -775,9 +775,9 @@ Release of inflammatory mediators causes damage to the vascular endothelium, r
 
     ![](images/cyp.png){fig-align="center" width="600"}
 
-### Speed vs Generalism {.smaller}
+## Speed vs Generalism 
 
-<br> <br>
+<br> 
 
 -   CYP enzymes are "generalists": Each isoenzyme has a wide array of drug ‘targets’ ( drugs are metabolised by several different enzymes)
 
