@@ -1438,7 +1438,7 @@ A complete list of references supporting these targets are presented in the revi
 [@Abdul-Aziz2015]. <br> T~\>MIC~ Time above MIC during dosing interval; C~max~/MIC- peak serum co ncentraton to MIC ration; AUC~0-24~/MIC- 24 hour Areua under the curve to MIC ration; *t*MSW-Time in mutaant selection window
 :::
 
-## Laws of pharmacodynamics {background-image="images/capillary.png" background-opacity="0.1"}
+## Laws of pharmacodynamics {background-image="images/pd.jpg" background-opacity="0.1"}
 
 <br>
 
@@ -1449,6 +1449,54 @@ A complete list of references supporting these targets are presented in the revi
 -   A higher MIC will diminish the effect of a fixed dose
 
 -   Administering a fixed dose of drug to many patients (even on a mg/kg basis) results in wide variability in exposure
+
+::: aside
+[@drusano2004]
+:::
+
+## Only non-protein-bound drug is <br> microbiologically active {.smaller}
+
+![](images/protein.png){fig-align="center" width="400"}
+
+::: aside
+The CD50 (the dose protecting 50% of infected animals) was determined for seven isoxazolyl penicillins (numbers 1–7) and related to the proportion of the drug that was free (non-protein bound). Increasing the proportion of free drug translated into lower doses required to protect 50% of the animals
+
+[@drusano2004]
+:::
+
+## Laws of pharmacodynamics {background-image="images/pd.jpg" background-opacity="0.1"}
+
+<br>
+
+-   The shape of the antibiotic concentration versus antimicrobial effect curve is important for dosing
+
+-   Only free-drug (non-protein bound fraction) is microbiologically active
+
+-   **A higher MIC will diminish the effect of a fixed dose**
+
+-   Administering a fixed dose of drug to many patients (even on a mg/kg basis) results in wide variability in exposure
+
+::: aside
+[@drusano2004]
+:::
+
+## Effect of increasing MIC {.smaller}
+
+<br> <br>
+
+![](images/highmic.png){fig-align="center" width="800"}
+
+## Laws of pharmacodynamics {background-image="images/pd.jpg" background-opacity="0.1"}
+
+<br>
+
+-   The shape of the antibiotic concentration versus antimicrobial effect curve is important for dosing
+
+-   Only free-drug (non-protein bound fraction) is microbiologically active
+
+-   A higher MIC will diminish the effect of a fixed dose
+
+-   **Administering a fixed dose of drug to many patients (even on a mg/kg basis) results in wide variability in exposure**
 
 ::: aside
 [@drusano2004]
