@@ -23,7 +23,7 @@ revealjs-plugins:
   - pointer
 ---
 
-## Lecture 1: General principles of antibiotic therapy {background-image="images/bacteria.jpg" background-opacity="0.2"}
+## Lecture 1: General principles of antibiotic therapy {background-image="images/bacteria.jpg" background-opacity="0.4"}
 
 <br> <br> <br>
 
