@@ -23,7 +23,7 @@ revealjs-plugins:
   - pointer
 ---
 
-## What happens if I change this? {background-image="images/bacteria.jpg" background-opacity="0.4"}
+## Lecture 1: Principles of antibiotic therapy {background-image="images/bacteria.jpg" background-opacity="0.4"}
 
 <br> <br> <br>
 
@@ -1202,7 +1202,7 @@ digraph G {
 
 ```
 
-## Laws of antimicrobial pharmacodynamics {background-image="images/pd.jpg" background-opacity="0.1"}
+## Laws of antimicrobial pharmacodynamics 
 
 <br>
 
@@ -1438,7 +1438,7 @@ A complete list of references supporting these targets are presented in the revi
 [@Abdul-Aziz2015]. <br> T~\>MIC~ Time above MIC during dosing interval; C~max~/MIC- peak serum co ncentraton to MIC ration; AUC~0-24~/MIC- 24 hour Areua under the curve to MIC ration; *t*MSW-Time in mutaant selection window
 :::
 
-## Laws of pharmacodynamics {background-image="images/pd.jpg" background-opacity="0.1"}
+## Laws of antimicrobial pharmacodynamics 
 
 <br>
 
@@ -1464,7 +1464,7 @@ The CD50 (the dose protecting 50% of infected animals) was determined for seven 
 [@drusano2004]
 :::
 
-## Laws of pharmacodynamics {background-image="images/pd.jpg" background-opacity="0.1"}
+## Laws of antimicrobial pharmacodynamics
 
 <br>
 
@@ -1486,7 +1486,7 @@ The CD50 (the dose protecting 50% of infected animals) was determined for seven 
 
 ![](images/highmic.png){fig-align="center" width="800"}
 
-## Laws of pharmacodynamics {background-image="images/pd.jpg" background-opacity="0.1"}
+## Laws of antimicrobial pharmacodynamics 
 
 <br>
 
