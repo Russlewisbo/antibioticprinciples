@@ -23,15 +23,17 @@ revealjs-plugins:
   - pointer
 ---
 
-## Lecture 1: General principles of antibiotic therapy {background-video="/images/bacteria.mp4" background-video-loop="true" background-video-muted="true"}
+## Lecture 1: General principles of antibiotic therapy {background-image="images/bacteria.jpg" background-opacity="0.2"}
 
-<br> <br>
+<br> <br> <br>
 
 **Russell E. Lewis** <br> Associate Professor of Infectious Diseases <br> Department of Molecular Medicine <br> University of Padua
 
+![](unipd.png){.absolute top="550" left="150" width="100" height="100"}
+
 <br> {{< fa solid envelope size=1x >}} russelledward.lewis\@unipd.it <br> {{< fa brands github size=1x >}} [https://github.com/Russlewisbo](https://github.com/Russlewisbo/ESCMID_2022_talk)
 
-![](unipd.png){.absolute top="550" left="150" width="100" height="100"}
+
 
 ## Agenda
 
