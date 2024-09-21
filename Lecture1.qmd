@@ -1500,6 +1500,14 @@ The CD50 (the dose protecting 50% of infected animals) was determined for seven 
 [@drusano2004]
 :::
 
+## Variability of antibiotic pharmacokinetics
+
+![](images/pcnbetalactam.png){width="600"}
+
+::: aside
+[@mouton2012]
+:::
+
 ## References
 
 <br>
