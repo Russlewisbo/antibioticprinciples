@@ -1137,7 +1137,7 @@ $$
 
 ::: columns
 ::: {.column width="30%"}
-![](images/kidney-1.svg){width="200"}
+<br><br> ![](images/kidney-1.svg){width="200"}
 :::
 
 ::: {.column width="70%"}
@@ -1364,7 +1364,7 @@ Image: Roger nation, Ph.D., Monash University, Melbourne, Austraila
 
 ::: columns
 ::: {.column width="30%"}
-![](images/dfcipro.png){width="400"}
+![](images/dfcipro.png){width="600"}
 :::
 
 ::: {.column width="70%"}
@@ -1403,7 +1403,7 @@ Image: Roger nation, Ph.D., Monash University, Melbourne, Austraila
 ::: aside
 A complete list of references supporting these targets are presented in the review by:
 
-[@Abdul-Aziz2015]. <br> T~\>MIC~ Time above MIC during dosing interval; C~max~/MIC- peak serum co ncentraton to MIC ration; AUC~0-24~/MIC- 24 hour Areua under the curve to MIC ration; *t*MSW-Time in mutaant selection window
+[@Abdul-Aziz2015]. <br> T~\>MIC~ Time above MIC during dosing interval; C~max~/MIC- peak serum concentration to MIC ratio; AUC~0-24~/MIC- 24 hour Area under the curve to MIC ratio; *t*MSW-Time in mutant selection window
 :::
 
 ## PK/PD parameters predictive <br> in animals and humans, cont. {.smaller}
@@ -1421,7 +1421,7 @@ A complete list of references supporting these targets are presented in the revi
 +----------------------+-------------------------+-------------------------------------------+---------------------------------------+--------------------------------------------+
 | Daptomycin           | AUC~0-24~/MIC           | AUC~0-24~/MIC 388-537                     |                                       | AUC~0-24~/MIC 200                          |
 +----------------------+-------------------------+-------------------------------------------+---------------------------------------+--------------------------------------------+
-|                      | C~max~/MIC              | C~max~/MIC 59-94                          | \-                                    |                                            |
+|                      | C~max~/MIC              | C~max~/MIC 59-94                          | \-                                    | \-                                         |
 +----------------------+-------------------------+-------------------------------------------+---------------------------------------+--------------------------------------------+
 | Fosfomycin           | %T\>MIC m               | %T\>MIC\> 70%;                            | \-                                    | \-                                         |
 |                      |                         |                                           |                                       |                                            |
@@ -1433,7 +1433,7 @@ A complete list of references supporting these targets are presented in the revi
 ::: aside
 A complete list of references supporting these targets are presented in the review by:
 
-[@Abdul-Aziz2015]. <br> T~\>MIC~ Time above MIC during dosing interval; C~max~/MIC- peak serum co ncentraton to MIC ration; AUC~0-24~/MIC- 24 hour Areua under the curve to MIC ration; *t*MSW-Time in mutaant selection window
+[@Abdul-Aziz2015]. <br> T~\>MIC~ Time above MIC during dosing interval; C~max~/MIC- peak serum concentration to MIC ratio; AUC~0-24~/MIC- 24 hour Area under the curve to MIC ratio; *t*MSW-Time in mutant selection window
 :::
 
 ## Laws of antimicrobial pharmacodynamics
@@ -1502,7 +1502,9 @@ The CD50 (the dose protecting 50% of infected animals) was determined for seven 
 
 ## Variability of antibiotic pharmacokinetics
 
-![](images/pcnbetalactam.png){width="600"}
+<br>
+
+![](images/pcnbetalactam.png){width="900"}
 
 ::: aside
 [@mouton2012]
