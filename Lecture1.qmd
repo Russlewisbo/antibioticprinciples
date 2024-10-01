@@ -17,7 +17,7 @@ format:
     filters:
      - highlight-text
 bibliography: references.bib
-lightbox: false
+lightbox: true
 csl: diagnostic-microbiology-and-infectious-disease.csl
 revealjs-plugins:
   - pointer
