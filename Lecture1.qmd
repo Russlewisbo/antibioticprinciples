@@ -23,7 +23,7 @@ revealjs-plugins:
   - pointer
 ---
 
-## Lecture 1: Principles of antibiotic therapy {background-image="images/bacteria1.jpg" background-opacity="0.4"}
+## Lecture 1: Principles of antibiotic therapy {background-image="images/bacteria1.jpg" background-opacity="0.2"}
 
 <br> <br> <br> <br> <br>
 
@@ -215,12 +215,12 @@ digraph G {
 
 <br> <br>
 
-| **Method of transit**     | **Substrate**                    |
-|---------------------------|----------------------------------|
-| **Passive diffusion**     | \<500Da, lipophilic, not ionic   |
-| **Facilitated diffusion** | \<500Da, Lipophobic, ionic drugs |
-| **Active transport**      | Ionised drugs                    |
-| **Pinocytosis**           | Large molecules                  |
+| **Method of transit**     | **Substrate**                     |
+|---------------------------|-----------------------------------|
+| **Passive diffusion**     | \<500Da, lipophilic, not ionic    |
+| **Facilitated diffusion** | \<500Da, hydrophilic, ionic drugs |
+| **Active transport**      | ionised drugs                     |
+| **Pinocytosis**           | large molecules                   |
 
 ## Passive diffusion: <br>How most antibiotics are absorbed {.smaller}
 
@@ -358,20 +358,6 @@ digraph G {
 :::
 :::::
 
-## Differences in IV vs. oral antibiotics
-
-<br>
-
-| **Oral**      | **IV**                   |
-|---------------|--------------------------|
-| Acid-stable   | Acid-labile              |
-| Soluble       | Lower solubility         |
-| Lipid soluble | Lipophobic (hydrophilic) |
-
-::: aside
-[@macgregor1997]
-:::
-
 ## Bioavailability examples {.smaller}
 
 +:------------------------+:------------------------+:-----------------------:+
@@ -444,17 +430,17 @@ Source: https://www.medicines.org.uk/
 
 <br> <br>
 
--   Amoxicillin: Absorption is saturable near 750mg
+-   **Amoxicillin:** Absorption is saturable near 750mg
 
     -   higher doses are unlikely to be absorbed
 
--   Cephalexin: Maximum amount absorbed is \~4g/d
+-   **Cephalexin:** Maximum amount absorbed is \~4g/d
 
--   Macrolides: Not well-absorbed, but concentrate intracellularly
+-   **Macrolides:** Not well-absorbed, but concentrate intracellularly
 
--   ‘UTI drugs’: Fosfomycin, trimethoprim, nitrofurantoin, pivmecillinam:
+-   **‘UTI drugs’:** Fosfomycin, trimethoprim, nitrofurantoin, pivmecillinam:
 
-    -   Don’t get great plasma levels, but concentrate in urine preferentially —\> still useful for UTI
+    -   Concentrate in urine preferentially —\> useful for UTI
 
 ::: aside
 [@huttner2020]
@@ -464,15 +450,15 @@ Source: https://www.medicines.org.uk/
 
 <br> <br>
 
-+-----------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Timing with food**                    | **Antibiotic**                                                                                                                                                              |
-+=========================================+=============================================================================================================================================================================+
-| “Empty Stomach” (1h before or 2h after) | Penicillin, <br> Flucloxacillin, <br> Azithromycin, <br> Fosfomycin                                                                                                         |
-+-----------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| With food                               | Amoxicillin-clavulanate (start of meal) <br>Erythromycin (just before or with), <br>Metronidazole (during or after), <br>Nitrofurantoin                                     |
-+-----------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| No recommendation                       | Amoxicillin, <br>Pivmecillinam, <br>Cephalexin, <br>Tetracyclines, <br>Clarithromycin, <br>Clindamycin, <br>Linezolid, <br>Co-trimoxazole, <br>Trimethoprim, <br>Quinolones |
-+-----------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++---------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Timing with food**                        | **Antibiotic**                                                                                                                                                              |
++=============================================+=============================================================================================================================================================================+
+| “Empty Stomach” <br>(1h before or 2h after) | Penicillin, <br> Flucloxacillin, <br> Azithromycin, <br> Fosfomycin                                                                                                         |
++---------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| With food                                   | Amoxicillin-clavulanate (start of meal) <br>Erythromycin (just before or with), <br>Metronidazole (during or after), <br>Nitrofurantoin                                     |
++---------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| No recommendation                           | Amoxicillin, <br>Pivmecillinam, <br>Cephalexin, <br>Tetracyclines, <br>Clarithromycin, <br>Clindamycin, <br>Linezolid, <br>Co-trimoxazole, <br>Trimethoprim, <br>Quinolones |
++---------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 ## Pharmacology of antimicrobials {.smaller}
 
@@ -575,7 +561,7 @@ e.g., doxycycline, tigecycline do not achieve peak concentrations in bloodstream
 
 ## Factors affecting Vd: Drug characteristics {.smaller}
 
-![](images/hydrophilic.png){fig-align="center"}
+![](images/hydrophilic.png){fig-align="center" width="800"}
 
 -   Volume of distribution is affected by the physicochemical properties of the drug
 
@@ -655,7 +641,7 @@ Release of inflammatory mediators causes damage to the vascular endothelium, r
 
 ## Factors affecting Vd: <br>Body size and chronic diseases {.smaller}
 
-![](images/vd2.png){fig-align="center" width="600"}
+![](images/vd2.png){fig-align="center" width="100"}
 
 ## Anatomically privileged sites-1 {.smaller}
 
@@ -691,11 +677,9 @@ Release of inflammatory mediators causes damage to the vascular endothelium, r
 [@gilbert2006]
 :::
 
-## Antibiotic Elimination
+## Antibiotic elimination
 
 <br> <br>
-
--   Definition: Processes that irreversibly remove a drug from the body
 
 -   The "drug out" part of pharmacokinetics
 
@@ -709,33 +693,31 @@ Release of inflammatory mediators causes damage to the vascular endothelium, r
 
 <br>
 
--   Definition: Chemical conversion of a drug into a form amenable to excretion.
+-   Chemical conversion of a drug into a form amenable to excretion
 
 -   This is achieved through 2 main ways: Phase I & II reactions
 
-+--------------+------------------------------------------------------+-------------------------------------------+
-| **Phase I**  | **Chemical reactions**                               | **Effect**                                |
-+==============+======================================================+===========================================+
-|              | Oxidation/Reduction                                  |                                           |
-+--------------+------------------------------------------------------+-------------------------------------------+
-|              | Hydrolysis                                           |                                           |
-+--------------+------------------------------------------------------+-------------------------------------------+
-|              | Introduce/unmask polar groups on drug: (-OH or -NH2) |                                           |
-+--------------+------------------------------------------------------+-------------------------------------------+
-| **Phase II** | Conjugation                                          | Addition of polar groups to drug:         |
-|              |                                                      |                                           |
-|              |                                                      | -   Glucuronate (glucuronidation)         |
-|              |                                                      |                                           |
-|              |                                                      | -   Glutathione (Glutathione conjugation) |
-|              |                                                      |                                           |
-|              |                                                      | -   Glycine (Glycine conjugation)         |
-|              |                                                      |                                           |
-|              |                                                      | -   Sulphate (Sulphation)                 |
-|              |                                                      |                                           |
-|              |                                                      | -   Acetyl (Acetylation)                  |
-|              |                                                      |                                           |
-|              |                                                      | -   Methyl (Methylation)                  |
-+--------------+------------------------------------------------------+-------------------------------------------+
++--------------+-------------------------+------------------------------------------------------+
+| **Phase I**  | **Chemical reactions**  | **Effect**                                           |
++==============+=========================+======================================================+
+|              | **Oxidation/Reduction** | Introduce/unmask polar groups on drug: (-OH or -NH2) |
+|              |                         |                                                      |
+|              | **Hydrolysis**          |                                                      |
++--------------+-------------------------+------------------------------------------------------+
+| **Phase II** | **Conjugation**         | Addition of polar groups to drug:                    |
+|              |                         |                                                      |
+|              |                         | -   Glucuronate (glucuronidation)                    |
+|              |                         |                                                      |
+|              |                         | -   Glutathione (Glutathione conjugation)            |
+|              |                         |                                                      |
+|              |                         | -   Glycine (Glycine conjugation)                    |
+|              |                         |                                                      |
+|              |                         | -   Sulphate (Sulphation)                            |
+|              |                         |                                                      |
+|              |                         | -   Acetyl (Acetylation)                             |
+|              |                         |                                                      |
+|              |                         | -   Methyl (Methylation)                             |
++--------------+-------------------------+------------------------------------------------------+
 
 ## Metabolism
 
@@ -749,7 +731,7 @@ Release of inflammatory mediators causes damage to the vascular endothelium, r
 
 -   Not all drugs undergo both phases: e.g., some drugs undergo Phase II directly, depending if they already possess -OH, -NH or COOH groups
 
-## Phase I: Cytochrome P450 Enzymes {.smaller}
+## Phase I: Cytochrome P450 enzymes {.smaller}
 
 <br> <br>
 
@@ -765,7 +747,7 @@ Release of inflammatory mediators causes damage to the vascular endothelium, r
 
     ![](images/cyp.png){fig-align="center" width="400"}
 
-## CYP Speed vs Generalism
+## CYP speed vs generalism
 
 <br>
 
@@ -777,7 +759,7 @@ Release of inflammatory mediators causes damage to the vascular endothelium, r
 
 -   This versatility contributes to the variation in elimination half-lives seen for drugs
 
-## Factors Affecting CYP enzyme activity
+## Factors affecting CYP enzyme activity
 
 <br> <br>
 
@@ -795,7 +777,7 @@ Release of inflammatory mediators causes damage to the vascular endothelium, r
 | **Drugs**          | See below                                                                                                                                                   |
 +--------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-## CYP Enzyme Induction/Inhibition {.smaller}
+## CYP enzyme induction/inhibition {.smaller}
 
 <br> <br>
 
@@ -807,7 +789,7 @@ Release of inflammatory mediators causes damage to the vascular endothelium, r
 
     -   This will lead to increased/decreased metabolism of the CYP enzyme’s substrate drugs, respectively
 
--   **CYP Enzyme inducers**
+-   **CYP enzyme inducers**
 
     -   200 drugs known to be inducers
 
@@ -816,7 +798,7 @@ Release of inflammatory mediators causes damage to the vascular endothelium, r
         -   NB: Rifampicin induction starts within 24h, and has full induction (of CYP3A4) at 72h
         -   E.g. PC BRAS drugs: **P**henytoin, **C**arbamazepine, **B**arbiturates, **R**ifampicin, **A**lcohol (Chronic use), **S**ulfonylureas
 
--   **CYP Enzyme inhibitors**
+-   **CYP enzyme inhibitors**
 
     -   These tend to increase the plasma level of substrate drugs due to decreased degradation by CYPs
 
@@ -832,9 +814,9 @@ Release of inflammatory mediators causes damage to the vascular endothelium, r
 
     -   Drug is metabolised to inactive metabolite
 
-    -   Drug is metabolised to metabolite with therapeutic activity (e.g. Metronidazole’s metabolite is still active)
+    -   Drug is metabolised to metabolite with therapeutic activity (e.g., metronidazole’s metabolite is still active)
 
-    -   ‘Prodrug’ is metabolised to active form (e.g. Codeine to Morphine)
+    -   ‘Prodrug’ is metabolised to active form (e.g. codeine to morphine)
 
 -   Regardless of what outcome occurs, the drug is ionised, making excretion easier
 
@@ -846,7 +828,7 @@ Release of inflammatory mediators causes damage to the vascular endothelium, r
 
     -   Lung (in breath)
 
-    -   Skin (Sweat, tears)
+    -   Skin (sweat, tears)
 
 ## Renal excretion {.smaller}
 
@@ -872,7 +854,7 @@ Release of inflammatory mediators causes damage to the vascular endothelium, r
 
     -   Lipophilic molecules will then diffuse down their concentration gradient, across the uroepithelium back into the plasma
 
-## Clearance: Key pharmacokinetic parameter
+## Clearance: A key pharmacokinetic parameter
 
 <br>
 
@@ -880,7 +862,7 @@ Release of inflammatory mediators causes damage to the vascular endothelium, r
 
     -   Described by volume of blood removed of drug unit per time
 
-    -   For example: If drug A as a clearance of 39 L/h or 650 ml/min, then every minute, the equivalent of 0.65L of the Vd can be "cleansed" of drug A
+        -   For example: If drug A as a clearance of 39 L/h or 650 ml/min, then every minute, the equivalent of 0.65L of the Vd can be "cleansed" of drug A
 
     -   Unit of measure mL/min or L/hr
 
@@ -896,7 +878,7 @@ Changes in clearance over time in the same patient: *intra* patient variability
 
 ## Example: Meropenem in septic patients {.smaller}
 
-![](images/meropenem_sepsis.png){fig-align="center" width="400"}
+![](images/meropenem_sepsis.png){fig-align="center" width="600"}
 
 ::: aside
 Typical meropenem Vd 15-20 L with clearance of 10-13 L/h
@@ -914,7 +896,7 @@ Typical meropenem Vd 15-20 L with clearance of 10-13 L/h
 
     -   A change in kidney of liver function can affect drug CL
 
--   **However, these parameters do not directly interaction with each other**
+-   **However, these parameters do not directly interact with each other**
 
     -   A change in Vd does not change clearance and vice versa
 
@@ -968,6 +950,10 @@ t_{½}= \frac{0.693}{k_{el}}
 $$ $$
 t_{½}= \frac{0.693\ast Vd}{Cl}
 $$
+
+::: aside
+0.693 is the natural log of 2
+:::
 
 ## Half-life examples
 
@@ -1094,7 +1080,7 @@ Most of a drug will be eliminated without repeat dosing by 5-6 half-lives
 
 -   Dependent on the dose administered and rate of elimination
 
--   Calculated by adding up or integrating the amounts of drug eliminated in discreet time intervals, from zero (time of the administration of the drug) to a defined time-e.g., 24 hours
+-   Calculated by adding up or integrating the amounts of drug eliminated in discreet time intervals, from zero (time of the administration of the drug) to a defined time-e.g., 24 hours using trapezoidal sections
 
 -   Can simplistically be interpreted as average dur exposure over a dosing interval:
 
@@ -1102,20 +1088,20 @@ Most of a drug will be eliminated without repeat dosing by 5-6 half-lives
 :::
 :::::
 
-## Renal impairment
+## Renal impairment {.smaller}
 
 <br> <br>
 
 -   Well established dosing adjustments for chronic renal insufficiency, based on estimated renal function (Cockcroft-Gault, MDRD etc...)
--   However, accuracy of these equations are limited in severely ill, high-low body mass, prolonged hospitalization
+-   However, accuracy of these equations are limited in severely ill, high-low body mass, prolonged hospitalization <br>
 
 $$
 CrCl\text{ estimated}=\left(\frac{\left(140-age  \right)\ast \left( Weight, kg \right)}{72\ast SeCr} \right)\ast 0.85 \text{ if female}
 $$
 
--   Drug specific guidance for patient on dialysis
+<br> - Drug specific guidance for patient on dialysis- consult drug references or primary literature
 
-## Be careful about prematurely reducing <br> antibiotic doses based on serum creatinine
+## Be careful about prematurely reducing <br> antibiotic doses based on serum creatinine {background-image="images/clock.jpg" background-opacity="0.1"}
 
 <br>
 
@@ -1125,7 +1111,7 @@ $$
 
 -   Creatine-based equations for estimates of CrCl are based on steady-state conditions, and not as accurate in acute kidney injury
 
--   Decreases in SeCr are delayed with respect to injury resolution
+-   Decreases in SeCr **are delayed** with respect to injury resolution
 
 -   Renal dose reduction in the first 48 hours of therapy may unnecessarily result in underdosing of antibiotics
 
@@ -1143,13 +1129,19 @@ $$
 ::: {.column width="70%"}
 <br> <br>
 
--   Common causes: “hyperdynamic state” with Gram-negative sepsis, vasoactive medications to support blood pressure large-volume fluid resuscitation
+-   Common clinical scenarios:
+
+    -   “hyperdynamic state” with Gram-negative sepsis
+
+    -   vasoactive medications to support blood pressure
+
+    -   large-volume fluid resuscitation
 
 -   Most common populations with augmented clearance:
 
     -   Younger patients (i.e. trauma)
 
-    -   Severe burn patients pregnant patients septic patients without renal dysfunction
+    -   Patients with severe burns, preganancy, sepsis
 
 -   **Combined with increased Vd, often leads to inadequate antibiotic exposures**
 :::
@@ -1206,13 +1198,7 @@ digraph G {
 
 <br>
 
--   **The shape of the antibiotic concentration versus antimicrobial effect curve is important for dosing**
-
--   Only free-drug (non-protein bound fraction) is microbiologically active
-
--   A higher MIC will diminish the effect of a fixed dose
-
--   Administering a fixed dose of drug to many patients (even on a mg/kg basis) results in wide variability in exposure
+-   The shape of the antibiotic concentration versus antimicrobial effect curve is important for dosing
 
 ::: aside
 [@drusano2004]
@@ -1288,7 +1274,7 @@ Common questions addressed:
 AUC = Area under the concentration–time curve; MIC = Minimum Inhibitory Concentration; Cmax = Maximum or peak plasma concentration; Cmin = Minimum or trough plasma concentration
 :::
 
-## Mutant selection window (MSW) <br> and mutant prevention concentration (MPW
+## Mutant selection window (MSW) <br> and mutant prevention concentration (MPW)
 
 <br>
 
@@ -1444,10 +1430,6 @@ A complete list of references supporting these targets are presented in the revi
 
 -   **Only free-drug (non-protein bound fraction) is microbiologically active**
 
--   A higher MIC will diminish the effect of a fixed dose
-
--   Administering a fixed dose of drug to many patients (even on a mg/kg basis) results in wide variability in exposure
-
 ::: aside
 [@drusano2004]
 :::
@@ -1471,8 +1453,6 @@ The CD50 (the dose protecting 50% of infected animals) was determined for seven 
 -   Only free-drug (non-protein bound fraction) is microbiologically active
 
 -   **A higher MIC will diminish the effect of a fixed dose**
-
--   Administering a fixed dose of drug to many patients (even on a mg/kg basis) results in wide variability in exposure
 
 ::: aside
 [@drusano2004]
@@ -1509,6 +1489,56 @@ The CD50 (the dose protecting 50% of infected animals) was determined for seven 
 ::: aside
 [@mouton2012]
 :::
+
+## Which patients are in clinical trials?
+
+![](images/pkgroups.png){fig-align="center"}
+
+::: aside
+CV- coefficient of variation (ratio of the standard deviation to the mean)
+
+[@drusano2004a]
+:::
+
+## Uncertainty in Medicine
+
+<br>
+
+::::: columns
+::: {.column width="50%"}
+![](images/osler.jpg)
+:::
+
+::: {.column width="50%"}
+<br> <br>
+
+Medicine is a science of uncertainty, <br>
+
+and an art of probability <br> <br> <br>
+
+-Sir William Osler, M.D. <br>
+
+1849-1919
+:::
+:::::
+
+## <br> <br> <br> <br> How can we address pharmacokinetic uncertainty? {background-image="images/bacteria1.jpg" background-opacity="0.2"}
+
+## Monte Carlo Simulation {.smaller background-image="images/dice.png" background-opacity="0.2"}
+
+<br>
+
+<br>
+
+-   Invented by John Neumann and Stanislaw Ulam during WWII
+
+-   Computation algorithms that rely on repeated sampling to obtain a numercial result
+
+-   **Technique used to determine probability that antibiotic dosing regimen will acheive PD target with maximum effect**
+
+    -   Allows us to simulate spread of values (e.g., AUC/MIC, % Time~\>MIC,~ VD, CL) that would bea seen in a large population or special populations (e.g., critically-ill with sepsis, CRRT)
+
+-   Makes it possible to explore and test antimicrobial regimens based on the ***probability*** of what is most likely to happen and to estimate the ***probability*** of achieving PK:PD targets.
 
 ## References
 
