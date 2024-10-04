@@ -358,6 +358,14 @@ digraph G {
 :::
 :::::
 
+## 
+
+<br> <br> <br>
+
+::: r-fit-text
+Oral is the new IV!
+:::
+
 ## Bioavailability examples {.smaller}
 
 +:------------------------+:------------------------+:-----------------------:+
@@ -511,13 +519,15 @@ digraph G {
 
 ::::: columns
 ::: {.column width="30%"}
-![](images/beaker.png){fig-align="center" width="300"}
+<br> ![](images/beaker.png){fig-align="center" width="300"}
 :::
 
 ::: {.column width="70%"}
+<br>
+
 -   The volume which appears to hold the drug if it was present in the body at the same concentration found in plasma
 
-    -   It is estimated, not directly measured
+    -   Estimated, not directly measured
 
 -   Reported in litres (L) or litres per kilogram (L/kg)
 
@@ -543,7 +553,7 @@ Vd= volume of distribution, Dose=drug dose, Cp= drug concentration in plasma
 :::
 
 ::: {.column width="50%"}
-<br> <br> ![](images/bodycomp.png){width="183"}
+<br> <br> ![](images/bodycomp.png){width="300"}
 :::
 :::::
 
@@ -641,7 +651,7 @@ Release of inflammatory mediators causes damage to the vascular endothelium, r
 
 ## Factors affecting Vd: <br>Body size and chronic diseases {.smaller}
 
-![](images/vd2.png){fig-align="center" width="100"}
+![](images/vd2.png){fig-align="center" width="800"}
 
 ## Anatomically privileged sites-1 {.smaller}
 
@@ -878,7 +888,7 @@ Changes in clearance over time in the same patient: *intra* patient variability
 
 ## Example: Meropenem in septic patients {.smaller}
 
-![](images/meropenem_sepsis.png){fig-align="center" width="600"}
+![](images/meropenem_sepsis.png){fig-align="center" width="300"}
 
 ::: aside
 Typical meropenem Vd 15-20 L with clearance of 10-13 L/h
