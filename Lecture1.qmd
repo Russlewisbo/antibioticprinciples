@@ -194,7 +194,7 @@ digraph G {
 
 <br>
 
-::: columns
+::::: columns
 ::: {.column width="20%"}
 ![](images/GI-Tract.png){width="300"}
 :::
@@ -209,7 +209,7 @@ digraph G {
     -   Peristalsis churns the intestinal contents, ensuring regular contact between drugs & epithelium
     -   pH is 6-7 (weakly acidic) —\> determines the ratio of drug molecules that exist in the ionized and unionized state
 :::
-:::
+:::::
 
 ## Transiting the GI epithelium into the bloodstream
 
@@ -228,7 +228,7 @@ digraph G {
 
 <br>
 
-::: columns
+::::: columns
 ::: {.column width="30%"}
 ![](images/diffusion.png){width="3050"}
 :::
@@ -252,13 +252,13 @@ digraph G {
 
     -   This re-equilibration between ionised & unionised forms continues along the entire length of the gut, with increasing amounts of the drug being gradually absorbed
 :::
-:::
+:::::
 
 ## A note about absorption and pH {.smaller}
 
 <br>
 
-::: columns
+::::: columns
 ::: {.column width="20%"}
 ![](images/stickynote.jpeg.jpg){width="800"}
 :::
@@ -284,11 +284,11 @@ digraph G {
 
 -   This re-equilibration between ionised & unionised forms continues along the entire length of the gut, with increasing amounts of the drug being gradually absorbed
 :::
-:::
+:::::
 
 ## Facilitated diffusion {.smaller}
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 <br> <br> ![](images/diffusion.png)
 :::
@@ -312,11 +312,11 @@ digraph G {
 | AT Organic Anion Transporter   | Carry deprotonated acids A- |
 | OCT Organic Cation Transporter | Carry protonated bases BH+  |
 :::
-:::
+:::::
 
 ## Active transport {.smaller}
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 <br> <br> ![](images/diffusion.png)
 :::
@@ -337,7 +337,7 @@ digraph G {
     -   Endocytosis: the cell membrane invaginates to non-specifically capture molecules present at the cell surface, pinching them off into a vesicle
     -   Exocytosis is the opposite; vesicles are ejected from the cell
 :::
-:::
+:::::
 
 ## First pass metabolism {.smaller}
 
@@ -345,7 +345,7 @@ digraph G {
 
 <br>
 
-::: columns
+::::: columns
 ::: {.column width="60%"}
 ![](images/Pharmacokinetics%20Principles.png)
 :::
@@ -356,7 +356,7 @@ digraph G {
 -   A small amount occurs in the gut epithelia before entering the portal vein. Most occurs in the liver.
 -   As the drug passes through the liver some enters the hepatocytes and is metabolised by the CYP450 enzymes.
 :::
-:::
+:::::
 
 ## 
 
@@ -517,7 +517,7 @@ digraph G {
 
 <br>
 
-::: columns
+::::: columns
 ::: {.column width="30%"}
 <br> ![](images/beaker.png){fig-align="center" width="300"}
 :::
@@ -537,7 +537,7 @@ $$
 Vd=Dose/Cp
 $$
 :::
-:::
+:::::
 
 ::: aside
 Vd= volume of distribution, Dose=drug dose, Cp= drug concentration in plasma
@@ -545,7 +545,7 @@ Vd= volume of distribution, Dose=drug dose, Cp= drug concentration in plasma
 
 ## Visualizing the Vd {.smaller}
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 <br> <br>
 
@@ -555,7 +555,7 @@ Vd= volume of distribution, Dose=drug dose, Cp= drug concentration in plasma
 ::: {.column width="50%"}
 <br> <br> ![](images/bodycomp.png){width="300"}
 :::
-:::
+:::::
 
 ::: aside
 <https://idiots.notion.site/ID-IOTS-Episode-Notes-cf9b043fbb5a41309e15270f6079abf5>
@@ -888,7 +888,7 @@ Changes in clearance over time in the same patient: *intra* patient variability
 
 ## Example: Meropenem in septic patients {.smaller}
 
-![](images/meropenem_sepsis.png){fig-align="center" width="300"}
+![](images/meropenem_sepsis.png){fig-align="center" width="400"}
 
 ::: aside
 Typical meropenem Vd 15-20 L with clearance of 10-13 L/h
@@ -926,7 +926,7 @@ Typical meropenem Vd 15-20 L with clearance of 10-13 L/h
 
 <br>
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 ![](images/clearance.png){fig-align="center"}
 :::
@@ -937,11 +937,7 @@ Typical meropenem Vd 15-20 L with clearance of 10-13 L/h
     -   Rate of drug removed per unit of time
     -   Calculated parameter: Unit of measure: reciprocal time (hr^-1^)
 :::
-:::
-
-$$
-Kel =CL/Vd
-$$
+:::::
 
 ## Key pharmacokinetic parameter: <br> Half life
 
@@ -974,15 +970,15 @@ $$
 | **Drug**        | **Half life (h)** | **Dosing regimen** |
 |-----------------|-------------------|--------------------|
 | **Amoxicillin** | 1                 | 8-hourly           |
-| **Doxycycline** | 12                | Daily              |
+| **Doxycycline** | 12                | daily              |
 
 <br>
 
 <br>
 
-Most of a drug will be eliminated without repeat dosing by 5-6 half-lives
+Most of a drug will be eliminated *without* repeat dosing by 5-6 half-lives
 
-## Beta-lactam examples {.smaller}
+## ***β***-lactam examples {.smaller}
 
 <br>
 
@@ -1028,7 +1024,7 @@ Most of a drug will be eliminated without repeat dosing by 5-6 half-lives
 | **Aztreonam**           | \~11% to inactive compound                                                              | 100%/12h                               | 12.6                             | 91                     | \~1.7             |
 +-------------------------+-----------------------------------------------------------------------------------------+----------------------------------------+----------------------------------+------------------------+-------------------+
 
-## Non beta-lactam antibiotics {.smaller}
+## Non ***β***-lactam antibiotics {.smaller}
 
 <br>
 
@@ -1080,7 +1076,7 @@ Most of a drug will be eliminated without repeat dosing by 5-6 half-lives
 
 <br>
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 ![](images/AUC.png)
 :::
@@ -1096,7 +1092,7 @@ Most of a drug will be eliminated without repeat dosing by 5-6 half-lives
 
     -   e.g., an AUC~0-24h~ of 48 mg∙h/L for a dosing regimen administered every 24 hours would represent an average concentration over the 24 hour dosing interval of 2 mg/L (48 mg∙h/L divided by 24 hr=2 mg∙L average over 24 hours).
 :::
-:::
+:::::
 
 ## Renal impairment {.smaller}
 
@@ -1109,21 +1105,25 @@ $$
 CrCl\text{ estimated}=\left(\frac{\left(140-age  \right)\ast \left( Weight, kg \right)}{72\ast SeCr} \right)\ast 0.85 \text{ if female}
 $$
 
-<br> - Drug specific guidance for patient on dialysis- consult drug references or primary literature
+<br>
+
+-   Drug specific guidance for patient on dialysis- consult drug references or primary literature
 
 ## Be careful about prematurely reducing <br> antibiotic doses based on serum creatinine {background-image="images/clock.jpg" background-opacity="0.1"}
 
 <br>
 
--   Antibiotic renal dose adjustments in drug labels are based on patients with [chronic kidney disease]{.underline}
+-   Antibiotic renal dose adjustments in drug labels are based on patients with **chronic kidney disease**
 
--   Renal impairment is [acute, not chronic, in up to 50% of patients with infection]{.underline} and frequently [resolves within the first 48 hours]{.underline}
+-   Renal impairment is **acute, not chronic, in up to 50% of patients** with infection
+
+-   Renal impairment **frequently resolves within the first 48 hours**
 
 -   Creatine-based equations for estimates of CrCl are based on steady-state conditions, and not as accurate in acute kidney injury
 
 -   Decreases in SeCr **are delayed** with respect to injury resolution
 
--   Renal dose reduction in the first 48 hours of therapy may unnecessarily result in underdosing of antibiotics
+-   Renal dose reduction in the first 48 hours of therapy may result in underdosing of antibiotics
 
 ::: aside
 [@crass2019]
@@ -1131,7 +1131,7 @@ $$
 
 ## Augmented renal clearance
 
-::: columns
+::::: columns
 ::: {.column width="30%"}
 <br><br> ![](images/kidney-1.svg){width="200"}
 :::
@@ -1155,7 +1155,7 @@ $$
 
 -   **Combined with increased Vd, often leads to inadequate antibiotic exposures**
 :::
-:::
+:::::
 
 <br>
 
@@ -1216,7 +1216,7 @@ digraph G {
 
 ## How does PD differ from MICs? {.smaller}
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 ![](images/MICs.png)
 
@@ -1238,7 +1238,7 @@ digraph G {
 
 -   The shape of the curve affects drug dosing strategies
 :::
-:::
+:::::
 
 ## How to define concentration-time-kill effect curves {.smaller}
 
@@ -1336,7 +1336,7 @@ Image: Roger nation, Ph.D., Monash University, Melbourne, Austraila
 
 ## Ciprofloxacin example
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 ![](images/df_tk.png){width="600"}
 :::
@@ -1346,7 +1346,7 @@ Image: Roger nation, Ph.D., Monash University, Melbourne, Austraila
 
 ![](images/dfcipro.png){width="600"}
 :::
-:::
+:::::
 
 ::: aside
 [@craig_1998]
@@ -1358,7 +1358,7 @@ Image: Roger nation, Ph.D., Monash University, Melbourne, Austraila
 
 <br>
 
-::: columns
+::::: columns
 ::: {.column width="30%"}
 ![](images/dfcipro.png){width="600"}
 :::
@@ -1366,7 +1366,7 @@ Image: Roger nation, Ph.D., Monash University, Melbourne, Austraila
 ::: {.column width="70%"}
 ![](images/ciproexample3.png){width="900"}
 :::
-:::
+:::::
 
 ::: aside
 [@forrest1993]
@@ -1502,9 +1502,9 @@ The CD50 (the dose protecting 50% of infected animals) was determined for seven 
 
 ## Which patients are in clinical trials?
 
-![](images/pkgroups.png){fig-align="center"}
-
 ::: aside
+![](images/trialcv.png){fig-align="center"}
+
 CV- coefficient of variation (ratio of the standard deviation to the mean)
 
 [@drusano2004a]
@@ -1514,7 +1514,7 @@ CV- coefficient of variation (ratio of the standard deviation to the mean)
 
 <br>
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 ![](images/osler.jpg)
 :::
@@ -1530,11 +1530,11 @@ and an art of probability <br> <br> <br>
 
 1849-1919
 :::
-:::
+:::::
 
 ## <br> <br> <br> <br> How can we address pharmacokinetic uncertainty? {background-image="images/bacteria1.jpg" background-opacity="0.2"}
 
-## Monte Carlo Simulation {.smaller background-image="images/dice.png" background-opacity="0.2"}
+## Monte Carlo Simulation {background-image="images/dice.png" background-opacity="0.2"}
 
 <br>
 
@@ -1549,6 +1549,20 @@ and an art of probability <br> <br> <br>
     -   Allows us to simulate spread of values (e.g., AUC/MIC, % Time~\>MIC,~ VD, CL) that would bea seen in a large population or special populations (e.g., critically-ill with sepsis, CRRT)
 
 -   Makes it possible to explore and test antimicrobial regimens based on the ***probability*** of what is most likely to happen and to estimate the ***probability*** of achieving PK:PD targets.
+
+Monte-Carlo Simulation: Data inputs
+
+-   Pharmacokinetic parameters
+-   Measure of central tendency and associated dispersion (variance and covariance)
+-   Pharmacodynamic target: AUC/MIC, % T\> MIC, Cmin/MIC
+-   MIC distribution
+-   Microbiologic surveillance data MIC range
+
+## Example of a β-lactam with 1-compartment pharmacokinetics
+
+![](images/monte.png){width="900"}
+
+<br>
 
 ## References
 
