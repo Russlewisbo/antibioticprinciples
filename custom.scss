@@ -4,10 +4,10 @@
 
 /*-- scss:defaults --*/
 
-@import url(./fonts/lato/lato.css);
+@import url(./fonts/lato/Helvetica.css);
 
 // fonts
-$font-family-sans-serif: "lato", Helvetica, sans-serif !default;
+$font-family-sans-serif: Helvetica, sans-serif !default;
 $font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
   "Liberation Mono", "Courier New", monospace !default;
 $presentation-font-size-root: 28px !default;
