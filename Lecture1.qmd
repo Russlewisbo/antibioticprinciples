@@ -1510,27 +1510,23 @@ CV- coefficient of variation (ratio of the standard deviation to the mean)
 [@drusano2004a]
 :::
 
-## Uncertainty in Medicine
+## How to characterise PK uncertainty {.smaller}
 
 <br>
 
-::::: columns
-::: {.column width="50%"}
-![](images/osler.jpg)
-:::
-
-::: {.column width="50%"}
-<br> <br>
-
-Medicine is a science of uncertainty, <br>
-
-and an art of probability <br> <br> <br>
-
--Sir William Osler, M.D. <br>
-
-1849-1919
-:::
-:::::
++--------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Differences        | Non-compartmental analysis <br>(NCA)                                                                                                                           | Compartmental model                                                                                                                                                                                                                 |
++====================+================================================================================================================================================================+=====================================================================================================================================================================================================================================+
+| Model independence | NCA does not assume any specific physiological or anatomical model. It treats the body as a system with no distinct compartments                               | Compartmental analysis assumes that the body can be represented by one or more compartments that correspond to different tissues or groups of tissues with similar blood flow and drug affinity                                     |
++--------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Simplicity         | Basic pharmacokinetic principles to calculate parameters such as area under the curve (AUC), clearance (CL), volume of distribution (Vd), and half-life (t1/2) | This approach is more complex and involves fitting the concentration-time data to a predefined model (e.g., one-compartment, two-compartment models)                                                                                |
++--------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Data requirements  | Requires precisely times samples to calculate PK parameters                                                                                                    | Compartmental analysis initially requires more frequent sampling and more data points to accurately define the model parameters                                                                                                     |
++--------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Parameters         | Pharmacokinetic parameters derived from NCA are descriptive and do not describe the process of drug distribution and elimination mechanistically               | The parameters derived from compartmental analysis (such as rate constants for absorption and elimination) are mechanistic and describe how the drug moves between compartments and is eliminated from the body                     |
++--------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Use cases          | Early drug development for preliminary PK assessment and in situations where detailed modeling is not feasible or necessary                                    | Compartmental analysis is used when a more detailed understanding of the pharmacokinetics of a drug is needed, such as for dose optimization, to understand drug-drug interactions, or to predict concentrations in various tissues |
++--------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 ## <br> <br> <br> <br> How can we address pharmacokinetic uncertainty? {background-image="images/bacteria1.jpg" background-opacity="0.2"}
 
@@ -1560,9 +1556,38 @@ Monte-Carlo Simulation: Data inputs
 
 ## Example of a β-lactam with 1-compartment pharmacokinetics
 
-![](images/monte.png){width="900"}
+![](images/monte.png){width="800"}
 
+## Model-informed precision dosing (MIPD)
+
+![](images/MIPD.png){width="1800"}
+
+## How does this work?
+
+```{=html}
+<iframe width="980" height="700" src="https://tdmx.shinyapps.io/Meropenem/" title="Quarto Documentation"></iframe>
+```
+
+## Antibiotic dosing uncertainty-part of medicine?
 <br>
+
+::::: columns
+::: {.column width="50%"}
+![](images/osler.jpg)
+:::
+
+::: {.column width="50%"}
+<br> <br>
+
+Medicine is a science of uncertainty, <br>
+
+and an art of probability <br> <br> <br>
+
+-Sir William Osler, M.D. <br>
+
+1849-1919
+:::
+:::::
 
 ## References
 
