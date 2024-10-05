@@ -260,7 +260,7 @@ digraph G {
 
 ::::: columns
 ::: {.column width="20%"}
-![](images/stickynote.jpeg.jpg){width="800"}
+![](images/stickynote.jpeg.jpg){width="600"}
 :::
 
 ::: {.column width="80%"}
@@ -849,7 +849,7 @@ Changes in clearance over time in the same patient: *intra* patient variability
 
 ## Example: Meropenem in septic patients {.smaller}
 
-![](images/meropenem_sepsis.png){fig-align="center" width="300"}
+![](images/meropenem_sepsis.png){fig-align="center" width="400"}
 
 ::: aside
 Typical meropenem Vd 15-20 L with clearance of 10-13 L/h
@@ -902,7 +902,7 @@ Typical meropenem Vd 15-20 L with clearance of 10-13 L/h
 
 $$
 Kel =CL/Vd
-$$
+$$ =======
 
 ## Key pharmacokinetic parameter: <br> Half life
 
@@ -935,15 +935,15 @@ $$
 | **Drug**        | **Half life (h)** | **Dosing regimen** |
 |-----------------|-------------------|--------------------|
 | **Amoxicillin** | 1                 | 8-hourly           |
-| **Doxycycline** | 12                | Daily              |
+| **Doxycycline** | 12                | daily              |
 
 <br>
 
 <br>
 
-Most of a drug will be eliminated without repeat dosing by 5-6 half-lives
+Most of a drug will be eliminated *without* repeat dosing by 5-6 half-lives
 
-## Beta-lactam examples {.smaller}
+## ***β***-lactam examples {.smaller}
 
 <br>
 
@@ -969,7 +969,7 @@ Most of a drug will be eliminated without repeat dosing by 5-6 half-lives
 | **Meropenem** | Negligible | 70% | 17.5 - 24.5 |  | 1 |
 | **Aztreonam** | \~11% to inactive compound | 100%/12h | 12.6 | 91 | \~1.7 |
 
-## Non beta-lactam antibiotics {.smaller}
+## Non ***β***-lactam antibiotics {.smaller}
 
 <br>
 
@@ -1029,21 +1029,25 @@ $$
 CrCl\text{ estimated}=\left(\frac{\left(140-age  \right)\ast \left( Weight, kg \right)}{72\ast SeCr} \right)\ast 0.85 \text{ if female}
 $$
 
-<br> - Drug specific guidance for patient on dialysis- consult drug references or primary literature
+<br>
+
+-   Drug specific guidance for patient on dialysis- consult drug references or primary literature
 
 ## Be careful about prematurely reducing <br> antibiotic doses based on serum creatinine {background-image="images/clock.jpg" background-opacity="0.1"}
 
 <br>
 
--   Antibiotic renal dose adjustments in drug labels are based on patients with [chronic kidney disease]{.underline}
+-   Antibiotic renal dose adjustments in drug labels are based on patients with **chronic kidney disease**
 
--   Renal impairment is [acute, not chronic, in up to 50% of patients with infection]{.underline} and frequently [resolves within the first 48 hours]{.underline}
+-   Renal impairment is **acute, not chronic, in up to 50% of patients** with infection
+
+-   Renal impairment **frequently resolves within the first 48 hours**
 
 -   Creatine-based equations for estimates of CrCl are based on steady-state conditions, and not as accurate in acute kidney injury
 
 -   Decreases in SeCr **are delayed** with respect to injury resolution
 
--   Renal dose reduction in the first 48 hours of therapy may unnecessarily result in underdosing of antibiotics
+-   Renal dose reduction in the first 48 hours of therapy may result in underdosing of antibiotics
 
 ::: aside
 [@crass2019]
@@ -1216,7 +1220,7 @@ AUC = Area under the concentration–time curve; MIC = Minimum Inhibitory Concen
 
 ## Dose fractionization study-interpretation {.smaller}
 
-![](images/fraction_interpret.png)
+![](images/fraction_interpret.png){width="1500"}
 
 ## In vitro hollow-fiber models {.smaller}
 
@@ -1413,15 +1417,15 @@ The CD50 (the dose protecting 50% of infected animals) was determined for seven 
 
 ## Which patients are in clinical trials?
 
-![](images/pkgroups.png){fig-align="center"}
-
 ::: aside
+![](images/trialcv.png){fig-align="center"}
+
 CV- coefficient of variation (ratio of the standard deviation to the mean)
 
 [@drusano2004a]
 :::
 
-## Uncertainty in Medicine
+## Types of pharmacokinetic analysis {.smaller}
 
 <br>
 
@@ -1443,9 +1447,11 @@ and an art of probability <br> <br> <br>
 :::
 :::::
 
+======= \| Differences \| Non-compartmental analysis <br>(NCA) \| Compartmental model \| \|----\|----\|----\| \| Model independence \| NCA does not assume any specific physiological or anatomical model. It treats the body as a system with no distinct compartments \| Compartmental analysis assumes that the body can be represented by one or more compartments that correspond to different tissues or groups of tissues with similar blood flow and drug affinity \| \| Simplicity \| Basic pharmacokinetic principles to calculate parameters such as area under the curve (AUC), clearance (CL), volume of distribution (Vd), and half-life (t1/2) \| This approach is more complex and involves fitting the concentration-time data to a predefined model (e.g., one-compartment, two-compartment models) \| \| Data requirements \| Requires precisely times samples to calculate PK parameters \| Compartmental analysis initially requires more frequent sampling and more data points to accurately define the model parameters \| \| Parameters \| Pharmacokinetic parameters derived from NCA are descriptive and do not describe the process of drug distribution and elimination mechanistically \| The parameters derived from compartmental analysis (such as rate constants for absorption and elimination) are mechanistic and describe how the drug moves between compartments and is eliminated from the body \| \| Use cases \| Early drug development for preliminary PK assessment and in situations where detailed modeling is not feasible or necessary \| Compartmental analysis is used when a more detailed understanding of the pharmacokinetics of a drug is needed, such as for dose optimization, to understand drug-drug interactions, or to predict concentrations in various tissues \|
+
 ## <br> <br> <br> <br> How can we address pharmacokinetic uncertainty? {background-image="images/bacteria1.jpg" background-opacity="0.2"}
 
-## Monte Carlo Simulation {.smaller background-image="images/dice.png" background-opacity="0.2"}
+## Monte Carlo Simulation {background-image="images/dice.png" background-opacity="0.2"}
 
 <br>
 
@@ -1460,6 +1466,50 @@ and an art of probability <br> <br> <br>
     -   Allows us to simulate spread of values (e.g., AUC/MIC, % Time~\>MIC,~ VD, CL) that would bea seen in a large population or special populations (e.g., critically-ill with sepsis, CRRT)
 
 -   Makes it possible to explore and test antimicrobial regimens based on the ***probability*** of what is most likely to happen and to estimate the ***probability*** of achieving PK:PD targets.
+
+Monte-Carlo Simulation: Data inputs
+
+-   Pharmacokinetic parameters
+-   Measure of central tendency and associated dispersion (variance and covariance)
+-   Pharmacodynamic target: AUC/MIC, % T\> MIC, Cmin/MIC
+-   MIC distribution
+-   Microbiologic surveillance data MIC range
+
+## Example of a β-lactam with 1-compartment pharmacokinetics
+
+![](images/monte.png){width="800"}
+
+## Model-informed precision dosing (MIPD)
+
+![](images/MIPD.png){width="1800"}
+
+## How does this work?
+
+<iframe width="980" height="700" src="https://tdmx.shinyapps.io/Meropenem/" title="Quarto Documentation">
+
+</iframe>
+
+## Antibiotic dosing uncertainty-part of medicine?
+
+<br>
+
+::::: columns
+::: {.column width="50%"}
+![](images/osler.jpg)
+:::
+
+::: {.column width="50%"}
+<br> <br>
+
+Medicine is a science of uncertainty, <br>
+
+and an art of probability <br> <br> <br>
+
+-Sir William Osler, M.D. <br>
+
+1849-1919
+:::
+:::::
 
 ## References
 
