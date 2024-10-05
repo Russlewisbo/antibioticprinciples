@@ -21,6 +21,8 @@ lightbox: true
 csl: diagnostic-microbiology-and-infectious-disease.csl
 revealjs-plugins:
   - pointer
+filters:
+  - highlight-text
 ---
 
 ## Lecture 1: Principles of antibiotic therapy {background-image="images/bacteria1.jpg" background-opacity="0.2"}
@@ -211,6 +213,14 @@ digraph G {
 :::
 :::::
 
+## Factors affecting absorption
+
+![](images/absorption.png){fig-align="center" width="800"}
+
+::: aside
+Image source: Principles of Clinical Pharmacology, 2nd Edition (Chapter 4)
+:::
+
 ## Transiting the GI epithelium into the bloodstream
 
 <br> <br>
@@ -360,7 +370,7 @@ digraph G {
 
 ## 
 
-<br> <br> <br>
+<br> <br> <br> <br>
 
 ::: r-fit-text
 Oral is the new IV!
@@ -438,7 +448,7 @@ Source: https://www.medicines.org.uk/
 
 <br> <br>
 
--   **Amoxicillin:** Absorption is saturable near 750mg
+-   **Amoxicillin:** Absorption is saturable near 750 mg
 
     -   higher doses are unlikely to be absorbed
 
@@ -458,15 +468,15 @@ Source: https://www.medicines.org.uk/
 
 <br> <br>
 
-+---------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Timing with food**                        | **Antibiotic**                                                                                                                                                              |
-+=============================================+=============================================================================================================================================================================+
-| “Empty Stomach” <br>(1h before or 2h after) | Penicillin, <br> Flucloxacillin, <br> Azithromycin, <br> Fosfomycin                                                                                                         |
-+---------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| With food                                   | Amoxicillin-clavulanate (start of meal) <br>Erythromycin (just before or with), <br>Metronidazole (during or after), <br>Nitrofurantoin                                     |
-+---------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| No recommendation                           | Amoxicillin, <br>Pivmecillinam, <br>Cephalexin, <br>Tetracyclines, <br>Clarithromycin, <br>Clindamycin, <br>Linezolid, <br>Co-trimoxazole, <br>Trimethoprim, <br>Quinolones |
-+---------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++--------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Timing with food**                             | **Antibiotic**                                                                                                                                                              |
++==================================================+=============================================================================================================================================================================+
+| “Empty Stomach” <br>(1h before or 2h after meal) | Penicillin, <br> Flucloxacillin, <br> Azithromycin, <br> Fosfomycin                                                                                                         |
++--------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| With food                                        | Amoxicillin-clavulanate (start of meal) <br>Erythromycin (just before or with), <br>Metronidazole (during or after), <br>Nitrofurantoin                                     |
++--------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| No recommendation                                | Amoxicillin, <br>Pivmecillinam, <br>Cephalexin, <br>Tetracyclines, <br>Clarithromycin, <br>Clindamycin, <br>Linezolid, <br>Co-trimoxazole, <br>Trimethoprim, <br>Quinolones |
++--------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 ## Pharmacology of antimicrobials {.smaller}
 
@@ -512,6 +522,10 @@ digraph G {
 
 
 ```
+
+::: aside
+[@craig_1998]
+:::
 
 ## Volume of distribution
 
@@ -625,7 +639,7 @@ There are several plasma protein that bind drugs with weak electrical polar bond
 
 -   **Tissue binding sites**
 
-    -   Antibiotic example?
+    -   [Antibiotic example?]{bg-color="#ffe536"}
 
 ## Factors affecting Vd: Vascular perfusion {background-image="images/capillary.png" background-opacity="0.1"}
 
@@ -659,12 +673,6 @@ Release of inflammatory mediators causes damage to the vascular endothelium, r
 
 ![](images/antomic_priv1.png){fig-align="center"}
 
-## Anatomically privileged sites-2 {.smaller}
-
-<br>
-
-![](images/anatomic_privlidge2.png){fig-align="center" width="600"}
-
 ## Ventilator-associated pneumonia {.smaller}
 
 <br>
@@ -674,6 +682,12 @@ Release of inflammatory mediators causes damage to the vascular endothelium, r
 ::: aside
 [@lodise2011]
 :::
+
+## Anatomically privileged sites-2 {.smaller}
+
+<br>
+
+![](images/anatomic_privlidge2.png){fig-align="center" width="600"}
 
 ## How is the drug metabolised, <br> concentrated, or excreted? {.smaller}
 
@@ -685,6 +699,55 @@ Release of inflammatory mediators causes damage to the vascular endothelium, r
 
 ::: aside
 [@gilbert2006]
+:::
+
+## Pharmacology of antimicrobials {.smaller}
+
+```{dot}
+digraph G {
+ 	rankdir=LR
+ 	fontname="Lato,Arial,sans-serif"
+	node [fontname="Lato,Arial,sans-serif"]
+	edge [fontname="Lato,Arial,sans-serif"]
+ 
+  subgraph cluster_0 {
+    style=filled;
+    color=lightblue;
+    node [style=filled,color=white];
+    start -> dosing;
+    dosing -> tissue;
+    dosing -> infection;
+    label = "Pharmacokinetics (PK)";
+    graph [labelloc=a]
+    
+    
+    
+  }
+  
+    subgraph cluster_1 {
+    line=black;
+    style=filled;
+    color=lightblue;
+    node [style=filled,color=white];
+  tissue->PD1
+    infection-> PD2;
+    label = "Pharmacodynamics (PD)";
+  }
+  
+ 
+  start [shape=Box, label="Dosing regimen"];
+  dosing [shape=rectangle, style=filled,color=white, label="Conc. vs. \n time in serum", xlabel=" \n    \n  \nAbsorption \nDistribution \nMetabolism \nElimination"];
+  tissue [shape=rectangle, style=filled,color=yellow, label="Conc. vs. \n time in tissue"];
+  infection [shape=rectangle, style=filled, color=yellow, label="Conc. vs. \n time at site of \n infection"];
+  PD1 [shape=rectangle, label="Pharmacological or  \n toxicological effect"]; 
+  PD2 [shape=rectangle, label="Antimicrobal effect \n vs. time"];
+}
+
+
+```
+
+::: aside
+[@craig_1998]
 :::
 
 ## Antibiotic elimination
@@ -773,23 +836,23 @@ Release of inflammatory mediators causes damage to the vascular endothelium, r
 
 <br> <br>
 
-+--------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Factor**         | **Explanation**                                                                                                                                             |
-+====================+=============================================================================================================================================================+
-| **Age**            | Declines with age                                                                                                                                           |
-+--------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Sex**            | Males have larger livers —\> more rapid metabolism of drugs                                                                                                 |
-+--------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Genetics**       | CYP isoenzymes exhibit high rates of genetic polymorphism, which can affect the efficiency with which the individual can process the enzyme’s drug targets. |
-+--------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Cardiac output** | Less cardiac output —\> less drug delivered to the liver per minute —\> slower rate of metabolism.                                                          |
-+--------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Drugs**          | See below                                                                                                                                                   |
-+--------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
++-----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
+| Factor                | Explanation                                                                                                                                                 |         |
++-----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
+| **Age**               | Declines with age                                                                                                                                           |         |
++-----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
+| **Sex**               | Males have larger livers —\> more rapid metabolism of drugs                                                                                                 |         |
++-----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
+| **Genetics**          | CYP isoenzymes exhibit high rates of genetic polymorphism, which can affect the efficiency with which the individual can process the enzyme’s drug targets. |         |
++-----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
+| **Cardiac output**    | Less cardiac output —\> less drug delivered to the liver per minute —\> slower rate of metabolism \|                                                        |         |
++-----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
+| **Drug interactions** | See next slide                                                                                                                                              |         |
++-----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
 
-## CYP enzyme induction/inhibition {.smaller}
+## CYP enzyme induction/ inhibition {.smaller}
 
-<br> <br>
+<br>
 
 -   **Certain drugs can affect expression of CYPs through:**
 
@@ -808,13 +871,18 @@ Release of inflammatory mediators causes damage to the vascular endothelium, r
         -   NB: Rifampicin induction starts within 24h, and has full induction (of CYP3A4) at 72h
         -   E.g. PC BRAS drugs: **P**henytoin, **C**arbamazepine, **B**arbiturates, **R**ifampicin, **A**lcohol (Chronic use), **S**ulfonylureas
 
--   **CYP enzyme inhibitors**
+-   **CYP enzyme inhibitors** {.smaller}
 
-    -   These tend to increase the plasma level of substrate drugs due to decreased degradation by CYPs
+    <br>
+
+    -   These increase the plasma level of substrate (victim) drugs due to binding or modification of CYPs that are bound by inhibitors (perpetrators)
 
     -   Occurs much more quickly (\~1-3 days)
 
-    -   NB: Clinically important inhibitors ‘missed’ by this mnemonic include Amiodarone, SSRIs & Grapefruit juice
+    -   How long will inhibition last once perpetrator is removed?
+
+        -   Competetive inhibitor: Determined by the half life the perpetrator drug-i.e. should abate after 3-5 half lives
+        -   Non-competitive inhibitor: Determined by turnover of the enzyme (e.g., 20-50h)
 
 ## Excretion {.smaller}
 
@@ -941,7 +1009,7 @@ Typical meropenem Vd 15-20 L with clearance of 10-13 L/h
 
 $$
 Kel =CL/Vd
-$$ =======
+$$ 
 
 ## Key pharmacokinetic parameter: <br> Half life
 
@@ -1244,7 +1312,7 @@ digraph G {
 :::
 :::::
 
-## How to define concentration-time-kill effect curves {.smaller}
+## How to define concentration-time-kill <br>effect curves? {.smaller}
 
 ![](images/tkcurve1.png){fig-align="center"}
 
@@ -1516,27 +1584,23 @@ CV- coefficient of variation (ratio of the standard deviation to the mean)
 
 ## Types of pharmacokinetic analysis {.smaller}
 
+## Types of pharmacokinetic analysis {.smaller}
+
 <br>
 
-::::: columns
-::: {.column width="50%"}
-![](images/osler.jpg)
-:::
-
-::: {.column width="50%"}
-<br> <br>
-
-Medicine is a science of uncertainty, <br>
-
-and an art of probability <br> <br> <br>
-
--Sir William Osler, M.D. <br>
-
-1849-1919
-:::
-:::::
-
-======= \| Differences \| Non-compartmental analysis <br>(NCA) \| Compartmental model \| \|----\|----\|----\| \| Model independence \| NCA does not assume any specific physiological or anatomical model. It treats the body as a system with no distinct compartments \| Compartmental analysis assumes that the body can be represented by one or more compartments that correspond to different tissues or groups of tissues with similar blood flow and drug affinity \| \| Simplicity \| Basic pharmacokinetic principles to calculate parameters such as area under the curve (AUC), clearance (CL), volume of distribution (Vd), and half-life (t1/2) \| This approach is more complex and involves fitting the concentration-time data to a predefined model (e.g., one-compartment, two-compartment models) \| \| Data requirements \| Requires precisely times samples to calculate PK parameters \| Compartmental analysis initially requires more frequent sampling and more data points to accurately define the model parameters \| \| Parameters \| Pharmacokinetic parameters derived from NCA are descriptive and do not describe the process of drug distribution and elimination mechanistically \| The parameters derived from compartmental analysis (such as rate constants for absorption and elimination) are mechanistic and describe how the drug moves between compartments and is eliminated from the body \| \| Use cases \| Early drug development for preliminary PK assessment and in situations where detailed modeling is not feasible or necessary \| Compartmental analysis is used when a more detailed understanding of the pharmacokinetics of a drug is needed, such as for dose optimization, to understand drug-drug interactions, or to predict concentrations in various tissues \|
++--------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Differences        | Non-compartmental analysis <br>(NCA)                                                                                                                           | Compartmental model                                                                                                                                                                                                                 |
++====================+================================================================================================================================================================+=====================================================================================================================================================================================================================================+
+| Model independence | NCA does not assume any specific physiological or anatomical model. It treats the body as a system with no distinct compartments                               | Compartmental analysis assumes that the body can be represented by one or more compartments that correspond to different tissues or groups of tissues with similar blood flow and drug affinity                                     |
++--------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Simplicity         | Basic pharmacokinetic principles to calculate parameters such as area under the curve (AUC), clearance (CL), volume of distribution (Vd), and half-life (t1/2) | This approach is more complex and involves fitting the concentration-time data to a predefined model (e.g., one-compartment, two-compartment models)                                                                                |
++--------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Data requirements  | Requires precisely times samples to calculate PK parameters                                                                                                    | Compartmental analysis initially requires more frequent sampling and more data points to accurately define the model parameters                                                                                                     |
++--------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Parameters         | Pharmacokinetic parameters derived from NCA are descriptive and do not describe the process of drug distribution and elimination mechanistically               | The parameters derived from compartmental analysis (such as rate constants for absorption and elimination) are mechanistic and describe how the drug moves between compartments and is eliminated from the body                     |
++--------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Use cases          | Early drug development for preliminary PK assessment and in situations where detailed modeling is not feasible or necessary                                    | Compartmental analysis is used when a more detailed understanding of the pharmacokinetics of a drug is needed, such as for dose optimization, to understand drug-drug interactions, or to predict concentrations in various tissues |
++--------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 ## <br> <br> <br> <br> How can we address pharmacokinetic uncertainty? {background-image="images/bacteria1.jpg" background-opacity="0.2"}
 
