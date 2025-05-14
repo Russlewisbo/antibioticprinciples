@@ -1446,6 +1446,8 @@ Image: Roger nation, Ph.D., Monash University, Melbourne, Austraila
 
 <br>
 
+::: table-grid
+
 +------------------+----------------------+---------------------------------------+-----------------------------------+----------------------------------------+
 | Antibiotic class | Optimal PK/PD index  | PK/PD magnitude for bacterial killing | PK/PD index for clinical efficacy | PK/PD index for resistance suppression |
 +==================+======================+=======================================+===================================+========================================+
@@ -1466,6 +1468,8 @@ Image: Roger nation, Ph.D., Monash University, Melbourne, Austraila
 |                  | C~max~/MIC           | C~max~/MIC ≥ 8                        | C~max~/MIC ≥ 8                    | ≤ *t*MSW 30%                           |
 +------------------+----------------------+---------------------------------------+-----------------------------------+----------------------------------------+
 
+:::
+
 ::: aside
 A complete list of references supporting these targets are presented in the review by:
 
@@ -1475,6 +1479,8 @@ A complete list of references supporting these targets are presented in the revi
 ## PK/PD parameters predictive <br> in animals and humans, cont. {.smaller}
 
 <br>
+
+::: table-grid
 
 +----------------------+-------------------------+-------------------------------------------+---------------------------------------+--------------------------------------------+
 | **Antibiotic class** | **Optimal PK/PD index** | **PK/PD magnitude for bacterial killing** | **PK/PD index for clinical efficacy** | **PK/PD index for resistance suppression** |
@@ -1495,6 +1501,8 @@ A complete list of references supporting these targets are presented in the revi
 +----------------------+-------------------------+-------------------------------------------+---------------------------------------+--------------------------------------------+
 | Colistin             | AUC~0-24~/MIC           | AUC~0-24~/MIC 50-65                       | \-                                    | \-                                         |
 +----------------------+-------------------------+-------------------------------------------+---------------------------------------+--------------------------------------------+
+
+:::
 
 ::: aside
 A complete list of references supporting these targets are presented in the review by:
@@ -1598,6 +1606,7 @@ CV- coefficient of variation (ratio of the standard deviation to the mean)
 | Use cases             | Early drug development for preliminary PK assessment and in situations where detailed modeling is not feasible or necessary                                    | Compartmental analysis is used when a more detailed understanding of the pharmacokinetics of a drug is needed, such as for dose optimization, to understand drug-drug interactions, or to predict concentrations in various tissues |
 +-----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
+
 ## <br> <br> <br> <br> How can we address pharmacokinetic uncertainty? {background-image="images/bacteria1.jpg" background-opacity="0.2"}
 
 ## Monte Carlo Simulation {.smaller background-image="images/dice.png" background-opacity="0.2"}
@@ -1632,9 +1641,9 @@ Monte-Carlo Simulation: Data inputs
 
 ## How does this work?
 
-<iframe width="980" height="700" src="https://tdmx.shinyapps.io/Meropenem/" title="Quarto Documentation">
+<br>
+https://tdmx.shinyapps.io/Meropenem/
 
-</iframe>
 
 ## Antibiotic dosing uncertainty-part of medicine?
 

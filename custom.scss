@@ -89,7 +89,17 @@ $dark-bg-link-color: #42affa !default;
 $light-bg-code-color: #4758ab !default;
 $dark-bg-code-color: #ffa07a !default;
 
-// --- derive reveal versions of presentation variables for finer-grained override ---
+// table formatting
+
+.table-grid {
+  font-family: Helvetica;
+  font-size: 12pt;
+  position: relative;
+  top: 40px;
+  left: 40px;
+  }
+  
+  // --- derive reveal versions of presentation variables for finer-grained override ---
 
 $revealjs-font-size-root: $presentation-font-size-root !default;
 $revealjs-h1-font-size: $presentation-h1-font-size !default;
