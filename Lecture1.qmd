@@ -28,10 +28,11 @@ filters:
 ## Lecture 1: Principles of antibiotic therapy {background-image="images/bacteria1.jpg" background-opacity="0.2"}
 
 <br> <br> <br> <br> <br>
+![](unipd.png){.absolute top="550" left="950" width="100" height="100"}
 
 **Russell E. Lewis** <br> Associate Professor of Infectious Diseases <br> Department of Molecular Medicine <br> University of Padua
 
-![](unipd.png){.absolute top="550" left="950" width="100" height="100"}
+
 
 <br> {{< fa solid envelope size=1x >}} russelledward.lewis\@unipd.it <br> {{< fa brands github size=1x >}} [https://github.com/Russlewisbo](https://github.com/Russlewisbo/ESCMID_2022_talk)
 
@@ -1439,7 +1440,6 @@ Image: Roger nation, Ph.D., Monash University, Melbourne, Austraila
 
 ## PK/PD parameters predictive <br> in animals and humans {.smaller}
 
-<br>
 
 ::: table-grid
 +------------------+----------------------+---------------------------------------+-----------------------------------+----------------------------------------+
@@ -1465,13 +1465,10 @@ Image: Roger nation, Ph.D., Monash University, Melbourne, Austraila
 
 ::: aside
 A complete list of references supporting these targets are presented in the review by:
-
 [@Abdul-Aziz2015]. <br> T~\>MIC~ Time above MIC during dosing interval; C~max~/MIC- peak serum concentration to MIC ratio; AUC~0-24~/MIC- 24 hour Area under the curve to MIC ratio; *t*MSW-Time in mutant selection window
 :::
 
 ## PK/PD parameters predictive <br> in animals and humans, cont. {.smaller}
-
-<br>
 
 ::: table-grid
 +----------------------+-------------------------+-------------------------------------------+---------------------------------------+--------------------------------------------+
@@ -1497,7 +1494,6 @@ A complete list of references supporting these targets are presented in the revi
 
 ::: aside
 A complete list of references supporting these targets are presented in the review by:
-
 [@Abdul-Aziz2015]. <br> T~\>MIC~ Time above MIC during dosing interval; C~max~/MIC- peak serum concentration to MIC ratio; AUC~0-24~/MIC- 24 hour Area under the curve to MIC ratio; *t*MSW-Time in mutant selection window
 :::
 
