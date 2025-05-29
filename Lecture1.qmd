@@ -38,9 +38,9 @@ filters:
 <br>
 
 -   Review key pharmacokinetic (PK) characteristics of antibiotics
--   Examine major pharmacodynamic (PD) patterns of antibiotics
-    -   How can PD be determined pre-clinically and optimised clinically?
--   Apply PK/PD information to individualise patient antibiotic therapy?
+-   Describe major pharmacodynamic (PD) patterns of antibiotics
+    -   How can PD be determined pre-clinically?
+-   Apply PK/PD information to individualise patient antibiotic therapy
 -   Explore approaches to combination antibiotic therapy
 
 ## Pharmacokinetics and Pharmacodynamics {.smaller}
@@ -201,7 +201,7 @@ digraph G {
 
 ::: {.column width="80%"}
 -   **Stomach:** Little absorption takes place for most drugs here (thick gastric mucous layer prevents significant drug absorption)
--   **Small intestine:** Transit time 4-6h; 6-7 m long x 2.5cm internal diameter
+-   **Small intestine:** Transit time 4-6 h; 6-7m long x 2.5cm internal diameter
     -   It has a larger surface area (30-35m^2^) than the stomach (\~1m^2^), due to:
         -   Jejunal plicae circulare (circular infoldings) - increases surface area 1.6x
         -   Epithelial villi + microvilli: increases surface area 80-100x
@@ -261,6 +261,10 @@ Image source: Principles of Clinical Pharmacology, 2nd Edition (Chapter 4)
     -   This re-equilibration between ionised & unionised forms continues along the entire length of the gut, with increasing amounts of the drug being gradually absorbed
 :::
 :::::
+
+::: .aside
+Image source: www.biorender.com
+:::
 
 ## A note about absorption and pH {.smaller}
 
@@ -322,6 +326,10 @@ Image source: Principles of Clinical Pharmacology, 2nd Edition (Chapter 4)
 :::
 :::::
 
+::: .aside
+Image source: www.biorender.com
+:::
+
 ## Active transport {.smaller}
 
 ::::: columns
@@ -343,6 +351,10 @@ Image source: Principles of Clinical Pharmacology, 2nd Edition (Chapter 4)
     -   Exocytosis is the opposite; vesicles are ejected from the cell
 :::
 :::::
+
+::: .aside
+Image source: www.biorender.com
+:::
 
 ## First pass metabolism {.smaller}
 
@@ -476,27 +488,29 @@ Source: https://www.medicines.org.uk/
 -   **Amoxicillin:** Absorption is saturable near 750 mg
 
     -   Bioavailibility markedly decreases with higher doses- more GI side effects
+    -   Dosing differs for common respiratory indications vs. bloodstream infections
 
 -   **Cephalexin:** Maximum amount absorbed is \~4g/d
 
--   **Macrolides:** Not well-absorbed, but concentrate intracellularly
+-   **Macrolides:** Bioavailability poor, but drugs concentrate intracellularly
 
--   **‘UTI drugs’:** Fosfomycin, trimethoprim, nitrofurantoin, pivmecillinam:
+-   **‘UTI drugs’:** Fosfomycin, trimethoprim, nitrofurantoin, pivmecillinam have relatively poor bioavailability:
 
     -   Concentrate in urine preferentially —\> useful for UTI
+
 
 ::: aside
 [@huttner2020]
 :::
 
-## Co-administration with food {.smaller}
+## Recommendations for food co-administration {.smaller}
 
 <br> <br>
 
 +--------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | **Timing with food**                             | **Antibiotic**                                                                                                                                                       |
 +==================================================+======================================================================================================================================================================+
-| “Empty Stomach” <br>(1h before or 2h after meal) | Penicillin, <br> Flucloxacillin <br> Azithromycin <br> Fosfomycin                                                                                                    |
+| “Empty stomach” <br>(1h before or 2h after meal) | Penicillin, <br> Flucloxacillin <br> Azithromycin <br> Fosfomycin                                                                                                    |
 +--------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | With food                                        | Amoxicillin-clavulanate (start of meal) <br>Erythromycin (just before or with) <br>Metronidazole (during or after) <br>Nitrofurantoin                                |
 +--------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -570,7 +584,7 @@ digraph G {
 
 -   Reported in litres (L) or litres per kilogram (L/kg)
 
--   Average plasma volume in adults is approximately 3L
+-   Average plasma volume in adults is approximately 3.5L
 
 $$
 Vd=Dose/Cp
@@ -602,7 +616,7 @@ Vd= volume of distribution, Dose=drug dose, Cp= drug concentration in plasma
 
 Provides information on how much antibiotic is distributed in tissues vs. plasma → important for antibiotic selection
 
-e.g., doxycycline, tigecycline do not achieve peak concentrations in bloodstream that surpass the MIC of many pathogens
+e.g., fluoroquinolones, doxycycline, tigecycline do not achieve peak concentrations in bloodstream that surpass the MIC of many pathogens
 
 ## Factors affecting Vd: Drug characteristics {.smaller}
 
@@ -646,7 +660,7 @@ There are several plasma protein that bind drugs with weak electrical polar bond
 
 -   Quick release of the drug to become "free drug"
 
--   Only free drug distributes out of plasma and has pharmacological effect
+-   [Only free drug distributes out of plasma and has pharmacological effect]{bg="yellow"}
 
 ## Factors affecting volume of distribution, cont.
 
@@ -656,9 +670,9 @@ There are several plasma protein that bind drugs with weak electrical polar bond
 
     -   This ‘drains’ the drug from plasma
 
-    -   This will in turn reduce amount of plasma free drug
+    -   This reduces amount of plasma free drug
 
--   **Variation in tissue binding sites**
+-   **Drug-specific tissue binding sites**
 
     -   e.g., bone (tetracyclines), adipose tissue (macrolides, fluoroquinolones), liver (rifampin, ceftriaxone), lung (fluoroquinolones, macrolides), kidneys (aminoglycosides, amphotericin B)
 
@@ -668,7 +682,7 @@ There are several plasma protein that bind drugs with weak electrical polar bond
 
 -   **Drugs diffuse from capillary beds—\> interstitial —\> intracellular space**
 
--   **More vascular tissue (e.g., heart, lung, kidney) have greater drug delivery vs. skin, bone, fat**
+-   **More vascular tissue (e.g., heart, lung, kidney) have greater drug delivery versus skin, bone, fat**
 
 -   **Capillary leakiness:**
 
@@ -680,9 +694,9 @@ There are several plasma protein that bind drugs with weak electrical polar bond
 
 ## Sepsis alters the Vd of antibiotics {.smaller}
 
-![](images/vd3.png){fig-align="center" width="800"}
+![](images/sepsis_vd.png){fig-align="center" width="800"}
 
-Release of inflammatory mediators causes damage to the vascular endothelium, resulting in expansion of extravascular space (increased volume of distribution)
+
 
 ## Factors affecting Vd: <br>Body size and chronic diseases {.smaller}
 
