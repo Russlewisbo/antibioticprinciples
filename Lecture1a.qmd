@@ -11,7 +11,7 @@ format:
     scrollable: true
     slide-number: true
     incremental: false
-    multiplex: true
+    multiplex: false
     chalkboard: true
     theme: [default, custom.scss]
     filters:
@@ -468,15 +468,15 @@ Source: https://www.medicines.org.uk/
 
 <br> <br>
 
-+--------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Timing with food**                             | **Antibiotic**                                                                                                                                                              |
-+==================================================+=============================================================================================================================================================================+
-| “Empty Stomach” <br>(1h before or 2h after meal) | Penicillin, <br> Flucloxacillin, <br> Azithromycin, <br> Fosfomycin                                                                                                         |
-+--------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| With food                                        | Amoxicillin-clavulanate (start of meal) <br>Erythromycin (just before or with), <br>Metronidazole (during or after), <br>Nitrofurantoin                                     |
-+--------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| No recommendation                                | Amoxicillin, <br>Pivmecillinam, <br>Cephalexin, <br>Tetracyclines, <br>Clarithromycin, <br>Clindamycin, <br>Linezolid, <br>Co-trimoxazole, <br>Trimethoprim, <br>Quinolones |
-+--------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++--------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Timing with food**                             | **Antibiotic**                                                                                                                                                     |
++==================================================+====================================================================================================================================================================+
+| “Empty Stomach” <br>(1h before or 2h after meal) | Penicillin <br> Flucloxacillin <br> Azithromycin <br> Fosfomycin                                                                                                   |
++--------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| With food                                        | Amoxicillin-clavulanate (start of meal) <br>Erythromycin (just before or with) <br>Metronidazole (during or after) <br>Nitrofurantoin                              |
++--------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| No recommendation                                | Amoxicillin <br>Pivmecillinam <br>Cephalexin <br>Tetracyclines <br>Clarithromycin <br>Clindamycin <br>Linezolid <br>Co-trimoxazole <br>Trimethoprim <br>Quinolones |
++--------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 ## Pharmacology of antimicrobials {.smaller}
 
@@ -567,13 +567,9 @@ Vd= volume of distribution, Dose=drug dose, Cp= drug concentration in plasma
 :::
 
 ::: {.column width="50%"}
-<br> <br> ![](images/bodycomp.png){width="300"}
+<br> <br> ![](images/vd_breakdown.png){width="300"}
 :::
 :::::
-
-::: aside
-<https://idiots.notion.site/ID-IOTS-Episode-Notes-cf9b043fbb5a41309e15270f6079abf5>
-:::
 
 ## Clinical importance of Vd {.smaller}
 
@@ -1009,7 +1005,7 @@ Typical meropenem Vd 15-20 L with clearance of 10-13 L/h
 
 $$
 Kel =CL/Vd
-$$ 
+$$
 
 ## Key pharmacokinetic parameter: <br> Half life
 
